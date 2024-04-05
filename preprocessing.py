@@ -1,11 +1,10 @@
 # tags NOUN, PRON, VERB, ADJ, ADV, DET, PART, X, S
 from transformers import AutoTokenizer
-from math import log
 from collections import defaultdict
 from dataclasses import dataclass
-import csv
+from math import log, e
 import torch
-from math import e
+import csv
 
 tokenizer = AutoTokenizer.from_pretrained('xlm-roberta-base')
 start_token, end_token = tokenizer("").input_ids
