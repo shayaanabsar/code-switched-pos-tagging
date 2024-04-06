@@ -25,7 +25,7 @@ class PreProcessor:
 	s_index   = []
 	sequences = []
 	tagset    = {SPECIAL_TAG}
-	splitters = []
+	splitters = {}
 	num_sequences     = 0
 	max_length        = 0
 	alteration_points = 0
@@ -64,7 +64,6 @@ class PreProcessor:
 			self.num_sequences += 1
 			self.sequences.append([self.curr_seq, self.curr_tags])
 			self.max_length = max(self.max_length, self.num_tokens)
-			self.curr_language += 1
 
 		self.curr_seq  = [START_TOKEN]
 		self.curr_tags = [SPECIAL_TAG]
@@ -85,7 +84,7 @@ class PreProcessor:
 		for file in listdir(folder):
 			with open(path.join(folder, file)) as f:
 				reader = csv.reader(f, delimiter='\t')
-				self.curr_language = 0
+				start = self.num_sequences
 				for row in reader:
 					try:
 						token, lang, tag = row
@@ -101,7 +100,7 @@ class PreProcessor:
 						self.calculate_metrics()
 						#if self.cs_index[-1] == 0.5:
 						#	print(self.s_index[-1], token)
-			self.splitters.append(self.num_sequences)
+			self.splitters[file] = (start, self.num_sequences)
 
 
 	def create_tensors(self):
