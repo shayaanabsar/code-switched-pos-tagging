@@ -21,11 +21,12 @@ class PreProcessor:
 	cs_index  = []
 	s_index   = []
 	sequences = []
+	tagset    = {'S'}
 	num_sequences     = 0
 	max_length        = 0
 	alteration_points = 0
-	seq_length        = 2
-	num_tokens        = 2
+	seq_length        = 0 # used only for calculating metrics
+	num_tokens        = 2 # used in creating the shape of the tensor
 	tokens_in_each_language = defaultdict(lambda: 0) 
 	previous                =  None
 
@@ -54,11 +55,12 @@ class PreProcessor:
 	def reset_values(self):
 		self.curr_seq.append(end_token)
 		self.curr_tags.append('S')
+		self.num_tokens += 1
 		self.sequences.append([self.curr_seq, self.curr_tags])
 		self.curr_seq  = [start_token]
 		self.curr_tags = ['S']
 		self.num_sequences += 1
-		self.max_length = max(self.max_length, self.seq_length)
+		self.max_length = max(self.max_length, self.num_tokens)
 		self.alteration_points = 0
 		self.tokens_in_each_language = defaultdict(lambda: 0) 
 		self.seq_length = 2
@@ -84,11 +86,35 @@ class PreProcessor:
 					self.curr_seq.extend(tokenized_token)
 					self.curr_tags.extend([tag] * len(tokenized_token))
 					self.num_tokens += len(tokenized_token)
+					self.tagset.add(tag)
 
 				except ValueError:
 					self.calculate_metrics()
-				
 
+	def create_tensors(self):
+		self.tagset = {tag: i for i, tag in enumerate(self.tagset)}
+		num_tags = len(self.tagset)
+
+		inputs  = torch.zeros((self.num_sequences, self.max_length), dtype=int)
+		outputs = torch.zeros((self.num_sequences, self.max_length, num_tags), dtype=int)
+		
+		for i, seq in enumerate(self.sequences):
+			input_sequence = seq[0]
+			tag_sequence   = seq[1]
+
+			for j, v in enumerate(input_sequence):
+				curr_tag = tag_sequence[j]
+
+				inputs[i, j] = v
+				outputs[i, j, self.tagset[curr_tag]] = 1
+
+			outputs[i, j:self.max_length, self.tagset['S']] = 1 # Pad all the remaining tags with the S tag.
+
+		return inputs, outputs
+				
 x = PreProcessor()
 x.read_data('data.csv')
-print(x.sequences[2])
+i, o = x.create_tensors()
+print(x.tagset)
+print(x.sequences[0])
+print(o[0, 0:10])
