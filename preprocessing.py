@@ -2,26 +2,30 @@
 from transformers import AutoTokenizer
 from collections import defaultdict
 from dataclasses import dataclass
+from os import listdir, path
 from math import log, e
 import torch
 import csv
 
 tokenizer = AutoTokenizer.from_pretrained('xlm-roberta-base')
-start_token, end_token = tokenizer("").input_ids
+START_TOKEN, END_TOKEN = tokenizer("").input_ids
+SPECIAL_TAG = 'S'
+MAX_LENGTH  = 512
 
-def tanh(x, lam=4, mu=0.1):
+def tanh(x, lam=1, mu=0.5):
 	x *= mu
 	return lam * (e**x - e**(-x)) / (e**x + e**(-x))
 
 @dataclass
 class PreProcessor:
-	curr_seq  = [start_token]
-	curr_tags = ['S']
+	curr_seq  = [START_TOKEN]
+	curr_tags = [SPECIAL_TAG]
 	sequences = []
 	cs_index  = []
 	s_index   = []
 	sequences = []
-	tagset    = {'S'}
+	tagset    = {SPECIAL_TAG}
+	splitters = []
 	num_sequences     = 0
 	max_length        = 0
 	alteration_points = 0
@@ -53,14 +57,17 @@ class PreProcessor:
 		self.s_index.append(s_index)
 
 	def reset_values(self):
-		self.curr_seq.append(end_token)
-		self.curr_tags.append('S')
-		self.num_tokens += 1
-		self.sequences.append([self.curr_seq, self.curr_tags])
-		self.curr_seq  = [start_token]
-		self.curr_tags = ['S']
-		self.num_sequences += 1
-		self.max_length = max(self.max_length, self.num_tokens)
+		if self.num_tokens <= MAX_LENGTH:
+			self.curr_seq.append(END_TOKEN)
+			self.curr_tags.append(SPECIAL_TAG)
+			self.num_tokens += 1
+			self.num_sequences += 1
+			self.sequences.append([self.curr_seq, self.curr_tags])
+			self.max_length = max(self.max_length, self.num_tokens)
+			self.curr_language += 1
+
+		self.curr_seq  = [START_TOKEN]
+		self.curr_tags = [SPECIAL_TAG]
 		self.alteration_points = 0
 		self.tokens_in_each_language = defaultdict(lambda: 0) 
 		self.seq_length = 2
@@ -69,27 +76,33 @@ class PreProcessor:
 
 
 	def calculate_metrics(self):
-		self.calculate_s_index()
-		self.calculate_cs_index()
+		if self.num_tokens <= MAX_LENGTH:
+			self.calculate_s_index()
+			self.calculate_cs_index()
 		self.reset_values()
 
-	def read_data(self, file):
-		with open(file) as f:
-			reader = csv.reader(f, delimiter='\t')
+	def read_data(self, folder):
+		for file in listdir(folder):
+			with open(path.join(folder, file)) as f:
+				reader = csv.reader(f, delimiter='\t')
+				self.curr_language = 0
+				for row in reader:
+					try:
+						token, lang, tag = row
+						self.update_values(lang)
 
-			for row in reader:
-				try:
-					token, lang, tag = row
-					self.update_values(lang)
+						tokenized_token = tokenizer(token).input_ids[1:-1] # get rid of S and E tokens
+						self.curr_seq.extend(tokenized_token)
+						self.curr_tags.extend([tag] * len(tokenized_token)) # add the same tag for each 
+						self.num_tokens += len(tokenized_token)
+						self.tagset.add(tag)
+			
+					except ValueError:
+						self.calculate_metrics()
+						#if self.cs_index[-1] == 0.5:
+						#	print(self.s_index[-1], token)
+			self.splitters.append(self.num_sequences)
 
-					tokenized_token = tokenizer(token).input_ids[1:-1] # get rid of S and E tokens
-					self.curr_seq.extend(tokenized_token)
-					self.curr_tags.extend([tag] * len(tokenized_token))
-					self.num_tokens += len(tokenized_token)
-					self.tagset.add(tag)
-
-				except ValueError:
-					self.calculate_metrics()
 
 	def create_tensors(self):
 		self.tagset = {tag: i for i, tag in enumerate(self.tagset)}
@@ -107,14 +120,8 @@ class PreProcessor:
 
 				inputs[i, j] = v
 				outputs[i, j, self.tagset[curr_tag]] = 1
+			
 
-			outputs[i, j:self.max_length, self.tagset['S']] = 1 # Pad all the remaining tags with the S tag.
+			outputs[i, j:self.max_length, self.tagset[SPECIAL_TAG]] = 1 # Pad all the remaining tags with the S tag.
 
 		return inputs, outputs
-				
-x = PreProcessor()
-x.read_data('data.csv')
-i, o = x.create_tensors()
-print(x.tagset)
-print(x.sequences[0])
-print(o[0, 0:10])
