@@ -1,4 +1,3 @@
-# tags NOUN, PRON, VERB, ADJ, ADV, DET, PART, X, S
 from transformers import AutoTokenizer
 from collections import defaultdict
 from dataclasses import dataclass
