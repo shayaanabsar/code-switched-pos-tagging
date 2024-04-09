@@ -122,4 +122,4 @@ class PreProcessor:
 
 			outputs[i, j:self.max_length, self.tagset[SPECIAL_TAG]] = 1 # Pad all the remaining tags with the S tag.
 
-		return inputs, outputs
+		return inputs, outputs.float()
