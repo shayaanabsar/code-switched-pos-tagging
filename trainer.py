@@ -8,6 +8,7 @@ class Trainer:
 	model         : object 
 	loss_function : object
 	lr            : int
+	device        : str
 	train_metrics = []
 	val_metrics   = []      
 
@@ -15,8 +16,8 @@ class Trainer:
 		max  = inputs.shape[0]
 		idxs = torch.randint(max, (batch_size,))
 
-		batch_inputs  = torch.stack([inputs[i]  for i in idxs])
-		batch_outputs = torch.stack([outputs[i] for i in idxs])
+		batch_inputs  = torch.stack([inputs[i]  for i in idxs]).to(self.device)
+		batch_outputs = torch.stack([outputs[i] for i in idxs]).to(self.device)
 
 		model_probabilities = self.model(batch_inputs).float()
 		loss = self.loss_function(model_probabilities, batch_outputs)
