@@ -46,7 +46,7 @@ class Trainer:
 
 		for i in range(epochs):
 			loss     = self.pass_batch(batch_size, t_inputs, t_outputs)
-			val_loss = self.pass_batch(8, v_inputs, v_outputs)
+			val_loss = self.pass_batch(batch_size // 2, v_inputs, v_outputs)
 
 			self.train_metrics.append(loss.item())
 			self.val_metrics.append(val_loss.item())
