@@ -29,7 +29,7 @@ class Trainer:
 		torch.cuda.empty_cache()
 		return loss
 	
-	def train(self, epochs, batch_size, t_inputs, t_outputs, v_inputs, v_outputs):
+	def train(self, epochs, batch_size, batch_acc, t_inputs, t_outputs, v_inputs, v_outputs):
 		optimizer = torch.optim.AdamW(self.model.parameters(), self.lr)
 
 		wandb.init(
@@ -45,15 +45,18 @@ class Trainer:
 		)
 
 		for i in range(epochs):
-			loss     = self.pass_batch(batch_size, t_inputs, t_outputs)
+			loss = 0
+			for j in range(batch_acc):
+				loss  += self.pass_batch(batch_size, t_inputs, t_outputs)
+			loss /= batch_acc
 			val_loss = self.pass_batch(batch_size // 2, v_inputs, v_outputs)
-
-			self.train_metrics.append(loss.item())
-			self.val_metrics.append(val_loss.item())
 
 			optimizer.zero_grad()
 			loss.backward()
 			optimizer.step()
+
+			self.train_metrics.append(loss.item())
+			self.val_metrics.append(val_loss.item())
 
 			wandb.log({
 				'val-loss': val_loss,

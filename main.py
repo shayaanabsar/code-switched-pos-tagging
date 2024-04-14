@@ -56,9 +56,10 @@ xlm_roberta             = AutoModelForMaskedLM.from_pretrained('xlm-roberta-base
 xlm_roberta_output_size = 250002
 cross_entropy_loss      = nn.CrossEntropyLoss()
 num_tags                = b_output_train.shape[2]
-batch_size              = 2
-learning_rate           = 0.01
-epochs                  = 100
+batch_size              = 8
+batch_accumulation      = 4
+learning_rate           = 0.1
+epochs                  = 1000
 dropout_rate            = 0.2
 sequence_length         = pp.max_length
 device                  = 'cuda'
@@ -93,4 +94,4 @@ class Model(nn.Module):
 		return model_probabilities
 	
 test = Trainer(Model().to(device), cross_entropy_loss, 0.01, device)
-test.train(10, batch_size, b_input_test, b_output, b_input_val, b_output_val)
+test.train(10, batch_size, batch_accumulation, b_input_test, b_output, b_input_val, b_output_val)
