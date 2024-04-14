@@ -1,6 +1,7 @@
-from dataclasses import dataclass, field
+from dataclasses import dataclass
 import plotly.express as px
 import pandas as pd
+import wandb
 import torch
 
 @dataclass
@@ -11,6 +12,8 @@ class Trainer:
 	device        : str
 	train_metrics = []
 	val_metrics   = []      
+
+	wandb.login()
 
 	def pass_batch(self, batch_size, inputs, outputs):
 		max  = inputs.shape[0]
@@ -26,6 +29,18 @@ class Trainer:
 	def train(self, epochs, batch_size, t_inputs, t_outputs, v_inputs, v_outputs):
 		optimizer = torch.optim.AdamW(self.model.parameters(), self.lr)
 
+		wandb.init(
+			project="code-switched-pos-tagging",
+
+			# track hyperparameters and run metadata
+			config={
+			"learning_rate": self.lr,
+			"architecture": "BERT",
+			"batch_size": batch_size,
+			"epochs": epochs,
+			}
+		)
+
 		for i in range(epochs):
 			loss     = self.pass_batch(batch_size, t_inputs, t_outputs)
 			val_loss = self.pass_batch(8, v_inputs, v_outputs)
@@ -37,14 +52,7 @@ class Trainer:
 			loss.backward()
 			optimizer.step()
 
-			print(f'Epoch number {i}. Training Loss: {loss.item()}, Validation Loss: {val_loss.item()}')
-
-	def plot_metrics(self):
-		df = pd.DataFrame(dict(
-			x = [i for i in range(len(self.train_metrics))],
-			y = self.train_metrics
-		)
-		)
-
-		fig = px.line(df, x="x", y="y", title='Training Loss')
-		fig.show()
+			wandb.log({
+				'val-loss': val_loss,
+				'loss'    : loss
+			})
