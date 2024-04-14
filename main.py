@@ -61,7 +61,7 @@ learning_rate           = 0.01
 epochs                  = 100
 dropout_rate            = 0.2
 sequence_length         = pp.max_length
-device                  = 'mps'
+device                  = 'cuda'
 
 wandb.init(
 	project="code-switchwed-pos-tagging",

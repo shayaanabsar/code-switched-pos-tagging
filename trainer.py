@@ -16,6 +16,7 @@ class Trainer:
 	wandb.login()
 
 	def pass_batch(self, batch_size, inputs, outputs):
+		torch.cuda.empty_cache()
 		max  = inputs.shape[0]
 		idxs = torch.randint(max, (batch_size,))
 
@@ -23,7 +24,9 @@ class Trainer:
 		batch_outputs = torch.stack([outputs[i] for i in idxs]).to(self.device)
 
 		model_probabilities = self.model(batch_inputs).float()
+		torch.cuda.empty_cache()
 		loss = self.loss_function(model_probabilities, batch_outputs)
+		torch.cuda.empty_cache()
 		return loss
 	
 	def train(self, epochs, batch_size, t_inputs, t_outputs, v_inputs, v_outputs):
