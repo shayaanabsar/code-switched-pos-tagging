@@ -56,11 +56,11 @@ xlm_roberta             = AutoModelForMaskedLM.from_pretrained('xlm-roberta-base
 xlm_roberta_output_size = 250002
 cross_entropy_loss      = nn.CrossEntropyLoss()
 num_tags                = b_output_train.shape[2]
-batch_size              = 8
+batch_size              = 4
 batch_accumulation      = 4
 learning_rate           = 0.1
 epochs                  = 1000
-dropout_rate            = 0.2
+dropout_rate            = 0.05
 sequence_length         = pp.max_length
 device                  = 'cuda'
 
@@ -80,18 +80,20 @@ class Model(nn.Module):
 		super().__init__()
 		self.xlm_roberta    = xlm_roberta
 		self.dropout        = nn.Dropout(dropout_rate)
-		self.linear         = nn.Linear(xlm_roberta_output_size, num_tags)
+		self.linear1        = nn.Linear(xlm_roberta_output_size, 1024)
+		self.linear2        = nn.Linear(1024, num_tags)  
 		self.batch_norm     = nn.BatchNorm1d(num_features=sequence_length)
 		self.softmax        = nn.Softmax(dim=-1)
 
 	def forward(self, input):
 		roberta_logits      = self.xlm_roberta(input).logits
 		dropout_logits      = self.dropout(roberta_logits)
-		model_logits        = self.linear(dropout_logits)
+		layer_1_output      = self.linear1(dropout_logits)
+		model_logits        = self.linear2(layer_1_output)
 		normalised_logits   = self.batch_norm(model_logits)
 		model_probabilities = self.softmax(normalised_logits) 
 
 		return model_probabilities
 	
-test = Trainer(Model().to(device), cross_entropy_loss, 0.01, device)
-test.train(10, batch_size, batch_accumulation, b_input_test, b_output, b_input_val, b_output_val)
+test = Trainer(Model().to(device), cross_entropy_loss, learning_rate, device)
+test.train(100, batch_size, batch_accumulation, b_input_test, b_output, b_input_val, b_output_val)
