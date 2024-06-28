@@ -1,0 +1,19 @@
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switching/main.py", line 100, in <module>
+    test = Trainer(Model().to(device), cross_entropy_loss, learning_rate, device)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1173, in to
+    return self._apply(convert)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 779, in _apply
+    module._apply(fn)
+  [Previous line repeated 1 more time]
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 804, in _apply
+    param_applied = fn(param)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1159, in convert
+    return t.to(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/cuda/__init__.py", line 284, in _lazy_init
+    raise AssertionError("Torch not compiled with CUDA enabled")
+AssertionError: Torch not compiled with CUDA enabled

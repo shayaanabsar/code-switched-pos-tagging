@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switching/main.py", line 101, in <module>
+    test.train(100, batch_size, batch_accumulation, b_input_test, b_output, b_input_val, b_output_val)
+  File "/Users/Shayaan/Desktop/code/code-switching/trainer.py", line 50, in train
+    loss  += self.pass_batch(batch_size, t_inputs, t_outputs)
+  File "/Users/Shayaan/Desktop/code/code-switching/trainer.py", line 26, in pass_batch
+    model_probabilities = self.model(batch_inputs).float()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switching/main.py", line 92, in forward
+    dropout_logits      = self.dropout(roberta_logits)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/dropout.py", line 59, in forward
+    return F.dropout(input, self.p, self.training, self.inplace)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/functional.py", line 1295, in dropout
+    return _VF.dropout_(input, p, training) if inplace else _VF.dropout(input, p, training)
+RuntimeError: MPS backend out of memory (MPS allocated: 5.97 GB, other allocations: 2.63 GB, max allowed: 9.07 GB). Tried to allocate 1.91 GB on private pool. Use PYTORCH_MPS_HIGH_WATERMARK_RATIO=0.0 to disable upper limit for memory allocations (may cause system failure).

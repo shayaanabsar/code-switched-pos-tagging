@@ -1,0 +1,30 @@
+2024-06-28 16:59:05,463 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Configure stats pid to 82394
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Loading settings from /Users/Shayaan/.config/wandb/settings
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Loading settings from /Users/Shayaan/Desktop/code/code-switching/wandb/settings
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/Users/Shayaan/Desktop/code/code-switching/main.py', 'program': '/Users/Shayaan/Desktop/code/code-switching/main.py'}
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_init.py:_log_setup():521] Logging user logs to /Users/Shayaan/Desktop/code/code-switching/wandb/run-20240628_165905-pxe5lct5/logs/debug.log
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/Shayaan/Desktop/code/code-switching/wandb/run-20240628_165905-pxe5lct5/logs/debug-internal.log
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_init.py:init():561] calling init triggers
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.1, 'architecture': 'BERT', 'batch_size': 4, 'epochs': 1000}
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_init.py:init():611] starting backend
+2024-06-28 16:59:05,464 INFO    MainThread:82394 [wandb_init.py:init():615] setting up manager
+2024-06-28 16:59:05,466 INFO    MainThread:82394 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-06-28 16:59:05,468 INFO    MainThread:82394 [wandb_init.py:init():623] backend started and connected
+2024-06-28 16:59:05,482 INFO    MainThread:82394 [wandb_init.py:init():715] updated telemetry
+2024-06-28 16:59:05,525 INFO    MainThread:82394 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-06-28 16:59:05,948 INFO    MainThread:82394 [wandb_run.py:_on_init():2357] communicating current version
+2024-06-28 16:59:06,083 INFO    MainThread:82394 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.17.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-06-28 16:59:06,083 INFO    MainThread:82394 [wandb_init.py:init():799] starting run threads in backend
+2024-06-28 16:59:06,225 INFO    MainThread:82394 [wandb_run.py:_console_start():2335] atexit reg
+2024-06-28 16:59:06,226 INFO    MainThread:82394 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-06-28 16:59:06,226 INFO    MainThread:82394 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-06-28 16:59:06,226 INFO    MainThread:82394 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-06-28 16:59:06,226 INFO    MainThread:82394 [wandb_init.py:init():842] run started, returning control to user process
+2024-06-28 16:59:14,315 WARNING MsgRouterThr:82394 [router.py:message_loop():77] message_loop has been closed

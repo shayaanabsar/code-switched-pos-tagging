@@ -65,7 +65,6 @@ sequence_length         = pp.max_length
 device                  = 'cuda'
 
 print(num_tags)
-exit()
 
 wandb.init(
 	project="code-switched-pos-tagging",
