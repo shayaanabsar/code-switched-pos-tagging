@@ -96,6 +96,7 @@ class Model(nn.Module):
 		model_probabilities = self.softmax(normalised_logits) 
 
 		return model_probabilities
-	
-test = Trainer(Model().to(device), cross_entropy_loss, learning_rate, device)
+
+test_model = nn.DataParallel(Model()).to(device)
+test = Trainer(test_model, cross_entropy_loss, learning_rate, device)
 test.train(100, batch_size, batch_accumulation, b_input_test, b_output, b_input_val, b_output_val)
