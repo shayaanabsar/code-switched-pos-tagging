@@ -15,8 +15,8 @@ h_s, h_e = pp.splitters['hindi.csv'  ]
 t_s, t_e = pp.splitters['telugu.csv' ]
 b, h, t, o  =  (b_e-b_s), (h_e-h_s), (t_e-t_s), input_tensor.shape[0]
 
-input_train, input_test, input_val    = input_tensor[:int(0.8*b)], input_tensor[int(0.8*b):int(0.9*b)], input_tensor[int(0.9*b):]
-output_train, output_test, output_val = output_tensor[:int(0.8*b)], output_tensor[int(0.8*b):int(0.9*b)], output_tensor[int(0.9*b):]
+input_train, input_test, input_val    = input_tensor[:int(0.8*o)], input_tensor[int(0.8*o):int(0.9*o)], input_tensor[int(0.9*o):]
+output_train, output_test, output_val = output_tensor[:int(0.8*o)], output_tensor[int(0.8*o):int(0.9*o)], output_tensor[int(0.9*o):]
 
 b_csi, b_si = torch.tensor(pp.cs_index[b_s:b_e]), torch.tensor(pp.s_index[b_s:b_e])
 h_csi, h_si = torch.tensor(pp.cs_index[h_s:h_e]), torch.tensor(pp.s_index[h_s:h_e])
