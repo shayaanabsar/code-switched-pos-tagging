@@ -52,7 +52,7 @@ learning_rate           = 0.05
 epochs                  = 250
 dropout_rate            = 0.05
 sequence_length         = pp.max_length
-device                  = 'cpu'
+device                  = 'cuda'
 
 print(num_tags)
 
