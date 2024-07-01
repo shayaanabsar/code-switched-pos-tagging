@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForMaskedLM
 from preprocessing import *
 from trainer import *
-from torch import nn
+from torch import nn, save
 import pandas as pd
 import torch
 
@@ -56,10 +56,10 @@ xlm_roberta             = AutoModelForMaskedLM.from_pretrained('xlm-roberta-base
 xlm_roberta_output_size = 250002
 cross_entropy_loss      = nn.CrossEntropyLoss()
 num_tags                = b_output_train.shape[2]
-batch_size              = 4
-batch_accumulation      = 4
-learning_rate           = 0.1
-epochs                  = 1000
+batch_size              = 16
+batch_accumulation      = 1
+learning_rate           = 0.05
+epochs                  = 500
 dropout_rate            = 0.05
 sequence_length         = pp.max_length
 device                  = 'cuda'
@@ -97,6 +97,7 @@ class Model(nn.Module):
 
 		return model_probabilities
 
-test_model = nn.DataParallel(Model()).to(device)
-test = Trainer(test_model, cross_entropy_loss, learning_rate, device)
-test.train(100, batch_size, batch_accumulation, b_input_test, b_output, b_input_val, b_output_val)
+model = nn.DataParallel(Model()).to(device)
+t = Trainer(model, cross_entropy_loss, learning_rate, device)
+t.train(epochs, batch_size, batch_accumulation, b_input_test, b_output, b_input_val, b_output_val)
+save(model.state_dict(), 'model.pt')

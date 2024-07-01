@@ -1,0 +1,15 @@
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Configure stats pid to 43148
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Loading settings from /root/.config/wandb/settings
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Loading settings from /root/code-switched-pos-tagging/wandb/settings
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program_abspath': '/root/code-switched-pos-tagging/main.py', 'program': '/root/code-switched-pos-tagging/main.py'}
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_init.py:_log_setup():521] Logging user logs to /root/code-switched-pos-tagging/wandb/run-20240630_220615-s3bcn6t0/logs/debug.log
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_init.py:_log_setup():522] Logging internal logs to /root/code-switched-pos-tagging/wandb/run-20240630_220615-s3bcn6t0/logs/debug-internal.log
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_init.py:init():561] calling init triggers
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.01, 'architecture': 'BERT', 'batch_size': 16, 'epochs': 500}
+2024-06-30 22:06:15,739 INFO    MainThread:43148 [wandb_init.py:init():606] wandb.init() called when a run is still active

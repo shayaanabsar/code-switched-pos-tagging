@@ -1,0 +1,269 @@
+2024-06-30 22:06:12,241 INFO    StreamThr :43219 [internal.py:wandb_internal():86] W&B internal server running at pid: 43219, started at: 2024-06-30 22:06:12.240053
+2024-06-30 22:06:12,247 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status
+2024-06-30 22:06:12,249 INFO    WriterThread:43219 [datastore.py:open_for_write():87] open: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/run-lhci7167.wandb
+2024-06-30 22:06:12,250 DEBUG   SenderThread:43219 [sender.py:send():379] send: header
+2024-06-30 22:06:12,250 DEBUG   SenderThread:43219 [sender.py:send():379] send: run
+2024-06-30 22:06:12,753 INFO    SenderThread:43219 [dir_watcher.py:__init__():211] watching files in: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files
+2024-06-30 22:06:12,753 INFO    SenderThread:43219 [sender.py:_start_run_threads():1124] run started: lhci7167 with start time 1719785172.23996
+2024-06-30 22:06:12,765 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: check_version
+2024-06-30 22:06:12,765 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: check_version
+2024-06-30 22:06:12,909 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: run_start
+2024-06-30 22:06:12,923 DEBUG   HandlerThread:43219 [system_info.py:__init__():26] System info init
+2024-06-30 22:06:12,923 DEBUG   HandlerThread:43219 [system_info.py:__init__():41] System info init done
+2024-06-30 22:06:12,923 INFO    HandlerThread:43219 [system_monitor.py:start():194] Starting system monitor
+2024-06-30 22:06:12,924 INFO    SystemMonitor:43219 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-06-30 22:06:12,924 INFO    HandlerThread:43219 [system_monitor.py:probe():214] Collecting system info
+2024-06-30 22:06:12,925 INFO    SystemMonitor:43219 [interfaces.py:start():190] Started cpu monitoring
+2024-06-30 22:06:12,927 INFO    SystemMonitor:43219 [interfaces.py:start():190] Started disk monitoring
+2024-06-30 22:06:12,929 INFO    SystemMonitor:43219 [interfaces.py:start():190] Started gpu monitoring
+2024-06-30 22:06:12,930 INFO    SystemMonitor:43219 [interfaces.py:start():190] Started memory monitoring
+2024-06-30 22:06:12,931 INFO    SystemMonitor:43219 [interfaces.py:start():190] Started network monitoring
+2024-06-30 22:06:12,956 DEBUG   HandlerThread:43219 [system_info.py:probe():150] Probing system
+2024-06-30 22:06:12,960 DEBUG   HandlerThread:43219 [system_info.py:_probe_git():135] Probing git
+2024-06-30 22:06:12,972 DEBUG   HandlerThread:43219 [system_info.py:_probe_git():143] Probing git done
+2024-06-30 22:06:12,972 DEBUG   HandlerThread:43219 [system_info.py:probe():198] Probing system done
+2024-06-30 22:06:12,972 DEBUG   HandlerThread:43219 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-15-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-06-30T22:06:12.956516', 'startedAt': '2024-06-30T22:06:12.234879', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/root/code-switched-pos-tagging/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/shayaanabsar/code-switched-pos-tagging.git', 'commit': 'b87e5675222cc5c2c984a8f5534d93fd9fa997a1'}, 'email': None, 'root': '/root/code-switched-pos-tagging', 'host': 'vm3f702c05de865', 'username': 'root', 'executable': '/usr/bin/python3', 'cpu_count': 16, 'cpu_count_logical': 32, 'cpu_freq': {'current': 2349.994, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}, {'current': 2349.994, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 775.1532325744629, 'used': 21.196578979492188}}, 'gpu': 'NVIDIA RTX A5000', 'gpu_count': 4, 'gpu_devices': [{'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}, {'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}, {'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}, {'name': 'NVIDIA RTX A5000', 'memory_total': 25757220864}], 'memory': {'total': 117.90769958496094}}
+2024-06-30 22:06:12,973 INFO    HandlerThread:43219 [system_monitor.py:probe():224] Finished collecting system info
+2024-06-30 22:06:12,973 INFO    HandlerThread:43219 [system_monitor.py:probe():227] Publishing system info
+2024-06-30 22:06:12,974 INFO    HandlerThread:43219 [system_monitor.py:probe():229] Finished publishing system info
+2024-06-30 22:06:12,976 DEBUG   SenderThread:43219 [sender.py:send():379] send: files
+2024-06-30 22:06:12,976 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-06-30 22:06:13,053 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: python_packages
+2024-06-30 22:06:13,053 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-30 22:06:13,054 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: python_packages
+2024-06-30 22:06:13,055 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: stop_status
+2024-06-30 22:06:13,057 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-30 22:06:13,421 DEBUG   SenderThread:43219 [sender.py:send():379] send: telemetry
+2024-06-30 22:06:13,717 INFO    wandb-upload_0:43219 [upload_job.py:push():131] Uploaded file /tmp/tmp4ectap5hwandb/31cf3wec-wandb-metadata.json
+2024-06-30 22:06:13,755 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_created():271] file/dir created: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/requirements.txt
+2024-06-30 22:06:13,756 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_created():271] file/dir created: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-metadata.json
+2024-06-30 22:06:15,740 DEBUG   SenderThread:43219 [sender.py:send():379] send: telemetry
+2024-06-30 22:06:17,741 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:06:20,487 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:20,489 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:20,489 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:20,491 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:20,756 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_created():271] file/dir created: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:23,440 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:23,442 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:23,442 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:23,442 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:23,444 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:06:23,756 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:26,534 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:26,535 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:26,535 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:26,537 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:26,758 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:28,054 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-30 22:06:28,055 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-30 22:06:28,055 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: stop_status
+2024-06-30 22:06:29,262 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:06:29,614 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:29,614 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:29,615 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:29,615 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:29,759 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:32,684 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:32,686 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:32,686 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:32,686 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:32,761 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:34,687 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:06:35,768 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:35,769 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:35,769 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:35,771 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:36,763 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:38,849 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:38,851 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:38,851 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:38,852 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:39,764 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:39,853 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:06:41,937 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:41,938 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:41,938 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:41,939 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:42,765 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:43,197 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-30 22:06:43,198 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: stop_status
+2024-06-30 22:06:43,200 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-30 22:06:45,016 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:45,017 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:45,025 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:06:45,184 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:45,184 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:45,767 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/config.yaml
+2024-06-30 22:06:45,767 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:48,097 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:48,098 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:48,098 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:48,099 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:48,768 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:51,100 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:06:51,180 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:51,181 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:51,182 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:51,182 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:51,770 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:54,277 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:54,278 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:54,278 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:54,279 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:54,771 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:56,281 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:06:57,358 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:06:57,360 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:06:57,360 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:06:57,360 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:06:57,772 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:06:58,197 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-30 22:06:58,198 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: stop_status
+2024-06-30 22:06:58,201 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-30 22:07:00,449 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:07:00,450 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:07:00,451 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:07:00,451 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:07:00,773 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:07:01,452 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:07:03,648 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:07:03,649 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:07:03,650 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:07:03,650 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:07:03,774 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:07:06,652 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:07:06,715 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:07:06,716 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:07:06,716 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:07:06,716 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:07:06,775 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:07:09,795 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:07:09,796 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:07:09,796 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:07:09,797 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:07:10,777 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:07:11,799 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:07:12,871 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: partial_history
+2024-06-30 22:07:12,872 DEBUG   SenderThread:43219 [sender.py:send():379] send: history
+2024-06-30 22:07:12,872 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: summary_record
+2024-06-30 22:07:12,873 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:07:12,932 DEBUG   SystemMonitor:43219 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-06-30 22:07:12,934 DEBUG   SenderThread:43219 [sender.py:send():379] send: stats
+2024-06-30 22:07:13,222 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: internal_messages
+2024-06-30 22:07:13,223 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: stop_status
+2024-06-30 22:07:13,224 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: stop_status
+2024-06-30 22:07:13,778 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:07:13,779 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_created():271] file/dir created: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/output.log
+2024-06-30 22:07:13,978 DEBUG   SenderThread:43219 [sender.py:send():379] send: exit
+2024-06-30 22:07:13,978 INFO    SenderThread:43219 [sender.py:send_exit():586] handling exit code: 255
+2024-06-30 22:07:13,978 INFO    SenderThread:43219 [sender.py:send_exit():588] handling runtime: 61
+2024-06-30 22:07:13,979 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:07:13,979 INFO    SenderThread:43219 [sender.py:send_exit():594] send defer
+2024-06-30 22:07:13,979 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:13,979 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 0
+2024-06-30 22:07:13,979 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:13,980 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-06-30 22:07:13,980 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 1
+2024-06-30 22:07:13,980 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:13,980 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 1
+2024-06-30 22:07:13,980 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:13,980 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-06-30 22:07:13,980 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 2
+2024-06-30 22:07:13,980 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:13,980 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 2
+2024-06-30 22:07:13,980 INFO    HandlerThread:43219 [system_monitor.py:finish():203] Stopping system monitor
+2024-06-30 22:07:13,981 DEBUG   SystemMonitor:43219 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-06-30 22:07:13,981 DEBUG   SystemMonitor:43219 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-06-30 22:07:13,984 INFO    HandlerThread:43219 [interfaces.py:finish():202] Joined cpu monitor
+2024-06-30 22:07:13,984 INFO    HandlerThread:43219 [interfaces.py:finish():202] Joined disk monitor
+2024-06-30 22:07:14,209 INFO    HandlerThread:43219 [interfaces.py:finish():202] Joined gpu monitor
+2024-06-30 22:07:14,209 INFO    HandlerThread:43219 [interfaces.py:finish():202] Joined memory monitor
+2024-06-30 22:07:14,209 INFO    HandlerThread:43219 [interfaces.py:finish():202] Joined network monitor
+2024-06-30 22:07:14,210 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:14,210 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-06-30 22:07:14,210 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 3
+2024-06-30 22:07:14,210 DEBUG   SenderThread:43219 [sender.py:send():379] send: stats
+2024-06-30 22:07:14,212 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:14,212 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 3
+2024-06-30 22:07:14,212 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:14,212 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-06-30 22:07:14,212 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 4
+2024-06-30 22:07:14,213 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:14,213 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 4
+2024-06-30 22:07:14,213 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:14,213 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-06-30 22:07:14,213 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 5
+2024-06-30 22:07:14,214 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:14,214 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 5
+2024-06-30 22:07:14,214 DEBUG   SenderThread:43219 [sender.py:send():379] send: summary
+2024-06-30 22:07:14,215 INFO    SenderThread:43219 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-06-30 22:07:14,215 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:14,215 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-06-30 22:07:14,215 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 6
+2024-06-30 22:07:14,215 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:14,216 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 6
+2024-06-30 22:07:14,216 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:14,216 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-06-30 22:07:14,216 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 7
+2024-06-30 22:07:14,216 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: status_report
+2024-06-30 22:07:14,217 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:14,217 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 7
+2024-06-30 22:07:14,217 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:14,217 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-06-30 22:07:14,779 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:07:14,978 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-30 22:07:15,731 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 8
+2024-06-30 22:07:15,732 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: poll_exit
+2024-06-30 22:07:15,732 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:15,732 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 8
+2024-06-30 22:07:15,732 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:15,732 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-06-30 22:07:15,733 INFO    SenderThread:43219 [job_builder.py:build():318] Attempting to build job artifact
+2024-06-30 22:07:15,733 INFO    SenderThread:43219 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-06-30 22:07:15,757 INFO    SenderThread:43219 [job_builder.py:build():431] adding wandb-job metadata file
+2024-06-30 22:07:15,760 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 9
+2024-06-30 22:07:15,760 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:15,761 DEBUG   SenderThread:43219 [sender.py:send():379] send: artifact
+2024-06-30 22:07:15,761 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 9
+2024-06-30 22:07:15,780 INFO    Thread-12 :43219 [dir_watcher.py:_on_file_modified():288] file/dir modified: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/output.log
+2024-06-30 22:07:15,979 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-30 22:07:16,604 INFO    SenderThread:43219 [sender.py:send_artifact():1468] sent artifact job-https___github.com_shayaanabsar_code-switched-pos-tagging.git_main.py - {'id': 'QXJ0aWZhY3Q6OTM0NDAwNDk2', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzNjk2MTY4MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6OTM0NDE3MTcy', 'versionIndex': 5}}}
+2024-06-30 22:07:16,604 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:16,604 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-06-30 22:07:16,604 INFO    SenderThread:43219 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-06-30 22:07:16,781 INFO    SenderThread:43219 [dir_watcher.py:finish():388] scan: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files
+2024-06-30 22:07:16,781 INFO    SenderThread:43219 [dir_watcher.py:finish():402] scan save: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/output.log output.log
+2024-06-30 22:07:16,781 INFO    SenderThread:43219 [dir_watcher.py:finish():402] scan save: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-metadata.json wandb-metadata.json
+2024-06-30 22:07:16,781 INFO    SenderThread:43219 [dir_watcher.py:finish():402] scan save: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/config.yaml config.yaml
+2024-06-30 22:07:16,782 INFO    SenderThread:43219 [dir_watcher.py:finish():402] scan save: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/requirements.txt requirements.txt
+2024-06-30 22:07:16,782 INFO    SenderThread:43219 [dir_watcher.py:finish():402] scan save: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json wandb-summary.json
+2024-06-30 22:07:16,782 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 10
+2024-06-30 22:07:16,782 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: poll_exit
+2024-06-30 22:07:16,789 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:16,789 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 10
+2024-06-30 22:07:16,799 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:16,799 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-06-30 22:07:16,799 INFO    SenderThread:43219 [file_pusher.py:finish():172] shutting down file pusher
+2024-06-30 22:07:16,980 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: poll_exit
+2024-06-30 22:07:16,981 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: poll_exit
+2024-06-30 22:07:17,206 INFO    wandb-upload_0:43219 [upload_job.py:push():131] Uploaded file /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/output.log
+2024-06-30 22:07:17,326 WARNING StreamThr :43219 [internal.py:is_dead():414] Internal process exiting, parent pid 43148 disappeared
+2024-06-30 22:07:17,326 ERROR   StreamThr :43219 [internal.py:wandb_internal():152] Internal process shutdown.
+2024-06-30 22:07:17,334 INFO    wandb-upload_2:43219 [upload_job.py:push():131] Uploaded file /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/requirements.txt
+2024-06-30 22:07:17,479 INFO    wandb-upload_3:43219 [upload_job.py:push():131] Uploaded file /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/wandb-summary.json
+2024-06-30 22:07:17,481 INFO    wandb-upload_1:43219 [upload_job.py:push():131] Uploaded file /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/files/config.yaml
+2024-06-30 22:07:17,682 INFO    Thread-11 (_thread_body):43219 [sender.py:transition_state():614] send defer: 11
+2024-06-30 22:07:17,682 DEBUG   HandlerThread:43219 [handler.py:handle_request():146] handle_request: defer
+2024-06-30 22:07:17,682 INFO    HandlerThread:43219 [handler.py:handle_request_defer():172] handle defer: 11
+2024-06-30 22:07:17,683 INFO    HandlerThread:43219 [handler.py:finish():866] shutting down handler
+2024-06-30 22:07:17,683 INFO    WriterThread:43219 [datastore.py:close():296] close: /root/code-switched-pos-tagging/wandb/run-20240630_220612-lhci7167/run-lhci7167.wandb
+2024-06-30 22:07:17,683 DEBUG   SenderThread:43219 [sender.py:send_request():406] send_request: defer
+2024-06-30 22:07:17,684 INFO    SenderThread:43219 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-06-30 22:07:17,684 INFO    SenderThread:43219 [file_pusher.py:join():178] waiting for file pusher
+2024-06-30 22:07:17,684 INFO    SenderThread:43219 [sender.py:transition_state():614] send defer: 12
+2024-06-30 22:07:17,684 INFO    SenderThread:43219 [sender.py:finish():1546] shutting down sender
+2024-06-30 22:07:17,685 INFO    SenderThread:43219 [file_pusher.py:finish():172] shutting down file pusher
+2024-06-30 22:07:17,685 INFO    SenderThread:43219 [file_pusher.py:join():178] waiting for file pusher
+2024-06-30 22:07:17,685 INFO    SenderThread:43219 [file_stream.py:finish():614] file stream finish called
+2024-06-30 22:07:18,228 INFO    SenderThread:43219 [file_stream.py:finish():618] file stream finish is done

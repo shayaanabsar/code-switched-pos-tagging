@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "/root/code-switched-pos-tagging/main.py", line 101, in <module>
+    t = Trainer(test_model, cross_entropy_loss, learning_rate, device)
+NameError: name 'test_model' is not defined
+Traceback (most recent call last):
+  File "/root/code-switched-pos-tagging/main.py", line 101, in <module>
+    t = Trainer(test_model, cross_entropy_loss, learning_rate, device)
+NameError: name 'test_model' is not defined

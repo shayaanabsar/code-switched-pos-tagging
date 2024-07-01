@@ -1,0 +1,220 @@
+{
+    "os": "Linux-6.5.0-15-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-06-30T22:04:15.628951",
+    "startedAt": "2024-06-30T22:04:14.948960",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/root/code-switched-pos-tagging/main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/shayaanabsar/code-switched-pos-tagging.git",
+        "commit": "b87e5675222cc5c2c984a8f5534d93fd9fa997a1"
+    },
+    "email": null,
+    "root": "/root/code-switched-pos-tagging",
+    "host": "vm3f702c05de865",
+    "username": "root",
+    "executable": "/usr/bin/python3",
+    "cpu_count": 16,
+    "cpu_count_logical": 32,
+    "cpu_freq": {
+        "current": 2349.994,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        },
+        {
+            "current": 2349.994,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 775.1532325744629,
+            "used": 21.383853912353516
+        }
+    },
+    "gpu": "NVIDIA RTX A5000",
+    "gpu_count": 4,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA RTX A5000",
+            "memory_total": 25757220864
+        },
+        {
+            "name": "NVIDIA RTX A5000",
+            "memory_total": 25757220864
+        },
+        {
+            "name": "NVIDIA RTX A5000",
+            "memory_total": 25757220864
+        },
+        {
+            "name": "NVIDIA RTX A5000",
+            "memory_total": 25757220864
+        }
+    ],
+    "memory": {
+        "total": 117.90769958496094
+    }
+}
