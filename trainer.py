@@ -11,7 +11,19 @@ class Trainer:
 	lr            : int
 	device        : str
 	train_metrics = []
-	val_metrics   = []      
+	val_metrics   = []
+
+	run = wandb.init(
+			project="code-switched-pos-tagging",
+
+			# track hyperparameters and run metadata
+			config={
+			"learning_rate": self.lr,
+			"architecture": "BERT",
+			"batch_size": batch_size,
+			"epochs": epochs,
+			}
+	)
 
 	wandb.login()
 
@@ -31,18 +43,6 @@ class Trainer:
 	
 	def train(self, epochs, batch_size, batch_acc, t_inputs, t_outputs, v_inputs, v_outputs):
 		optimizer = torch.optim.AdamW(self.model.parameters(), self.lr)
-
-		wandb.init(
-			project="code-switched-pos-tagging",
-
-			# track hyperparameters and run metadata
-			config={
-			"learning_rate": self.lr,
-			"architecture": "BERT",
-			"batch_size": batch_size,
-			"epochs": epochs,
-			}
-		)
 
 		for i in range(epochs):
 			loss = 0
