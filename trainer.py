@@ -46,6 +46,9 @@ class Trainer:
 
 		for i in range(epochs):
 			loss = 0
+
+			if i == epochs // 2:
+				optimizer.param_groups[0]['lr'] /= 10
 			for j in range(batch_acc):
 				loss  += self.pass_batch(batch_size, t_inputs, t_outputs)
 			loss /= batch_acc
