@@ -13,20 +13,10 @@ input_tensor, output_tensor = pp.create_tensors()
 b_s, b_e = pp.splitters['bengali.csv']
 h_s, h_e = pp.splitters['hindi.csv'  ]
 t_s, t_e = pp.splitters['telugu.csv' ]
-
-b_input, b_output = input_tensor[b_s:b_e], output_tensor[b_s:b_e]
-h_input, h_output = input_tensor[h_s:h_e], output_tensor[h_s:h_e]
-t_input, t_output = input_tensor[t_s:t_e], output_tensor[t_s:t_e]
-
 b, h, t, o  =  (b_e-b_s), (h_e-h_s), (t_e-t_s), input_tensor.shape[0]
 
-b_input_train, b_input_test, b_input_val    = b_input[:int(0.8*b)], b_input[int(0.8*b):int(0.9*b)], b_input[int(0.9*b):]
-h_input_train, h_input_test, h_input_val    = b_input[:int(0.8*h)], b_input[int(0.8*h):int(0.9*h)], h_input[int(0.9*h):]
-t_input_train, t_input_test, t_input_val    = t_input[:int(0.8*t)], t_input[int(0.8*b):int(0.9*t)], t_input[int(0.9*t):]
-
-b_output_train, b_output_test, b_output_val = b_output[:int(0.8*b)], b_output[int(0.8*b):int(0.9*b)], b_output[int(0.9*b):]
-h_output_train, h_output_test, h_output_val = b_output[:int(0.8*h)], b_output[int(0.8*h):int(0.9*h)], h_output[int(0.9*h):]
-t_output_train, t_output_test, t_output_val = t_output[:int(0.8*t)], t_output[int(0.8*b):int(0.9*t)], t_output[int(0.9*t):]
+input_train, input_test, input_val    = input_tensor[:int(0.8*b)], input_tensor[int(0.8*b):int(0.9*b)], input_tensor[int(0.9*b):]
+output_train, output_test, output_val = output_tensor[:int(0.8*b)], output_tensor[int(0.8*b):int(0.9*b)], output_tensor[int(0.9*b):]
 
 b_csi, b_si = torch.tensor(pp.cs_index[b_s:b_e]), torch.tensor(pp.s_index[b_s:b_e])
 h_csi, h_si = torch.tensor(pp.cs_index[h_s:h_e]), torch.tensor(pp.s_index[h_s:h_e])
@@ -55,14 +45,14 @@ wandb.login()
 xlm_roberta             = AutoModelForMaskedLM.from_pretrained('xlm-roberta-base')
 xlm_roberta_output_size = 250002
 cross_entropy_loss      = nn.CrossEntropyLoss()
-num_tags                = b_output_train.shape[2]
+num_tags                = output_train.shape[2]
 batch_size              = 16
 batch_accumulation      = 1
 learning_rate           = 0.05
 epochs                  = 250
 dropout_rate            = 0.05
 sequence_length         = pp.max_length
-device                  = 'cuda'
+device                  = 'cpu'
 
 print(num_tags)
 
@@ -99,5 +89,5 @@ class Model(nn.Module):
 
 model = nn.DataParallel(Model()).to(device)
 t = Trainer(model, cross_entropy_loss, learning_rate, device)
-t.train(epochs, batch_size, batch_accumulation, b_input_test, b_output, b_input_val, b_output_val)
+t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
 save(model.state_dict(), 'model.pt')
