@@ -50,7 +50,7 @@ batch_size              = 16
 batch_accumulation      = 1
 learning_rate           = 0.05
 epochs                  = 250
-dropout_rate            = 0.05
+dropout_rate            = 0.1
 sequence_length         = pp.max_length
 device                  = 'cuda'
 
