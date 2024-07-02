@@ -1,5 +1,4 @@
 from dataclasses import dataclass
-import plotly.express as px
 import pandas as pd
 import wandb
 import torch

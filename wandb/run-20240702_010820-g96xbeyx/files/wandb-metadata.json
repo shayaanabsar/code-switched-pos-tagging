@@ -1,0 +1,33 @@
+{
+    "os": "macOS-14.1.1-arm64-arm-64bit",
+    "python": "3.11.7",
+    "heartbeatAt": "2024-07-02T00:08:20.770780",
+    "startedAt": "2024-07-02T00:08:20.217270",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/shayaanabsar/code-switched-pos-tagging.git",
+        "commit": "8eda71497237e7f96dceedae638393ed650a5047"
+    },
+    "email": "shayaan.absar@gmail.com",
+    "root": "/Users/Shayaan/Desktop/code/code-switched-pos-tagging",
+    "host": "MacBook-Pro.local",
+    "username": "Shayaan",
+    "executable": "/opt/homebrew/opt/python@3.11/bin/python3.11",
+    "cpu_count": 8,
+    "cpu_count_logical": 8,
+    "disk": {
+        "total": 228.27386474609375,
+        "used": 13.482440948486328
+    },
+    "gpuapple": {
+        "type": "arm",
+        "vendor": "Apple"
+    },
+    "memory": {
+        "total": 8.0
+    }
+}

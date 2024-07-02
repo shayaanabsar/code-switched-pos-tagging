@@ -5,6 +5,9 @@ from os import listdir, path
 from math import log, e
 import torch
 import csv
+import random
+
+random.seed(35)
 
 tokenizer = AutoTokenizer.from_pretrained('xlm-roberta-base')
 START_TOKEN, END_TOKEN = tokenizer("").input_ids
@@ -17,14 +20,17 @@ def tanh(x, lam=1, mu=0.5):
 
 @dataclass
 class PreProcessor:
-	curr_seq  = [START_TOKEN]
-	curr_tags = [SPECIAL_TAG]
-	sequences = []
-	cs_index  = []
-	s_index   = []
-	sequences = []
-	tagset    = {SPECIAL_TAG}
-	splitters = {}
+	curr_seq   = [START_TOKEN]
+	curr_tags  = [SPECIAL_TAG]
+	lang_tags  = []
+	sequences  = []
+	cs_index   = []
+	s_index    = []
+	sequences  = []
+	tagset     = {SPECIAL_TAG}
+	splitters  = {}
+	lang_codes = {}
+	lang_count        = 1
 	num_sequences     = 0
 	max_length        = 0
 	alteration_points = 0
@@ -77,10 +83,12 @@ class PreProcessor:
 		if self.num_tokens <= MAX_LENGTH:
 			self.calculate_s_index()
 			self.calculate_cs_index()
+			self.lang_tags.append(self.lang_count)
 		self.reset_values()
 
 	def read_data(self, folder):
 		for file in listdir(folder):
+			self.lang_codes[file] = self.lang_count
 			with open(path.join(folder, file)) as f:
 				reader = csv.reader(f, delimiter='\t')
 				start = self.num_sequences
@@ -88,7 +96,6 @@ class PreProcessor:
 					try:
 						token, lang, tag = row
 						self.update_values(lang)
-
 						tokenized_token = tokenizer(token).input_ids[1:-1] # get rid of S and E tokens
 						self.curr_seq.extend(tokenized_token)
 						self.curr_tags.extend([tag] * len(tokenized_token)) # add the same tag for each 
@@ -97,21 +104,25 @@ class PreProcessor:
 			
 					except ValueError:
 						self.calculate_metrics()
-						#if self.cs_index[-1] == 0.5:
-						#	print(self.s_index[-1], token)
 			self.splitters[file] = (start, self.num_sequences)
-
+			self.lang_count += 1
 
 	def create_tensors(self):
 		self.tagset = {tag: i for i, tag in enumerate(self.tagset)}
 		num_tags = len(self.tagset)
+		order = [i for i in range(self.num_sequences)]
+		random.shuffle(order)
 
-		inputs  = torch.zeros((self.num_sequences, self.max_length), dtype=int)
-		outputs = torch.zeros((self.num_sequences, self.max_length, num_tags), dtype=int)
-		
-		for i, seq in enumerate(self.sequences):
+		inputs        = torch.zeros((self.num_sequences, self.max_length), dtype=int)
+		outputs       = torch.zeros((self.num_sequences, self.max_length, num_tags), dtype=int)
+		shuffled_tags = torch.zeros((self.num_sequences,), dtype=int)
+		# dodgy shuffle
+		for i, val in enumerate(order):
+			seq = self.sequences[val]
+
 			input_sequence = seq[0]
 			tag_sequence   = seq[1]
+			shuffled_tags[i]   = self.lang_tags[val]
 
 			for j, v in enumerate(input_sequence):
 				curr_tag = tag_sequence[j]
@@ -122,4 +133,4 @@ class PreProcessor:
 
 			outputs[i, j:self.max_length, self.tagset[SPECIAL_TAG]] = 1 # Pad all the remaining tags with the S tag.
 
-		return inputs, outputs.float()
+		return inputs, outputs.float(), shuffled_tags

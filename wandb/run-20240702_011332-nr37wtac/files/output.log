@@ -1,0 +1,9 @@
+torch.Size([186, 512])
+torch.Size([1488, 512])
+python(12298) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12304) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12305) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12311) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12312) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12316) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
+python(12320) MallocStackLogging: can't turn off malloc stack logging because it was not enabled.
