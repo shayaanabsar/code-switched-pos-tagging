@@ -10,13 +10,11 @@ pp = PreProcessor()
 pp.read_data('dataset')
 input_tensor, output_tensor, lang_tags = pp.create_tensors()
 
+	
 b_s, b_e = pp.splitters['bengali.csv']
 h_s, h_e = pp.splitters['hindi.csv'  ]
 t_s, t_e = pp.splitters['telugu.csv' ]
 b, h, t, o  =  (b_e-b_s), (h_e-h_s), (t_e-t_s), input_tensor.shape[0]
-
-input_train, input_test, input_val    = input_tensor[:int(0.8*o)], input_tensor[int(0.8*o):int(0.9*o)], input_tensor[int(0.9*o):]
-output_train, output_test, output_val = output_tensor[:int(0.8*o)], output_tensor[int(0.8*o):int(0.9*o)], output_tensor[int(0.9*o):]
 
 b_csi, b_si = torch.tensor(pp.cs_index[b_s:b_e]), torch.tensor(pp.s_index[b_s:b_e])
 h_csi, h_si = torch.tensor(pp.cs_index[h_s:h_e]), torch.tensor(pp.s_index[h_s:h_e])
@@ -40,6 +38,33 @@ data.columns = ['Language', 'Mean CM-Index', 'Mean S-Index', 'Count']
 print(data, '\n\n')
 print(f'PMCC between the CMI (Gambäck and Das) and the S-index: {coef:.5f}')
 
+
+avoid_language = input('Enter language to avoid (blank if none): ')
+if avoid_language != '':
+	code = pp.lang_codes[avoid_language]
+
+	allowed_indexes = []
+	hidden_indexes  = []
+
+
+	for i in range(pp.num_sequences):
+		if lang_tags[i] != code:
+			allowed_indexes.append(i)
+		else:
+			hidden_indexes.append(i)
+
+	o = len(allowed_indexes)
+
+	filtered_input_tensor, filtered_output_tensor = input_tensor[allowed_indexes], output_tensor[allowed_indexes]
+
+	input_train, input_test, input_val    = filtered_input_tensor[:int(0.8*o)], filtered_input_tensor[int(0.8*o):int(0.9*o)], filtered_input_tensor[int(0.9*o):]
+	output_train, output_test, output_val = filtered_output_tensor[:int(0.8*o)], filtered_output_tensor[int(0.8*o):int(0.9*o)], filtered_output_tensor[int(0.9*o):]
+	hidden_input, hidden_output = input_tensor[hidden_indexes], output_tensor[hidden_indexes]
+else:
+	input_train, input_test, input_val    = input_tensor[:int(0.8*o)], input_tensor[int(0.8*o):int(0.9*o)], input_tensor[int(0.9*o):]
+	output_train, output_test, output_val = output_tensor[:int(0.8*o)], output_tensor[int(0.8*o):int(0.9*o)], output_tensor[int(0.9*o):]
+
+
 wandb.login()
 
 xlm_roberta             = AutoModelForMaskedLM.from_pretrained('xlm-roberta-base')
@@ -62,6 +87,7 @@ wandb.init(
 	"architecture": "BERT",
 	"batch_size": batch_size,
 	"epochs": epochs,
+	"hidden_language": avoid_language
 	}
 )
 
@@ -86,9 +112,13 @@ class Model(nn.Module):
 
 		return model_probabilities
 
+
 model = nn.DataParallel(Model()).to(device)
 t = Trainer(model, cross_entropy_loss, learning_rate, device)
-r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
+if avoid_language == '':
+	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
+else:
+	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val, hidden_input, hidden_output)
 save(model.state_dict(), 'model.pt')
 artifact = wandb.Artifact(name='model', type='model')
 artifact.add_file(local_path='model.pt')

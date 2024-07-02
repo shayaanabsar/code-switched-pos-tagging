@@ -11,8 +11,6 @@ class Trainer:
 	device        : str
 	train_metrics = []
 	val_metrics   = []
-	      
-
 	wandb.login()
 
 	def pass_batch(self, batch_size, inputs, outputs):
@@ -29,7 +27,7 @@ class Trainer:
 		torch.cuda.empty_cache()
 		return loss
 	
-	def train(self, epochs, batch_size, batch_acc, t_inputs, t_outputs, v_inputs, v_outputs):
+	def train(self, epochs, batch_size, batch_acc, t_inputs, t_outputs, v_inputs, v_outputs, h_inputs=None, h_outputs=None):
 		optimizer = torch.optim.AdamW(self.model.parameters(), self.lr)
 
 		run = wandb.init(
@@ -53,8 +51,11 @@ class Trainer:
 			for j in range(batch_acc):
 				loss  += self.pass_batch(batch_size, t_inputs, t_outputs)
 			loss /= batch_acc
-			val_loss = self.pass_batch(batch_size // 2, v_inputs, v_outputs)
-
+			val_loss = self.pass_batch(batch_size, v_inputs, v_outputs)
+			if h_inputs is not None:
+				h_loss = self.pass_batch(batch_size, h_inputs, h_outputs)
+			else:
+				h_loss = 0
 			optimizer.zero_grad()
 			loss.backward()
 			optimizer.step()
@@ -64,6 +65,7 @@ class Trainer:
 
 			wandb.log({
 				'val-loss': val_loss,
-				'loss'    : loss
+				'loss'    : loss,
+				'h-loss'  : h_loss
 			})
 		return run

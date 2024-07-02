@@ -1,0 +1,2 @@
+
+torch.Size([740, 512]) torch.Size([740, 512, 19]) torch.Size([1120, 512]) torch.Size([1120, 512, 19])
