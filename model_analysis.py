@@ -33,24 +33,32 @@ for k, v in state_dict.items():
 model = Model()
 model.load_state_dict(new_state_dict)
 
-samples, n = 5, 0
+samples = 5
 tokens = 512
-right, total = 0, 0
 
-for i in range(5):
-	preds = torch.argmax(model(input_test[samples*n:samples*(n+1)]), dim=-1)
-	acts  = torch.argmax(output_test[:samples], dim=-1)
+def test(inputs, outputs):
+	global samples, tokens, pp, countst
 
-	for sample_number in range(samples):
-		for token_number in range(tokens):
-			if acts[sample_number][token_number] != pp.tagset[SPECIAL_TAG]:
-				if preds[sample_number][token_number] == acts[sample_number][token_number]:
-					right += 1
-					counts[codes_to_langs[output_tags[n*samples + sample_number].item()]][0] += 1
-				counts[codes_to_langs[output_tags[n*samples + sample_number].item()]][1] += 1
-				total += 1
-	n += 1
+	right, total, n = 0, 0, 0
 
-	print(f'{(right/total)*100:.4f}')
-	print(counts)
-print(total, right)
+
+	for i in range(5):
+		preds = torch.argmax(model(inputs[samples*n:samples*(n+1)]), dim=-1)
+		acts  = torch.argmax(outputs[:samples], dim=-1)
+
+		for sample_number in range(samples):
+			for token_number in range(tokens):
+				if acts[sample_number][token_number] != pp.tagset[SPECIAL_TAG]:
+					if preds[sample_number][token_number] == acts[sample_number][token_number]:
+						right += 1
+						counts[codes_to_langs[output_tags[n*samples + sample_number].item()]][0] += 1
+					counts[codes_to_langs[output_tags[n*samples + sample_number].item()]][1] += 1
+					total += 1
+		n += 1
+
+		print(f'{(right/total)*100:.4f}')
+		print(counts)
+
+test(input_test, output_test)
+if avoid_language != '':
+	test(hidden_input, hidden_output)

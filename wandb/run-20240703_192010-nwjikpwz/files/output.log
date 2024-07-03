@@ -1,0 +1,11 @@
+
+{'G_V': 0, 'G_SYM': 1, 'CC': 2, 'G_PRP': 3, 'DT': 4, 'G_PRT': 5, '@': 6, 'E': 7, '$': 8, '~': 9, '#': 10, 'PSP': 11, 'G_X': 12, 'G_R': 13, 'G_J': 14, 'G_N': 15, 'U': 16, 'S': 17, 'null': 18}
+[34m[1mwandb[39m[22m: Downloading large artifact model:v4, 2038.35MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:1:37.7
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 64, in <module>
+    test(hidden_input, hidden_output)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 46, in test
+    preds = torch.argmax(model(inputs[samples*n:samples*(n+1)]), dim=-1)
+UnboundLocalError: local variable 'n' referenced before assignment
