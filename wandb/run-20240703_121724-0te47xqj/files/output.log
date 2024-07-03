@@ -1,0 +1,14 @@
+
+[34m[1mwandb[39m[22m: Downloading large artifact model:v2, 2038.35MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:1:4.5
+/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/tqdm/auto.py:21: TqdmWarning: IProgress not found. Please update jupyter and ipywidgets. See https://ipywidgets.readthedocs.io/en/stable/user_install.html
+  from .autonotebook import tqdm as notebook_tqdm
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+Token indices sequence length is longer than the specified maximum sequence length for this model (2385 > 512). Running this sequence through the model will result in indexing errors
+  Language  Mean CM-Index  Mean S-Index  Count
+0    Hindi       0.436686      0.658508    800
+1  Bengali       0.509634      0.760929    320
+2   Telugu       0.481842      0.712478    740
+3  Overall       0.467202      0.697601   1860
+PMCC between the CMI (Gambäck and Das) and the S-index: 0.86220

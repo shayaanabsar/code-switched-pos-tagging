@@ -1,0 +1,8 @@
+
+[34m[1mwandb[39m[22m: Downloading large artifact model:v2, 2038.35MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:0:13.6
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 49, in <module>
+    counts[codes_to_langs[output_tags[n*samples + sample_number].item()]][1] += 1
+TypeError: 'tuple' object does not support item assignment

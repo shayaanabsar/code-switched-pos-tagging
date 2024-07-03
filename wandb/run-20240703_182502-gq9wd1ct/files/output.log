@@ -1,0 +1,8 @@
+
+{'#': 0, 'null': 1, 'S': 2, '~': 3, 'G_V': 4, 'CC': 5, 'G_X': 6, 'E': 7, 'G_SYM': 8, 'PSP': 9, 'G_PRP': 10, 'G_J': 11, 'G_R': 12, 'G_N': 13, 'U': 14, 'DT': 15, '@': 16, '$': 17, 'G_PRT': 18}
+[34m[1mwandb[39m[22m: Downloading large artifact model:v2, 2038.35MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:0:13.5
+0.0000
+{'bengali.csv': [0, 55], 'telugu.csv': [0, 12], 'hindi.csv': [0, 56]}
+123 1

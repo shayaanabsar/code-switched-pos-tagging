@@ -1,0 +1,11 @@
+
+[34m[1mwandb[39m[22m: Downloading large artifact model:v2, 2038.35MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:0:13.5
+0.2344
+{'bengali.csv': [5, 512], 'telugu.csv': [0, 512], 'hindi.csv': [1, 1536]}
+0.2344
+{'bengali.csv': [5, 512], 'telugu.csv': [5, 1536], 'hindi.csv': [2, 3072]}
+0.2344
+{'bengali.csv': [10, 1024], 'telugu.csv': [5, 2560], 'hindi.csv': [3, 4096]}
+7680 3

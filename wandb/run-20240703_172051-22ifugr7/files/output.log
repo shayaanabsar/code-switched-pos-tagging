@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 5, in <module>
+    codes_to_langs = {v:k for k, v in pp.lang_codes}
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 5, in <dictcomp>
+    codes_to_langs = {v:k for k, v in pp.lang_codes}
+ValueError: too many values to unpack (expected 2)

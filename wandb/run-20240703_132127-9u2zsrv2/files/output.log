@@ -1,0 +1,8 @@
+
+[34m[1mwandb[39m[22m: Downloading large artifact model:v2, 2038.35MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:0:14.6
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 23, in <module>
+    acts  = print(torch.argmax(output_test[:samples]), dim=-1)
+TypeError: 'dim' is an invalid keyword argument for print()

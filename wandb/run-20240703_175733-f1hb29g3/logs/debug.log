@@ -1,0 +1,45 @@
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Configure stats pid to 40014
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Loading settings from /Users/Shayaan/.config/wandb/settings
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Loading settings from /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/settings
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'model_analysis.py', 'program_abspath': '/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py', 'program': '/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py'}
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_init.py:_log_setup():521] Logging user logs to /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240703_175733-f1hb29g3/logs/debug.log
+2024-07-03 17:57:33,505 INFO    MainThread:40014 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240703_175733-f1hb29g3/logs/debug-internal.log
+2024-07-03 17:57:33,506 INFO    MainThread:40014 [wandb_init.py:init():561] calling init triggers
+2024-07-03 17:57:33,506 INFO    MainThread:40014 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.15, 'architecture': 'BERT', 'batch_size': 8, 'epochs': 250, 'hidden_language': ''}
+2024-07-03 17:57:33,506 INFO    MainThread:40014 [wandb_init.py:init():611] starting backend
+2024-07-03 17:57:33,506 INFO    MainThread:40014 [wandb_init.py:init():615] setting up manager
+2024-07-03 17:57:33,507 INFO    MainThread:40014 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-07-03 17:57:33,508 INFO    MainThread:40014 [wandb_init.py:init():623] backend started and connected
+2024-07-03 17:57:33,512 INFO    MainThread:40014 [wandb_init.py:init():715] updated telemetry
+2024-07-03 17:57:33,563 INFO    MainThread:40014 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-07-03 17:57:34,032 INFO    MainThread:40014 [wandb_run.py:_on_init():2357] communicating current version
+2024-07-03 17:57:34,157 INFO    MainThread:40014 [wandb_run.py:_on_init():2366] got version response upgrade_message: "wandb version 0.17.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-07-03 17:57:34,157 INFO    MainThread:40014 [wandb_init.py:init():799] starting run threads in backend
+2024-07-03 17:57:34,301 INFO    MainThread:40014 [wandb_run.py:_console_start():2335] atexit reg
+2024-07-03 17:57:34,301 INFO    MainThread:40014 [wandb_run.py:_redirect():2190] redirect: wrap_raw
+2024-07-03 17:57:34,301 INFO    MainThread:40014 [wandb_run.py:_redirect():2255] Wrapping output streams.
+2024-07-03 17:57:34,301 INFO    MainThread:40014 [wandb_run.py:_redirect():2280] Redirects installed.
+2024-07-03 17:57:34,302 INFO    MainThread:40014 [wandb_init.py:init():842] run started, returning control to user process
+2024-07-03 17:57:34,308 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-07-03 17:57:34,308 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Configure stats pid to 40014
+2024-07-03 17:57:34,308 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Loading settings from /Users/Shayaan/.config/wandb/settings
+2024-07-03 17:57:34,308 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Loading settings from /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/settings
+2024-07-03 17:57:34,308 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-07-03 17:57:34,308 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'model_analysis.py', 'program_abspath': '/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py', 'program': '/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py'}
+2024-07-03 17:57:34,308 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-03 17:57:34,309 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-03 17:57:34,309 INFO    MainThread:40014 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-07-03 17:57:34,309 INFO    MainThread:40014 [wandb_init.py:_log_setup():521] Logging user logs to /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240703_175734-t5y9zun2/logs/debug.log
+2024-07-03 17:57:34,309 INFO    MainThread:40014 [wandb_init.py:_log_setup():522] Logging internal logs to /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240703_175734-t5y9zun2/logs/debug-internal.log
+2024-07-03 17:57:34,309 INFO    MainThread:40014 [wandb_init.py:init():561] calling init triggers
+2024-07-03 17:57:34,309 INFO    MainThread:40014 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {}
+2024-07-03 17:57:34,309 INFO    MainThread:40014 [wandb_init.py:init():606] wandb.init() called when a run is still active
+2024-07-03 17:59:44,876 WARNING MsgRouterThr:40014 [router.py:message_loop():77] message_loop has been closed

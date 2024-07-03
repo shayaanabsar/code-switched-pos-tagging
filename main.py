@@ -46,7 +46,6 @@ if avoid_language != '':
 	allowed_indexes = []
 	hidden_indexes  = []
 
-
 	for i in range(pp.num_sequences):
 		if lang_tags[i] != code:
 			allowed_indexes.append(i)
@@ -55,15 +54,18 @@ if avoid_language != '':
 
 	o = len(allowed_indexes)
 
-	filtered_input_tensor, filtered_output_tensor = input_tensor[allowed_indexes], output_tensor[allowed_indexes]
+	filtered_input_tensor, filtered_output_tensor, filtered_lang_tags = input_tensor[allowed_indexes], output_tensor[allowed_indexes], lang_tags[allowed_indexes]
 
 	input_train, input_test, input_val    = filtered_input_tensor[:int(0.8*o)], filtered_input_tensor[int(0.8*o):int(0.9*o)], filtered_input_tensor[int(0.9*o):]
 	output_train, output_test, output_val = filtered_output_tensor[:int(0.8*o)], filtered_output_tensor[int(0.8*o):int(0.9*o)], filtered_output_tensor[int(0.9*o):]
 	hidden_input, hidden_output = input_tensor[hidden_indexes], output_tensor[hidden_indexes]
+
+	output_tags = filtered_lang_tags[int(0.8*o):int(0.9*o)]
 else:
 	input_train, input_test, input_val    = input_tensor[:int(0.8*o)], input_tensor[int(0.8*o):int(0.9*o)], input_tensor[int(0.9*o):]
 	output_train, output_test, output_val = output_tensor[:int(0.8*o)], output_tensor[int(0.8*o):int(0.9*o)], output_tensor[int(0.9*o):]
 
+	output_tags = lang_tags[int(0.8*o):int(0.9*o)]
 
 wandb.login()
 
@@ -113,13 +115,13 @@ class Model(nn.Module):
 		return model_probabilities
 
 
-model = nn.DataParallel(Model()).to(device)
-t = Trainer(model, cross_entropy_loss, learning_rate, device)
-if avoid_language == '':
-	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
-else:
-	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val, hidden_input, hidden_output)
-save(model.state_dict(), 'model.pt')
-artifact = wandb.Artifact(name='model', type='model')
-artifact.add_file(local_path='model.pt')
-r.log_artifact(artifact)
+#model = nn.DataParallel(Model()).to(device)
+#t = Trainer(model, cross_entropy_loss, learning_rate, device)
+#if avoid_language == '':
+#	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
+#else:
+#	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val, hidden_input, hidden_output)
+#save(model.state_dict(), 'model.pt')
+#artifact = wandb.Artifact(name='model', type='model')
+#artifact.add_file(local_path='model.pt')
+#r.log_artifact(artifact)

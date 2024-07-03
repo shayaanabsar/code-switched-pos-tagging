@@ -108,7 +108,7 @@ class PreProcessor:
 			self.lang_count += 1
 
 	def create_tensors(self):
-		self.tagset = {tag: i for i, tag in enumerate(self.tagset)}
+		self.tagset = {'G_V': 0, 'G_SYM': 1, 'CC': 2, 'G_PRP': 3, 'DT': 4, 'G_PRT': 5, '@': 6, 'E': 7, '$': 8, '~': 9, '#': 10, 'PSP': 11, 'G_X': 12, 'G_R': 13, 'G_J': 14, 'G_N': 15, 'U': 16, 'S': 17, 'null': 18}
 		num_tags = len(self.tagset)
 		order = [i for i in range(self.num_sequences)]
 		random.shuffle(order)
