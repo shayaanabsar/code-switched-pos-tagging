@@ -7,7 +7,7 @@ codes_to_langs = {pp.lang_codes[k]:k for k in pp.lang_codes}
 run = wandb.init()
 
 if avoid_language == '':
-	artifact = run.use_artifact('shayaan-absar/code-switched-pos-tagging/model:v2', type='model')
+	artifact = run.use_artifact('shayaan-absar/code-switched-pos-tagging/model:v7', type='model')
 elif avoid_language == 'bengali.csv':
 	artifact = run.use_artifact('shayaan-absar/code-switched-pos-tagging/model:v3', type='model')
 elif avoid_language == 'telugu.csv':
@@ -37,7 +37,7 @@ samples = 5
 tokens = 512
 
 def test(inputs, outputs):
-	global samples, tokens, pp, countst
+	global samples, tokens, pp, counts
 
 	right, total, n = 0, 0, 0
 

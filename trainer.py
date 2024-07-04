@@ -29,6 +29,7 @@ class Trainer:
 	
 	def train(self, epochs, batch_size, batch_acc, t_inputs, t_outputs, v_inputs, v_outputs, h_inputs=None, h_outputs=None):
 		optimizer = torch.optim.AdamW(self.model.parameters(), self.lr)
+		scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min')
 
 		run = wandb.init(
 			project="code-switched-pos-tagging",
@@ -44,10 +45,6 @@ class Trainer:
 
 		for i in range(epochs):
 			loss = 0
-
-			if i == epochs // 2:
-				for g in optimizer.param_groups:
-					g['lr'] /= 10
 			for j in range(batch_acc):
 				loss  += self.pass_batch(batch_size, t_inputs, t_outputs)
 			loss /= batch_acc
@@ -56,6 +53,7 @@ class Trainer:
 				h_loss = self.pass_batch(batch_size, h_inputs, h_outputs)
 			else:
 				h_loss = 0
+			scheduler.step(val_loss)
 			optimizer.zero_grad()
 			loss.backward()
 			optimizer.step()
