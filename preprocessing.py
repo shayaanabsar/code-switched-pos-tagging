@@ -12,7 +12,7 @@ random.seed(35)
 tokenizer = AutoTokenizer.from_pretrained('xlm-roberta-base')
 START_TOKEN, END_TOKEN = tokenizer("").input_ids
 SPECIAL_TAG = 'S'
-MAX_LENGTH  = 512
+MAX_LENGTH  = 35
 
 def tanh(x, lam=1, mu=0.5):
 	x *= mu
