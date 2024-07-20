@@ -7,7 +7,7 @@ codes_to_langs = {pp.lang_codes[k]:k for k in pp.lang_codes}
 run = wandb.init()
 
 if avoid_language == '':
-	artifact = run.use_artifact('shayaan-absar/code-switched-pos-tagging/model:v7', type='model')
+	artifact = run.use_artifact('shayaan-absar/code-switched-pos-tagging/model:v9', type='model')
 elif avoid_language == 'bengali.csv':
 	artifact = run.use_artifact('shayaan-absar/code-switched-pos-tagging/model:v3', type='model')
 elif avoid_language == 'telugu.csv':
@@ -34,7 +34,7 @@ model = Model()
 model.load_state_dict(new_state_dict)
 
 samples = 5
-tokens = 512
+tokens = input_tensor.shape[-1]
 
 def test(inputs, outputs):
 	global samples, tokens, pp, counts
@@ -44,7 +44,7 @@ def test(inputs, outputs):
 
 	for i in range(5):
 		preds = torch.argmax(model(inputs[samples*n:samples*(n+1)]), dim=-1)
-		acts  = torch.argmax(outputs[:samples], dim=-1)
+		acts  = torch.argmax(outputs[samples*n:samples*(n+1)], dim=-1)
 
 		for sample_number in range(samples):
 			for token_number in range(tokens):

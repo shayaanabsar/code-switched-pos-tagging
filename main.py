@@ -9,7 +9,7 @@ import torch
 pp = PreProcessor()
 pp.read_data('dataset')
 input_tensor, output_tensor, lang_tags = pp.create_tensors()
-
+print('dirty alien', input_tensor.shape[-1])
 	
 b_s, b_e = pp.splitters['bengali.csv']
 h_s, h_e = pp.splitters['hindi.csv'  ]
@@ -115,13 +115,13 @@ class Model(nn.Module):
 		return model_probabilities
 
 
-#model = nn.DataParallel(Model()).to(device)
-#t = Trainer(model, cross_entropy_loss, learning_rate, device)
-#if avoid_language == '':
-#	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
-#else:
-#	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val, hidden_input, hidden_output)
-#save(model.state_dict(), 'model.pt')
-#artifact = wandb.Artifact(name='model', type='model')
-#artifact.add_file(local_path='model.pt')
-#r.log_artifact(artifact)
+model = nn.DataParallel(Model()).to(device)
+t = Trainer(model, cross_entropy_loss, learning_rate, device)
+if avoid_language == '':
+	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
+else:
+	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val, hidden_input, hidden_output)
+save(model.state_dict(), 'model.pt')
+artifact = wandb.Artifact(name='model', type='model')
+artifact.add_file(local_path='model.pt')
+r.log_artifact(artifact)
