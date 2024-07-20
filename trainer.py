@@ -64,6 +64,7 @@ class Trainer:
 			wandb.log({
 				'val-loss': val_loss,
 				'loss'    : loss,
-				'h-loss'  : h_loss
+				'h-loss'  : h_loss,
+				'learning_rate': scheduler.get_lr()
 			})
 		return run
