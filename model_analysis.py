@@ -33,26 +33,26 @@ for k, v in state_dict.items():
 model = Model()
 model.load_state_dict(new_state_dict)
 
-samples = 5
+batch_size = 8
 tokens = input_tensor.shape[-1]
 
 def test(inputs, outputs):
-	global samples, tokens, pp, counts
+	global batch_size, tokens, pp, counts
 
 	right, total, n = 0, 0, 0
 
 
 	for i in range(5):
-		preds = torch.argmax(model(inputs[samples*n:samples*(n+1)]), dim=-1)
-		acts  = torch.argmax(outputs[samples*n:samples*(n+1)], dim=-1)
+		preds = torch.argmax(model(inputs[batch_size*n:batch_size*(n+1)]), dim=-1)
+		acts  = torch.argmax(outputs[batch_size*n:batch_size*(n+1)], dim=-1)
 
-		for sample_number in range(samples):
+		for sample_number in range(batch_size):
 			for token_number in range(tokens):
 				if acts[sample_number][token_number] != pp.tagset[SPECIAL_TAG]:
 					if preds[sample_number][token_number] == acts[sample_number][token_number]:
 						right += 1
-						counts[codes_to_langs[output_tags[n*samples + sample_number].item()]][0] += 1
-					counts[codes_to_langs[output_tags[n*samples + sample_number].item()]][1] += 1
+						counts[codes_to_langs[output_tags[n*batch_size + sample_number].item()]][0] += 1
+					counts[codes_to_langs[output_tags[n*batch_size + sample_number].item()]][1] += 1
 					total += 1
 		n += 1
 
