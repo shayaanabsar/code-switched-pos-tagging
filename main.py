@@ -74,7 +74,7 @@ xlm_roberta_output_size = 250002
 cross_entropy_loss      = nn.CrossEntropyLoss()
 num_tags                = output_train.shape[2]
 batch_size              = 16
-batch_accumulation      = 1
+batch_accumulation      = 2
 learning_rate           = 0.0001
 epochs                  = 250
 dropout_rate            = 0.1
@@ -87,7 +87,7 @@ wandb.init(
 	config={
 	"learning_rate": learning_rate,
 	"architecture": "BERT",
-	"batch_size": batch_size,
+	"batch_size": batch_size*batch_accumulation,
 	"epochs": epochs,
 	"hidden_language": avoid_language
 	}
