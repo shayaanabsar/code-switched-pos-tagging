@@ -11,7 +11,7 @@ def masked_loss(output, target):
 	k_indices = alpha[i_indices, j_indices]
 
 	r = output[i_indices, j_indices, k_indices] # the predicted probs for the correct tag
-	print(r.shape)
+	#print(r.shape)
 	l = torch.mean(torch.log(r))
 
 	return -l
@@ -77,7 +77,5 @@ class Trainer:
 			wandb.log({
 				'val-loss': val_loss,
 				'loss'    : loss,
-				'h-loss'  : h_loss,
-				'learning_rate': scheduler.get_lr()
-			})
+				'h-loss'  : h_loss})
 		return run
