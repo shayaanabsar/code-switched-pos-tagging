@@ -75,7 +75,7 @@ cross_entropy_loss      = nn.CrossEntropyLoss()
 num_tags                = output_train.shape[2]
 batch_size              = 16
 batch_accumulation      = 2
-learning_rate           = 1e-5
+learning_rate           = 1e-8
 epochs                  = 100
 dropout_rate            = 0.1
 sequence_length         = pp.max_length
@@ -100,17 +100,17 @@ class Model(nn.Module):
 		self.xlm_roberta    = xlm_roberta
 		self.dropout        = nn.Dropout(dropout_rate)
 		self.linear1        = nn.Linear(xlm_roberta_output_size, 1024)
-		self.linear2        = nn.Linear(1024, num_tags)  
 		self.batch_norm     = nn.BatchNorm1d(num_features=sequence_length)
+		self.linear2        = nn.Linear(1024, num_tags)  
 		self.softmax        = nn.Softmax(dim=-1)
 
 	def forward(self, input):
 		roberta_logits      = self.xlm_roberta(input).logits
 		dropout_logits      = self.dropout(roberta_logits)
 		layer_1_output      = self.linear1(dropout_logits)
-		model_logits        = self.linear2(layer_1_output)
-		normalised_logits   = self.batch_norm(model_logits)
-		model_probabilities = self.softmax(normalised_logits) 
+		normalised_layer_1_output  = self.batch_norm(layer_1_output)
+		model_logits        = self.linear2(normalised_layer_1_output)
+		model_probabilities = self.softmax(model_logits) 
 
 		return model_probabilities
 

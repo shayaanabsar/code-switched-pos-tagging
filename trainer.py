@@ -12,7 +12,7 @@ def masked_loss(output, target):
 
 	r = output[i_indices, j_indices, k_indices] # the predicted probs for the correct tag
 	#print(r.shape)
-	l = torch.mean(torch.log(r))
+	l = torch.mean(torch.log(r+1e-8))
 
 	return -l
 
