@@ -77,5 +77,7 @@ class Trainer:
 			wandb.log({
 				'val-loss': val_loss,
 				'loss'    : loss,
-				'h-loss'  : h_loss})
+				'h-loss'  : h_loss,
+				'lr': optimizer.param_groups[0]['lr']
+			})
 		return run
