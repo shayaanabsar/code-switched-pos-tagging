@@ -97,20 +97,58 @@ wandb.init(
 class Model(nn.Module):
 	def __init__(self):
 		super().__init__()
-		self.xlm_roberta    = xlm_roberta
-		self.dropout        = nn.Dropout(dropout_rate)
-		self.linear1        = nn.Linear(xlm_roberta_output_size, 1024)
-		self.batch_norm     = nn.BatchNorm1d(num_features=sequence_length)
-		self.linear2        = nn.Linear(1024, num_tags)  
-		self.softmax        = nn.Softmax(dim=-1)
+		self.xlm_roberta = xlm_roberta
+		self.dropout_rate = dropout_rate
+		
+		self.linear1 = nn.Linear(xlm_roberta_output_size, 50000)
+		self.linear2 = nn.Linear(50000, 10000)
+		self.linear3 = nn.Linear(10000, 2000)
+		self.linear4 = nn.Linear(2000, 500)
+		self.linear5 = nn.Linear(500, 100)
+		self.linear6 = nn.Linear(100, num_tags)
+		
+		# Batch normalization layers
+		self.batch_norm1 = nn.BatchNorm1d(num_features=50000)
+		self.batch_norm2 = nn.BatchNorm1d(num_features=10000)
+		self.batch_norm3 = nn.BatchNorm1d(num_features=2000)
+		self.batch_norm4 = nn.BatchNorm1d(num_features=500)
+		
+		# Dropout layers
+		self.dropout1 = nn.Dropout(dropout_rate)
+		self.dropout2 = nn.Dropout(dropout_rate)
+		self.dropout3 = nn.Dropout(dropout_rate)
+		self.dropout4 = nn.Dropout(dropout_rate)
+		
+		self.softmax = nn.Softmax(dim=-1)
 
 	def forward(self, input):
-		roberta_logits      = self.xlm_roberta(input).logits
-		dropout_logits      = self.dropout(roberta_logits)
-		layer_1_output      = self.linear1(dropout_logits)
-		normalised_layer_1_output  = self.batch_norm(layer_1_output)
-		model_logits        = self.linear2(normalised_layer_1_output)
-		model_probabilities = self.softmax(model_logits) 
-
+		roberta_logits = self.xlm_roberta(input).logits
+		x = self.dropout1(roberta_logits)
+		
+		x = self.linear1(x)
+		x = torch.relu(x)
+		x = self.batch_norm1(x)
+		x = self.dropout2(x)
+		
+		x = self.linear2(x)
+		x = torch.relu(x)
+		x = self.batch_norm2(x)
+		x = self.dropout3(x)
+		
+		x = self.linear3(x)
+		x = torch.relu(x)
+		x = self.batch_norm3(x)
+		x = self.dropout4(x)
+		
+		x = self.linear4(x)
+		x = torch.relu(x)
+		x = self.batch_norm4(x)
+		
+		x = self.linear5(x)
+		x = torch.relu(x)
+		
+		x = self.linear6(x)
+		model_probabilities = self.softmax(x)
+		
 		return model_probabilities
 
