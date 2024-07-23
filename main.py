@@ -97,58 +97,45 @@ wandb.init(
 class Model(nn.Module):
 	def __init__(self):
 		super().__init__()
-		self.xlm_roberta = xlm_roberta
-		self.dropout_rate = dropout_rate
-		
-		self.linear1 = nn.Linear(xlm_roberta_output_size, 50000)
-		self.linear2 = nn.Linear(50000, 10000)
-		self.linear3 = nn.Linear(10000, 2000)
-		self.linear4 = nn.Linear(2000, 500)
-		self.linear5 = nn.Linear(500, 100)
-		self.linear6 = nn.Linear(100, num_tags)
-		
-		# Batch normalization layers
-		self.batch_norm1 = nn.BatchNorm1d(num_features=50000)
-		self.batch_norm2 = nn.BatchNorm1d(num_features=10000)
-		self.batch_norm3 = nn.BatchNorm1d(num_features=2000)
-		self.batch_norm4 = nn.BatchNorm1d(num_features=500)
-		
-		# Dropout layers
+		self.xlm_roberta = xlm_roberta  # Replace with actual model
+		self.dropout = nn.Dropout(dropout_rate)
+
+		# Define the layers
+		self.linear1 = nn.Linear(xlm_roberta_output_size, 10000)
+		self.batch_norm1 = nn.BatchNorm1d(10000)
 		self.dropout1 = nn.Dropout(dropout_rate)
+
+		self.linear2 = nn.Linear(10000, 2000)
+		self.batch_norm2 = nn.BatchNorm1d(2000)
 		self.dropout2 = nn.Dropout(dropout_rate)
-		self.dropout3 = nn.Dropout(dropout_rate)
-		self.dropout4 = nn.Dropout(dropout_rate)
+
+		self.linear3 = nn.Linear(2000, num_tags)  # Assuming num_tags is the number of output classes
 		
 		self.softmax = nn.Softmax(dim=-1)
 
 	def forward(self, input):
+		# Pass through XLM-Roberta
 		roberta_logits = self.xlm_roberta(input).logits
-		x = self.dropout1(roberta_logits)
 		
+		# Apply initial dropout
+		x = self.dropout(roberta_logits)
+		
+		# Layer 1
 		x = self.linear1(x)
 		x = torch.relu(x)
 		x = self.batch_norm1(x)
-		x = self.dropout2(x)
+		x = self.dropout1(x)
 		
+		# Layer 2
 		x = self.linear2(x)
 		x = torch.relu(x)
 		x = self.batch_norm2(x)
-		x = self.dropout3(x)
+		x = self.dropout2(x)
 		
+		# Layer 3 (Final layer)
 		x = self.linear3(x)
-		x = torch.relu(x)
-		x = self.batch_norm3(x)
-		x = self.dropout4(x)
 		
-		x = self.linear4(x)
-		x = torch.relu(x)
-		x = self.batch_norm4(x)
-		
-		x = self.linear5(x)
-		x = torch.relu(x)
-		
-		x = self.linear6(x)
+		# Apply softmax
 		model_probabilities = self.softmax(x)
 		
 		return model_probabilities
-
