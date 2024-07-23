@@ -102,11 +102,11 @@ class Model(nn.Module):
 
 		# Define the layers
 		self.linear1 = nn.Linear(xlm_roberta_output_size, 10000)
-		self.batch_norm1 = nn.BatchNorm1d(10000)
+		self.batch_norm1 = nn.BatchNorm1d(num_features=sequence_length)
 		self.dropout1 = nn.Dropout(dropout_rate)
 
 		self.linear2 = nn.Linear(10000, 2000)
-		self.batch_norm2 = nn.BatchNorm1d(2000)
+		self.batch_norm2 = nn.BatchNorm1d(num_features=sequence_length)
 		self.dropout2 = nn.Dropout(dropout_rate)
 
 		self.linear3 = nn.Linear(2000, num_tags)  # Assuming num_tags is the number of output classes
