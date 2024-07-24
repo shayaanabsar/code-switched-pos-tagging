@@ -77,7 +77,7 @@ batch_size              = 8
 batch_accumulation      = 2
 learning_rate           = 1e-8
 epochs                  = 100
-dropout_rate            = 0.1
+dropout_rate            = 0.4
 sequence_length         = pp.max_length
 device                  = 'cuda'
 
@@ -101,7 +101,7 @@ class Model(nn.Module):
 		self.dropout = nn.Dropout(dropout_rate)
 
 		# Define the layers
-		self.linear1 = nn.Linear(xlm_roberta_output_size, 10000)
+		self.linear1 = nn.Linear(xlm_roberta_output_size, 1024)
 		self.batch_norm1 = nn.BatchNorm1d(num_features=sequence_length)
 		self.dropout1 = nn.Dropout(dropout_rate)
 
@@ -139,3 +139,16 @@ class Model(nn.Module):
 		model_probabilities = self.softmax(x)
 		
 		return model_probabilities
+
+pp.tag_counts = dict(pp.tag_counts)
+total_tags    = sum(pp.tag_counts.values())
+pp.tag_counts = {pp.tagset[t] : total_tags / pp.tag_counts[t] for t in pp.tag_counts}
+
+loss_weighting = []
+for i in range(len(pp.tagset)):
+	val = pp.tag_counts[i] if i in pp.tag_counts else 0
+	loss_weighting.append(val)
+
+loss_weighting = torch.tensor(loss_weighting)
+loss_weighting = loss_weighting.float()
+loss_weighting /= torch.sum(loss_weighting)

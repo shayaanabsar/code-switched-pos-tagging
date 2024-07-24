@@ -1,7 +1,7 @@
 from main import *
 
 model = nn.DataParallel(Model()).to(device)
-t = Trainer(model, cross_entropy_loss, learning_rate, device)
+t = Trainer(model, cross_entropy_loss, learning_rate, device, loss_weighting)
 if avoid_language == '':
 	r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
 else:

@@ -37,6 +37,7 @@ class PreProcessor:
 	seq_length        = 0 # used only for calculating metrics
 	num_tokens        = 2 # used in creating the shape of the tensor
 	tokens_in_each_language = defaultdict(lambda: 0) 
+	tag_counts              = defaultdict(lambda: 0)
 	previous                =  None
 
 	def update_values(self, l):
@@ -98,6 +99,7 @@ class PreProcessor:
 						self.update_values(lang)
 						tokenized_token = tokenizer(token).input_ids[1:-1] # get rid of S and E tokens
 						self.curr_seq.extend(tokenized_token)
+						self.tag_counts[tag] += 1
 						tags = [tag] + ['S'] * (len(tokenized_token) - 1)
 						self.curr_tags.extend(tags) # add the same tag for each 
 						self.num_tokens += len(tokenized_token)

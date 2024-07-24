@@ -1,0 +1,6 @@
+
+defaultdict(<function PreProcessor.<lambda> at 0x137879f30>, {'G_J': 2969, 'G_N': 16889, 'G_V': 8159, 'G_PRT': 1645, 'G_X': 8371, 'G_PRP': 4345, 'G_R': 1918, 'E': 489, 'G_SYM': 549, 'PSP': 3667, 'CC': 1285, 'DT': 1782, 'U': 275, '$': 602, '#': 598, 'null': 119, '@': 748, '~': 56})
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 144, in <module>
+    print(pp,tagset)
+NameError: name 'tagset' is not defined

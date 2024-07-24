@@ -1,0 +1,182 @@
+2024-07-24 14:15:06,362 INFO    StreamThr :20294 [internal.py:wandb_internal():86] W&B internal server running at pid: 20294, started at: 2024-07-24 14:15:06.358961
+2024-07-24 14:15:06,363 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: status
+2024-07-24 14:15:06,370 INFO    WriterThread:20294 [datastore.py:open_for_write():87] open: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/run-7419klta.wandb
+2024-07-24 14:15:06,372 DEBUG   SenderThread:20294 [sender.py:send():379] send: header
+2024-07-24 14:15:06,510 DEBUG   SenderThread:20294 [sender.py:send():379] send: run
+2024-07-24 14:15:06,956 INFO    SenderThread:20294 [dir_watcher.py:__init__():211] watching files in: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files
+2024-07-24 14:15:06,956 INFO    SenderThread:20294 [sender.py:_start_run_threads():1124] run started: 7419klta with start time 1721826906.360638
+2024-07-24 14:15:06,974 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: check_version
+2024-07-24 14:15:06,974 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: check_version
+2024-07-24 14:15:07,102 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: run_start
+2024-07-24 14:15:07,113 DEBUG   HandlerThread:20294 [system_info.py:__init__():26] System info init
+2024-07-24 14:15:07,113 DEBUG   HandlerThread:20294 [system_info.py:__init__():41] System info init done
+2024-07-24 14:15:07,113 INFO    HandlerThread:20294 [system_monitor.py:start():194] Starting system monitor
+2024-07-24 14:15:07,113 INFO    SystemMonitor:20294 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-07-24 14:15:07,113 INFO    HandlerThread:20294 [system_monitor.py:probe():214] Collecting system info
+2024-07-24 14:15:07,114 INFO    SystemMonitor:20294 [interfaces.py:start():190] Started cpu monitoring
+2024-07-24 14:15:07,115 DEBUG   HandlerThread:20294 [system_info.py:probe():150] Probing system
+2024-07-24 14:15:07,115 INFO    SystemMonitor:20294 [interfaces.py:start():190] Started disk monitoring
+2024-07-24 14:15:07,117 INFO    SystemMonitor:20294 [interfaces.py:start():190] Started gpuapple monitoring
+2024-07-24 14:15:07,120 INFO    SystemMonitor:20294 [interfaces.py:start():190] Started memory monitoring
+2024-07-24 14:15:07,121 INFO    SystemMonitor:20294 [interfaces.py:start():190] Started network monitoring
+2024-07-24 14:15:07,125 DEBUG   HandlerThread:20294 [system_info.py:_probe_git():135] Probing git
+2024-07-24 14:15:07,156 DEBUG   HandlerThread:20294 [system_info.py:_probe_git():143] Probing git done
+2024-07-24 14:15:07,157 DEBUG   HandlerThread:20294 [system_info.py:probe():198] Probing system done
+2024-07-24 14:15:07,157 DEBUG   HandlerThread:20294 [system_monitor.py:probe():223] {'os': 'macOS-14.1.1-arm64-arm-64bit', 'python': '3.10.6', 'heartbeatAt': '2024-07-24T13:15:07.115754', 'startedAt': '2024-07-24T13:15:06.343201', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py', 'codePathLocal': 'main.py', 'codePath': 'main.py', 'git': {'remote': 'https://github.com/shayaanabsar/code-switched-pos-tagging.git', 'commit': '641f6ba2a677097b58328605106830fdd0bd75c8'}, 'email': 'shayaan.absar@gmail.com', 'root': '/Users/Shayaan/Desktop/code/code-switched-pos-tagging', 'host': 'MacBook-Pro.local', 'username': 'Shayaan', 'executable': '/Users/Shayaan/.pyenv/versions/3.10.6/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3504, 'min': 600, 'max': 3504}, 'cpu_freq_per_core': [{'current': 3504, 'min': 600, 'max': 3504}], 'disk': {'/': {'total': 228.27386474609375, 'used': 13.48337173461914}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-07-24 14:15:07,157 INFO    HandlerThread:20294 [system_monitor.py:probe():224] Finished collecting system info
+2024-07-24 14:15:07,157 INFO    HandlerThread:20294 [system_monitor.py:probe():227] Publishing system info
+2024-07-24 14:15:07,157 INFO    HandlerThread:20294 [system_monitor.py:probe():229] Finished publishing system info
+2024-07-24 14:15:07,160 DEBUG   SenderThread:20294 [sender.py:send():379] send: files
+2024-07-24 14:15:07,160 INFO    SenderThread:20294 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-07-24 14:15:07,252 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: python_packages
+2024-07-24 14:15:07,253 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: python_packages
+2024-07-24 14:15:07,254 DEBUG   SenderThread:20294 [sender.py:send():379] send: telemetry
+2024-07-24 14:15:07,254 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: stop_status
+2024-07-24 14:15:07,254 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: stop_status
+2024-07-24 14:15:07,255 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-24 14:15:07,554 DEBUG   SenderThread:20294 [sender.py:send():379] send: exit
+2024-07-24 14:15:07,554 INFO    SenderThread:20294 [sender.py:send_exit():586] handling exit code: 0
+2024-07-24 14:15:07,554 INFO    SenderThread:20294 [sender.py:send_exit():588] handling runtime: 0
+2024-07-24 14:15:07,554 INFO    SenderThread:20294 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-24 14:15:07,555 INFO    SenderThread:20294 [sender.py:send_exit():594] send defer
+2024-07-24 14:15:07,555 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:07,555 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 0
+2024-07-24 14:15:07,555 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:07,555 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-07-24 14:15:07,555 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 1
+2024-07-24 14:15:07,555 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:07,555 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 1
+2024-07-24 14:15:07,555 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:07,555 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-07-24 14:15:07,555 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 2
+2024-07-24 14:15:07,555 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:07,555 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 2
+2024-07-24 14:15:07,555 INFO    HandlerThread:20294 [system_monitor.py:finish():203] Stopping system monitor
+2024-07-24 14:15:07,556 DEBUG   SystemMonitor:20294 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-07-24 14:15:07,556 DEBUG   SystemMonitor:20294 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-07-24 14:15:07,556 DEBUG   SystemMonitor:20294 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-07-24 14:15:07,556 INFO    HandlerThread:20294 [interfaces.py:finish():202] Joined cpu monitor
+2024-07-24 14:15:07,556 INFO    HandlerThread:20294 [interfaces.py:finish():202] Joined disk monitor
+2024-07-24 14:15:07,720 INFO    wandb-upload_0:20294 [upload_job.py:push():131] Uploaded file /var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/tmp0eegql7pwandb/zkyg5nto-wandb-metadata.json
+2024-07-24 14:15:07,896 INFO    HandlerThread:20294 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-07-24 14:15:07,896 INFO    HandlerThread:20294 [interfaces.py:finish():202] Joined memory monitor
+2024-07-24 14:15:07,896 INFO    HandlerThread:20294 [interfaces.py:finish():202] Joined network monitor
+2024-07-24 14:15:07,896 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:07,896 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-07-24 14:15:07,896 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 3
+2024-07-24 14:15:07,896 DEBUG   SenderThread:20294 [sender.py:send():379] send: telemetry
+2024-07-24 14:15:07,896 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:07,896 DEBUG   SenderThread:20294 [sender.py:send():379] send: stats
+2024-07-24 14:15:07,897 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 3
+2024-07-24 14:15:07,897 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:07,897 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-07-24 14:15:07,897 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 4
+2024-07-24 14:15:07,897 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:07,897 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 4
+2024-07-24 14:15:07,897 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:07,897 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-07-24 14:15:07,897 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 5
+2024-07-24 14:15:07,897 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:07,897 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 5
+2024-07-24 14:15:07,897 DEBUG   SenderThread:20294 [sender.py:send():379] send: summary
+2024-07-24 14:15:07,898 INFO    SenderThread:20294 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-07-24 14:15:07,898 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:07,898 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-07-24 14:15:07,898 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 6
+2024-07-24 14:15:07,898 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:07,898 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 6
+2024-07-24 14:15:07,898 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:07,898 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-07-24 14:15:07,901 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: status_report
+2024-07-24 14:15:07,960 INFO    Thread-12 :20294 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/output.log
+2024-07-24 14:15:07,960 INFO    Thread-12 :20294 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/wandb-metadata.json
+2024-07-24 14:15:07,960 INFO    Thread-12 :20294 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/requirements.txt
+2024-07-24 14:15:07,960 INFO    Thread-12 :20294 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/wandb-summary.json
+2024-07-24 14:15:08,065 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 7
+2024-07-24 14:15:08,065 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:08,065 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 7
+2024-07-24 14:15:08,065 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:08,065 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-07-24 14:15:08,290 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-24 14:15:08,965 INFO    Thread-12 :20294 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/config.yaml
+2024-07-24 14:15:09,571 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 8
+2024-07-24 14:15:09,572 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 14:15:09,572 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:09,572 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 8
+2024-07-24 14:15:09,573 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:09,573 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-07-24 14:15:09,573 INFO    SenderThread:20294 [job_builder.py:build():318] Attempting to build job artifact
+2024-07-24 14:15:09,575 INFO    SenderThread:20294 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-07-24 14:15:09,614 INFO    SenderThread:20294 [job_builder.py:build():431] adding wandb-job metadata file
+2024-07-24 14:15:09,616 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 9
+2024-07-24 14:15:09,616 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:09,616 DEBUG   SenderThread:20294 [sender.py:send():379] send: artifact
+2024-07-24 14:15:09,617 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 9
+2024-07-24 14:15:09,971 INFO    Thread-12 :20294 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/output.log
+2024-07-24 14:15:10,300 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-24 14:15:10,397 INFO    SenderThread:20294 [sender.py:send_artifact():1468] sent artifact job-https___github.com_shayaanabsar_code-switched-pos-tagging.git_main.py - {'id': 'QXJ0aWZhY3Q6MTAzMDY5NDE1OA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjIzNjk2MTY4MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTAzMDY5NDE1OA==', 'versionIndex': 26}}}
+2024-07-24 14:15:10,397 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:10,397 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-07-24 14:15:10,397 INFO    SenderThread:20294 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-07-24 14:15:10,978 INFO    SenderThread:20294 [dir_watcher.py:finish():388] scan: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files
+2024-07-24 14:15:10,979 INFO    SenderThread:20294 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/requirements.txt requirements.txt
+2024-07-24 14:15:10,979 INFO    SenderThread:20294 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/output.log output.log
+2024-07-24 14:15:10,980 INFO    SenderThread:20294 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/config.yaml config.yaml
+2024-07-24 14:15:10,988 INFO    SenderThread:20294 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/wandb-summary.json wandb-summary.json
+2024-07-24 14:15:10,989 INFO    SenderThread:20294 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/wandb-metadata.json wandb-metadata.json
+2024-07-24 14:15:10,989 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 10
+2024-07-24 14:15:10,992 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 14:15:10,993 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:10,996 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 10
+2024-07-24 14:15:10,998 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:10,998 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-07-24 14:15:10,998 INFO    SenderThread:20294 [file_pusher.py:finish():172] shutting down file pusher
+2024-07-24 14:15:11,302 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-24 14:15:11,303 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 14:15:11,388 INFO    wandb-upload_2:20294 [upload_job.py:push():131] Uploaded file /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/config.yaml
+2024-07-24 14:15:11,444 INFO    wandb-upload_0:20294 [upload_job.py:push():131] Uploaded file /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/requirements.txt
+2024-07-24 14:15:11,485 INFO    wandb-upload_3:20294 [upload_job.py:push():131] Uploaded file /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/wandb-summary.json
+2024-07-24 14:15:11,515 INFO    wandb-upload_1:20294 [upload_job.py:push():131] Uploaded file /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/files/output.log
+2024-07-24 14:15:11,721 INFO    Thread-11 (_thread_body):20294 [sender.py:transition_state():614] send defer: 11
+2024-07-24 14:15:11,722 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:11,722 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 11
+2024-07-24 14:15:11,722 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:11,723 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-07-24 14:15:11,723 INFO    SenderThread:20294 [file_pusher.py:join():178] waiting for file pusher
+2024-07-24 14:15:11,723 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 12
+2024-07-24 14:15:11,723 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:11,723 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 12
+2024-07-24 14:15:11,724 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:11,724 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-07-24 14:15:11,724 INFO    SenderThread:20294 [file_stream.py:finish():614] file stream finish called
+2024-07-24 14:15:11,881 INFO    SenderThread:20294 [file_stream.py:finish():618] file stream finish is done
+2024-07-24 14:15:11,881 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 13
+2024-07-24 14:15:11,882 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:11,882 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 13
+2024-07-24 14:15:11,883 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:11,883 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-07-24 14:15:11,883 INFO    SenderThread:20294 [sender.py:transition_state():614] send defer: 14
+2024-07-24 14:15:11,883 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: defer
+2024-07-24 14:15:11,883 DEBUG   SenderThread:20294 [sender.py:send():379] send: final
+2024-07-24 14:15:11,884 INFO    HandlerThread:20294 [handler.py:handle_request_defer():172] handle defer: 14
+2024-07-24 14:15:11,884 DEBUG   SenderThread:20294 [sender.py:send():379] send: footer
+2024-07-24 14:15:11,884 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: defer
+2024-07-24 14:15:11,884 INFO    SenderThread:20294 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-07-24 14:15:11,885 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-24 14:15:11,886 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 14:15:11,888 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: poll_exit
+2024-07-24 14:15:11,888 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: server_info
+2024-07-24 14:15:11,888 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: get_summary
+2024-07-24 14:15:11,889 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: poll_exit
+2024-07-24 14:15:11,889 DEBUG   SenderThread:20294 [sender.py:send_request():406] send_request: server_info
+2024-07-24 14:15:11,892 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: sampled_history
+2024-07-24 14:15:11,892 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: internal_messages
+2024-07-24 14:15:12,024 INFO    MainThread:20294 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-07-24 14:15:12,024 INFO    MainThread:20294 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-07-24 14:15:12,024 INFO    MainThread:20294 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-07-24 14:15:12,025 DEBUG   HandlerThread:20294 [handler.py:handle_request():146] handle_request: shutdown
+2024-07-24 14:15:12,025 INFO    HandlerThread:20294 [handler.py:finish():866] shutting down handler
+2024-07-24 14:15:12,894 INFO    WriterThread:20294 [datastore.py:close():296] close: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240724_141506-7419klta/run-7419klta.wandb
+2024-07-24 14:15:13,029 INFO    SenderThread:20294 [sender.py:finish():1546] shutting down sender
+2024-07-24 14:15:13,030 INFO    SenderThread:20294 [file_pusher.py:finish():172] shutting down file pusher
+2024-07-24 14:15:13,030 INFO    SenderThread:20294 [file_pusher.py:join():178] waiting for file pusher
