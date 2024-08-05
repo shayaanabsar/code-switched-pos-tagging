@@ -9,10 +9,10 @@ import random
 
 random.seed(35)
 
-tokenizer = AutoTokenizer.from_pretrained('xlm-roberta-base')
+tokenizer = AutoTokenizer.from_pretrained("FacebookAI/xlm-roberta-base")
 START_TOKEN, END_TOKEN = tokenizer("").input_ids
-SPECIAL_TAG = 'S'
 MAX_LENGTH  = 512
+SPECIAL_TAG = 'S'
 
 def tanh(x, lam=1, mu=0.5):
 	x *= mu
@@ -100,7 +100,7 @@ class PreProcessor:
 						tokenized_token = tokenizer(token).input_ids[1:-1] # get rid of S and E tokens
 						self.curr_seq.extend(tokenized_token)
 						self.tag_counts[tag] += 1
-						tags = [tag] + ['S'] * (len(tokenized_token) - 1)
+						tags = [tag] * len(tokenized_token)
 						self.curr_tags.extend(tags) # add the same tag for each 
 						self.num_tokens += len(tokenized_token)
 						self.tagset.add(tag)
@@ -112,6 +112,8 @@ class PreProcessor:
 
 	def create_tensors(self):
 		self.tagset = {'G_V': 0, 'G_SYM': 1, 'CC': 2, 'G_PRP': 3, 'DT': 4, 'G_PRT': 5, '@': 6, 'E': 7, '$': 8, '~': 9, '#': 10, 'PSP': 11, 'G_X': 12, 'G_R': 13, 'G_J': 14, 'G_N': 15, 'U': 16, 'S': 17, 'null': 18}
+		#self.tagset = {'PAD': 0, 'ADJ': 1, 'ADP': 2, 'ADV': 3, 'CONJ': 4, 'DET': 5, 'NOUN': 6, 'NUM': 7, 'PART': 8, 'PART_NEG': 9, 'PRON': 10, 'PRON_WH': 11, 'PROPN': 12, 'VERB': 13, 'X': 14}
+		
 		num_tags = len(self.tagset)
 		order = [i for i in range(self.num_sequences)]
 		random.shuffle(order)
@@ -134,6 +136,6 @@ class PreProcessor:
 				outputs[i, j, self.tagset[curr_tag]] = 1
 			
 
-			outputs[i, j:self.max_length, self.tagset[SPECIAL_TAG]] = 1 # Pad all the remaining tags with the S tag.
+			outputs[i, j:self.max_length, self.tagset['S']] = 1 # Pad all the remaining tags with the S tag.
 
 		return inputs, outputs.float(), shuffled_tags

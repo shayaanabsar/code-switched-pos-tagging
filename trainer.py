@@ -3,7 +3,7 @@ import pandas as pd
 import wandb
 import torch
 
-def masked_loss(output, target, loss_weighting):
+def masked_loss(output, target):
 	alpha = torch.argmax(target, dim=-1) # Find the correct pos tag
 	indices = torch.nonzero(alpha != 17) # Indices of all those that aren't a S
 	
@@ -11,7 +11,7 @@ def masked_loss(output, target, loss_weighting):
 	k_indices = alpha[i_indices, j_indices]
 
 	r = output[i_indices, j_indices, k_indices] # the predicted probs for the correct tag
-	l = ((1-r)**5) * torch.log(r+1e-8) * loss_weighting[k_indices]
+	l = ((1-r)**5) * torch.log(r+1e-8)
 	l = torch.mean(l)
 
 	return -l
@@ -22,7 +22,6 @@ class Trainer:
 	loss_function : object
 	lr            : int
 	device        : str
-	loss_weighting: object
 	train_metrics = []
 	val_metrics   = []
 	wandb.login()
@@ -37,7 +36,7 @@ class Trainer:
 
 		model_probabilities = self.model(batch_inputs).float()
 		torch.cuda.empty_cache()
-		loss = masked_loss(model_probabilities, batch_outputs, self.loss_weighting)
+		loss = masked_loss(model_probabilities, batch_outputs)
 		torch.cuda.empty_cache()
 		return loss
 	

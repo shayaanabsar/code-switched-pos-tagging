@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer, AutoModelForMaskedLM
+from transformers import AutoTokenizer, XLMRobertaModel
 from preprocessing import *
 from trainer import *
 from torch import nn, save
@@ -9,7 +9,6 @@ import torch
 pp = PreProcessor()
 pp.read_data('dataset')
 input_tensor, output_tensor, lang_tags = pp.create_tensors()
-print('dirty alien', input_tensor.shape[-1])
 	
 b_s, b_e = pp.splitters['bengali.csv']
 h_s, h_e = pp.splitters['hindi.csv'  ]
@@ -69,8 +68,8 @@ else:
 
 wandb.login()
 
-xlm_roberta             = AutoModelForMaskedLM.from_pretrained('xlm-roberta-base')
-xlm_roberta_output_size = 250002
+xlm_roberta             = XLMRobertaModel.from_pretrained("FacebookAI/xlm-roberta-base")
+xlm_roberta_output_size = 768
 cross_entropy_loss      = nn.CrossEntropyLoss()
 num_tags                = output_train.shape[2]
 batch_size              = 8
@@ -97,58 +96,17 @@ wandb.init(
 class Model(nn.Module):
 	def __init__(self):
 		super().__init__()
-		self.xlm_roberta = xlm_roberta  # Replace with actual model
+		self.xlm_roberta = xlm_roberta
 		self.dropout = nn.Dropout(dropout_rate)
-
-		# Define the layers
-		self.linear1 = nn.Linear(xlm_roberta_output_size, 1024)
-		self.batch_norm1 = nn.BatchNorm1d(num_features=sequence_length)
-		self.dropout1 = nn.Dropout(dropout_rate)
-
-		self.linear2 = nn.Linear(10000, 2000)
-		self.batch_norm2 = nn.BatchNorm1d(num_features=sequence_length)
-		self.dropout2 = nn.Dropout(dropout_rate)
-
-		self.linear3 = nn.Linear(2000, num_tags)  # Assuming num_tags is the number of output classes
-		
+		self.linear  = nn.Linear(xlm_roberta_output_size, num_tags)
 		self.softmax = nn.Softmax(dim=-1)
 
-	def forward(self, input):
-		# Pass through XLM-Roberta
-		roberta_logits = self.xlm_roberta(input).logits
-		
-		# Apply initial dropout
-		x = self.dropout(roberta_logits)
-		
-		# Layer 1
-		x = self.linear1(x)
-		x = torch.relu(x)
-		x = self.batch_norm1(x)
-		x = self.dropout1(x)
-		
-		# Layer 2
-		x = self.linear2(x)
-		x = torch.relu(x)
-		x = self.batch_norm2(x)
-		x = self.dropout2(x)
-		
-		# Layer 3 (Final layer)
-		x = self.linear3(x)
-		
-		# Apply softmax
-		model_probabilities = self.softmax(x)
-		
-		return model_probabilities
+	def forward(self, input, train=True):
+		roberta_logits = self.xlm_roberta(**input).last_hidden_state
+		if train:
+			x = self.dropout(roberta_logits)
+		x = self.linear(x)
+		probabilities = self.softmax(x)
 
-pp.tag_counts = dict(pp.tag_counts)
-total_tags    = sum(pp.tag_counts.values())
-pp.tag_counts = {pp.tagset[t] : total_tags / pp.tag_counts[t] for t in pp.tag_counts}
-
-loss_weighting = []
-for i in range(len(pp.tagset)):
-	val = pp.tag_counts[i] if i in pp.tag_counts else 0
-	loss_weighting.append(val)
-
-loss_weighting = torch.tensor(loss_weighting)
-loss_weighting = loss_weighting.float()
-loss_weighting /= torch.sum(loss_weighting)
+		return probabilities
+		
