@@ -32,6 +32,7 @@ for k, v in state_dict.items():
 		
 model = Model()
 model.load_state_dict(new_state_dict)
+model.eval()
 
 batch_size = 8
 tokens = input_tensor.shape[-1]
