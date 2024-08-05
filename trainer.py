@@ -41,6 +41,8 @@ class Trainer:
 		return loss
 	
 	def train(self, epochs, batch_size, batch_acc, t_inputs, t_outputs, v_inputs, v_outputs, h_inputs=None, h_outputs=None):
+		self.model.train()
+		
 		optimizer = torch.optim.SGD(self.model.parameters(), self.lr)
 		scheduler = torch.optim.lr_scheduler.ReduceLROnPlateau(optimizer, 'min')
 
