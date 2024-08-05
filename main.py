@@ -72,8 +72,8 @@ xlm_roberta             = XLMRobertaModel.from_pretrained("FacebookAI/xlm-robert
 xlm_roberta_output_size = 768
 cross_entropy_loss      = nn.CrossEntropyLoss()
 num_tags                = output_train.shape[2]
-batch_size              = 8
-batch_accumulation      = 2
+batch_size              = 16
+batch_accumulation      = 4
 learning_rate           = 1e-8
 epochs                  = 100
 dropout_rate            = 0.4
@@ -101,7 +101,7 @@ class Model(nn.Module):
 		self.softmax = nn.Softmax(dim=-1)
 
 	def forward(self, input, train=True):
-		roberta_logits = self.xlm_roberta(input).last_hidden_state
+		x = self.xlm_roberta(input).last_hidden_state
 		x = self.linear(x)
 		probabilities = self.softmax(x)
 
