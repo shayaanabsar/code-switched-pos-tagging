@@ -97,14 +97,11 @@ class Model(nn.Module):
 	def __init__(self):
 		super().__init__()
 		self.xlm_roberta = xlm_roberta
-		self.dropout = nn.Dropout(dropout_rate)
 		self.linear  = nn.Linear(xlm_roberta_output_size, num_tags)
 		self.softmax = nn.Softmax(dim=-1)
 
 	def forward(self, input, train=True):
-		roberta_logits = self.xlm_roberta(**input).last_hidden_state
-		if train:
-			x = self.dropout(roberta_logits)
+		roberta_logits = self.xlm_roberta(input).last_hidden_state
 		x = self.linear(x)
 		probabilities = self.softmax(x)
 

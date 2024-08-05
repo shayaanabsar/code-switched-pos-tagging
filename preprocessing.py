@@ -100,7 +100,7 @@ class PreProcessor:
 						tokenized_token = tokenizer(token).input_ids[1:-1] # get rid of S and E tokens
 						self.curr_seq.extend(tokenized_token)
 						self.tag_counts[tag] += 1
-						tags = [tag] * len(tokenized_token)
+						tags = [tag] + ['S'] * (len(tokenized_token) - 1)
 						self.curr_tags.extend(tags) # add the same tag for each 
 						self.num_tokens += len(tokenized_token)
 						self.tagset.add(tag)
