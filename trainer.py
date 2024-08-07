@@ -68,22 +68,22 @@ class Trainer:
 			loss /= batch_acc
 			print(i, loss, optimizer.param_groups[0]['lr'])
 			val_loss = self.pass_batch(batch_size, v_inputs, v_outputs)
-			#if h_inputs is not None:
-			#	h_loss = self.pass_batch(batch_size, h_inputs, h_outputs)
-			#else:
-			#	h_loss = 0
+			if h_inputs is not None:
+				h_loss = self.pass_batch(batch_size, h_inputs, h_outputs)
+			else:
+				h_loss = 0
 			scheduler.step(val_loss)
 			optimizer.zero_grad()
 			loss.backward()
 			optimizer.step()
 
-			#self.train_metrics.append(loss.item())
-			#self.val_metrics.append(val_loss.item())
+			self.train_metrics.append(loss.item())
+			self.val_metrics.append(val_loss.item())
 
-			#wandb.log({
-			#	'val-loss': val_loss,
-			#	'loss'    : loss,
-			#	'h-loss'  : h_loss,
-			#	'lr': optimizer.param_groups[0]['lr']
-			#})
+			wandb.log({
+				'val-loss': val_loss,
+				'loss'    : loss,
+				'h-loss'  : h_loss,
+				'lr': optimizer.param_groups[0]['lr']
+			})
 		return run
