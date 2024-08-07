@@ -1,9 +1,7 @@
 import wandb
 from main import *
-print(pp.tagset)
 counts = {l:[0, 0] for l in pp.lang_codes}
 codes_to_langs = {pp.lang_codes[k]:k for k in pp.lang_codes}
-
 run = wandb.init()
 
 if avoid_language == '':
@@ -36,7 +34,7 @@ model.eval()
 
 batch_size = 8
 
-def test(inputs, outputs):
+def test(inputs, outputs, test_tags):
     global batch_size, tokens, pp, counts
 
     right, total, n = 0, 0, 0
@@ -50,14 +48,14 @@ def test(inputs, outputs):
             for token_number in range(len(acts[sample_number])):
                 if preds[sample_number][token_number] == acts[sample_number][token_number]:
                     right += 1
-                    counts[codes_to_langs[output_tags[n*batch_size + sample_number].item()]][0] += 1
-                counts[codes_to_langs[output_tags[n*batch_size + sample_number].item()]][1] += 1
+                    counts[codes_to_langs[test_tags[n*batch_size + sample_number].item()]][0] += 1
+                counts[codes_to_langs[test_tags[n*batch_size + sample_number].item()]][1] += 1
                 total += 1
         n += 1
 
         print(f'{(right/total)*100:.4f}')
         print(counts)
 
-test(input_test, output_test)
+test(input_test, output_test, test_tags)
 if avoid_language != '':
-    test(hidden_inputs, hidden_outputs)
+    test(hidden_inputs, hidden_outputs, torch.tensor([pp.lang_codes[avoid_language] for _ in range(len(hidden_inputs))]))

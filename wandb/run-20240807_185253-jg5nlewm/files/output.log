@@ -1,0 +1,29 @@
+{'G_V': 0, 'G_SYM': 1, 'CC': 2, 'G_PRP': 3, 'DT': 4, 'G_PRT': 5, '@': 6, 'E': 7, '$': 8, '~': 9, '#': 10, 'PSP': 11, 'G_X': 12, 'G_R': 13, 'G_J': 14, 'G_N': 15, 'U': 16, 'S': 17, 'null': 18}
+{1: 'bengali.csv', 2: 'telugu.csv', 3: 'hindi.csv'}
+[34m[1mwandb[39m[22m: Downloading large artifact model:v32, 678.58MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:0:23.2
+79.6875
+{'bengali.csv': [0, 0], 'telugu.csv': [66, 85], 'hindi.csv': [36, 43]}
+81.4815
+{'bengali.csv': [0, 0], 'telugu.csv': [89, 112], 'hindi.csv': [175, 212]}
+80.1865
+{'bengali.csv': [0, 0], 'telugu.csv': [111, 144], 'hindi.csv': [233, 285]}
+79.2976
+{'bengali.csv': [0, 0], 'telugu.csv': [158, 207], 'hindi.csv': [271, 334]}
+78.7330
+{'bengali.csv': [0, 0], 'telugu.csv': [189, 258], 'hindi.csv': [333, 405]}
+78.7805
+{'bengali.csv': [0, 0], 'telugu.csv': [258, 336], 'hindi.csv': [388, 484]}
+79.2035
+{'bengali.csv': [0, 0], 'telugu.csv': [258, 336], 'hindi.csv': [458, 568]}
+79.6970
+{'bengali.csv': [0, 0], 'telugu.csv': [277, 365], 'hindi.csv': [512, 625]}
+79.2487
+{'bengali.csv': [0, 0], 'telugu.csv': [342, 454], 'hindi.csv': [544, 664]}
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 63, in <module>
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 63, in <listcomp>
+KeyError: 'bengali.csv'
+79.7915
+{'bengali.csv': [0, 0], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}

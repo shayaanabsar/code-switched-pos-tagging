@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 29, in <module>
+    r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/trainer.py", line 67, in train
+    loss  += self.pass_batch(batch_size, t_inputs, t_outputs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/trainer.py", line 40, in pass_batch
+    model_probabilities = self.model(batch_inputs).float()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 109, in forward
+    embeddings = self.xlm(**tokenized).last_hidden_state
+AttributeError: 'MaskedLMOutput' object has no attribute 'last_hidden_state'

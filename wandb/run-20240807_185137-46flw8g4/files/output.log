@@ -1,0 +1,30 @@
+{'G_V': 0, 'G_SYM': 1, 'CC': 2, 'G_PRP': 3, 'DT': 4, 'G_PRT': 5, '@': 6, 'E': 7, '$': 8, '~': 9, '#': 10, 'PSP': 11, 'G_X': 12, 'G_R': 13, 'G_J': 14, 'G_N': 15, 'U': 16, 'S': 17, 'null': 18}
+{1: 'bengali.csv', 2: 'telugu.csv', 3: 'hindi.csv'}
+[34m[1mwandb[39m[22m: Downloading large artifact model:v31, 678.58MB. 1 files...
+Traceback (most recent call last):
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 1818, in _download
+    for future in concurrent.futures.as_completed(active_futures):
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/concurrent/futures/_base.py", line 245, in as_completed
+    waiter.event.wait(wait_timeout)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/threading.py", line 320, in wait
+    waiter.acquire()
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/model_analysis.py", line 21, in <module>
+    artifact_dir = artifact.download()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 1653, in download
+    return self._download(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/wandb/sdk/artifacts/artifact.py", line 1792, in _download
+    with concurrent.futures.ThreadPoolExecutor(64) as executor:
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/concurrent/futures/_base.py", line 649, in __exit__
+    self.shutdown(wait=True)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/concurrent/futures/thread.py", line 235, in shutdown
+    t.join()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/threading.py", line 1096, in join
+    self._wait_for_tstate_lock()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/threading.py", line 1116, in _wait_for_tstate_lock
+    if lock.acquire(block, timeout):
+KeyboardInterrupt

@@ -1,0 +1,24 @@
+
+[34m[1mwandb[39m[22m: Downloading large artifact model:v31, 678.58MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:0:23.0
+78.7402
+{'bengali.csv': [0, 0], 'telugu.csv': [25, 27], 'hindi.csv': [75, 100]}
+80.3371
+{'bengali.csv': [74, 92], 'telugu.csv': [34, 43], 'hindi.csv': [178, 221]}
+79.4979
+{'bengali.csv': [104, 130], 'telugu.csv': [60, 76], 'hindi.csv': [216, 272]}
+78.9557
+{'bengali.csv': [170, 207], 'telugu.csv': [93, 122], 'hindi.csv': [236, 303]}
+78.2493
+{'bengali.csv': [170, 207], 'telugu.csv': [126, 173], 'hindi.csv': [294, 374]}
+78.6268
+{'bengali.csv': [187, 226], 'telugu.csv': [191, 251], 'hindi.csv': [332, 426]}
+78.0971
+{'bengali.csv': [195, 236], 'telugu.csv': [191, 251], 'hindi.csv': [402, 522]}
+78.0822
+{'bengali.csv': [226, 274], 'telugu.csv': [210, 280], 'hindi.csv': [419, 541]}
+77.3819
+{'bengali.csv': [235, 286], 'telugu.csv': [242, 327], 'hindi.csv': [457, 594]}
+77.2825
+{'bengali.csv': [319, 389], 'telugu.csv': [268, 369], 'hindi.csv': [488, 633]}

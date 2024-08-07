@@ -1,0 +1,45 @@
+
+[34m[1mwandb[39m[22m: Downloading large artifact model:v32, 678.58MB. 1 files...
+[34m[1mwandb[39m[22m:   1 of 1 files downloaded.
+Done. 0:0:4.1
+79.6875
+{'bengali.csv': [0, 0], 'telugu.csv': [66, 85], 'hindi.csv': [36, 43]}
+81.4815
+{'bengali.csv': [0, 0], 'telugu.csv': [89, 112], 'hindi.csv': [175, 212]}
+80.1865
+{'bengali.csv': [0, 0], 'telugu.csv': [111, 144], 'hindi.csv': [233, 285]}
+79.2976
+{'bengali.csv': [0, 0], 'telugu.csv': [158, 207], 'hindi.csv': [271, 334]}
+78.7330
+{'bengali.csv': [0, 0], 'telugu.csv': [189, 258], 'hindi.csv': [333, 405]}
+78.7805
+{'bengali.csv': [0, 0], 'telugu.csv': [258, 336], 'hindi.csv': [388, 484]}
+79.2035
+{'bengali.csv': [0, 0], 'telugu.csv': [258, 336], 'hindi.csv': [458, 568]}
+79.6970
+{'bengali.csv': [0, 0], 'telugu.csv': [277, 365], 'hindi.csv': [512, 625]}
+79.2487
+{'bengali.csv': [0, 0], 'telugu.csv': [342, 454], 'hindi.csv': [544, 664]}
+79.7915
+{'bengali.csv': [0, 0], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+[tensor(2), tensor(2), tensor(2), tensor(2), tensor(2), tensor(3), tensor(3), tensor(3), tensor(3), tensor(3), tensor(2), tensor(3), tensor(2), tensor(3), tensor(3), tensor(3), tensor(3), tensor(2), tensor(3), tensor(3), tensor(2), tensor(2), tensor(3), tensor(3), tensor(2), tensor(3), tensor(2), tensor(3), tensor(3), tensor(2), tensor(3), tensor(2), tensor(3), tensor(3), tensor(2), tensor(2), tensor(2), tensor(3), tensor(3), tensor(2), tensor(2), tensor(2), tensor(3), tensor(3), tensor(2), tensor(2), tensor(2), tensor(3), tensor(3), tensor(3)]
+59.5628
+{'bengali.csv': [109, 183], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+59.9415
+{'bengali.csv': [205, 342], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+60.8696
+{'bengali.csv': [294, 483], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+61.5267
+{'bengali.csv': [403, 655], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+62.4096
+{'bengali.csv': [518, 830], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+62.2056
+{'bengali.csv': [581, 934], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+62.7826
+{'bengali.csv': [722, 1150], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+62.4065
+{'bengali.csv': [918, 1471], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+62.0670
+{'bengali.csv': [1111, 1790], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}
+62.0460
+{'bengali.csv': [1213, 1955], 'telugu.csv': [358, 478], 'hindi.csv': [637, 769]}

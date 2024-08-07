@@ -1,4 +1,4 @@
-from transformers import BertModel, AutoTokenizer
+from transformers import AutoTokenizer, XLMRobertaModel
 from preprocessing import *
 from trainer import *
 from torch import nn, save
@@ -61,26 +61,26 @@ if avoid_language != '':
     input_train, input_test, input_val    = filtered_inputs[:int(0.8*o)], filtered_inputs[int(0.8*o):int(0.9*o)], filtered_inputs[int(0.9*o):]
     output_train, output_test, output_val = filtered_outputs[:int(0.8*o)], filtered_outputs[int(0.8*o):int(0.9*o)], filtered_outputs[int(0.9*o):]
 
-    output_tags = filtered_lang_tags[int(0.8*o):int(0.9*o)]
+    test_tags = filtered_lang_tags[int(0.8*o):int(0.9*o)]
 else:
     input_train, input_test, input_val    = inputs[:int(0.8*o)], inputs[int(0.8*o):int(0.9*o)], inputs[int(0.9*o):]
     output_train, output_test, output_val = outputs[:int(0.8*o)], outputs[int(0.8*o):int(0.9*o)], outputs[int(0.9*o):]
 
-    output_tags = lang_tags[int(0.8*o):int(0.9*o)]
+    test_tags = lang_tags[int(0.8*o):int(0.9*o)]
 
 wandb.login()
 
-xlm                     = BertModel.from_pretrained("bert-base-multilingual-cased", output_hidden_states=True)
-tokenizer               = AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
+xlm                     = XLMRobertaModel.from_pretrained("FacebookAI/xlm-roberta-base", output_hidden_states=True)
+tokenizer               = AutoTokenizer.from_pretrained("FacebookAI/xlm-roberta-base")
 xlm_output_size         = 768
 num_tags                = len(pp.tagset)
-batch_size              = 16
+batch_size              = 32
 batch_accumulation      = 4
 learning_rate           = 0.0001
 epochs                  = 100
 dropout_rate            = 0.4
 sequence_length         = pp.max_length
-device                  = 'cuda'
+device                  = 'cpu'
 
 wandb.init(
     project="code-switched-pos-tagging",
