@@ -1,0 +1,22 @@
+[['cicling', 'er', 'ki', 'halo']]
+[[15, 3, 3, 0]]
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 18, in <module>
+    model_probabilities = model(test_in)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 105, in forward
+    embeddings = self.xlm(tokenized).last_hidden_state
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 960, in forward
+    self.warn_if_padding_and_no_attention_mask(input_ids, attention_mask)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/modeling_utils.py", line 4201, in warn_if_padding_and_no_attention_mask
+    if self.config.pad_token_id in input_ids[:, [-1, 0]]:
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 260, in __getitem__
+    raise KeyError(
+KeyError: 'Invalid key. Only three types of key are available: (1) string, (2) integers for backend Encoding, and (3) slices for data subsetting.'

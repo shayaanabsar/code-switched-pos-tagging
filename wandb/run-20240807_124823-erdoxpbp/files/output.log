@@ -1,0 +1,26 @@
+[['cicling', 'er', 'ki', 'halo'], ['amar', 'aar', "chaitali'r", 'common', 'ek', 'friend', 'er', 'saathe', 'dekha', '.']]
+[[15, 3, 3, 0], [12, 12, 15, 14, 1, 15, 3, 15, 0, 12]]
+fuvk
+{'input_ids': tensor([[  101, 11322, 86257, 10240, 10163, 10879, 22206, 10133,   102,     0,
+             0,     0,     0,     0,     0,     0,     0,     0,     0],
+        [  101, 94725, 28335, 10129, 18939, 32986, 10116,   112,   186, 14624,
+         16334, 20104, 10163, 16214, 11643, 18910, 10921,   119,   102]]), 'token_type_ids': tensor([[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]]), 'attention_mask': tensor([[1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+        [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1]])}
+torch.Size([2, 19, 768])
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 18, in <module>
+    model_probabilities = model(test_in)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 112, in forward
+    x = self.linear(x)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+TypeError: linear(): argument 'input' (position 1) must be Tensor, not list

@@ -1,0 +1,218 @@
+2024-08-06 21:33:20,225 INFO    StreamThr :6549 [internal.py:wandb_internal():86] W&B internal server running at pid: 6549, started at: 2024-08-06 21:33:20.224764
+2024-08-06 21:33:20,226 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status
+2024-08-06 21:33:20,228 INFO    WriterThread:6549 [datastore.py:open_for_write():87] open: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/run-pc06d5v0.wandb
+2024-08-06 21:33:20,228 DEBUG   SenderThread:6549 [sender.py:send():379] send: header
+2024-08-06 21:33:20,263 DEBUG   SenderThread:6549 [sender.py:send():379] send: run
+2024-08-06 21:33:20,695 INFO    SenderThread:6549 [dir_watcher.py:__init__():211] watching files in: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files
+2024-08-06 21:33:20,695 INFO    SenderThread:6549 [sender.py:_start_run_threads():1124] run started: pc06d5v0 with start time 1722976400.225107
+2024-08-06 21:33:20,710 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: check_version
+2024-08-06 21:33:20,710 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: check_version
+2024-08-06 21:33:20,835 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: run_start
+2024-08-06 21:33:20,841 DEBUG   HandlerThread:6549 [system_info.py:__init__():26] System info init
+2024-08-06 21:33:20,841 DEBUG   HandlerThread:6549 [system_info.py:__init__():41] System info init done
+2024-08-06 21:33:20,841 INFO    HandlerThread:6549 [system_monitor.py:start():194] Starting system monitor
+2024-08-06 21:33:20,841 INFO    SystemMonitor:6549 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-08-06 21:33:20,841 INFO    HandlerThread:6549 [system_monitor.py:probe():214] Collecting system info
+2024-08-06 21:33:20,843 INFO    SystemMonitor:6549 [interfaces.py:start():190] Started cpu monitoring
+2024-08-06 21:33:20,843 DEBUG   HandlerThread:6549 [system_info.py:probe():150] Probing system
+2024-08-06 21:33:20,843 INFO    SystemMonitor:6549 [interfaces.py:start():190] Started disk monitoring
+2024-08-06 21:33:20,843 INFO    SystemMonitor:6549 [interfaces.py:start():190] Started gpuapple monitoring
+2024-08-06 21:33:20,846 INFO    SystemMonitor:6549 [interfaces.py:start():190] Started memory monitoring
+2024-08-06 21:33:20,848 INFO    SystemMonitor:6549 [interfaces.py:start():190] Started network monitoring
+2024-08-06 21:33:20,852 DEBUG   HandlerThread:6549 [system_info.py:_probe_git():135] Probing git
+2024-08-06 21:33:20,883 DEBUG   HandlerThread:6549 [system_info.py:_probe_git():143] Probing git done
+2024-08-06 21:33:20,884 DEBUG   HandlerThread:6549 [system_info.py:probe():198] Probing system done
+2024-08-06 21:33:20,884 DEBUG   HandlerThread:6549 [system_monitor.py:probe():223] {'os': 'macOS-14.1.1-arm64-arm-64bit', 'python': '3.10.6', 'heartbeatAt': '2024-08-06T20:33:20.843638', 'startedAt': '2024-08-06T20:33:20.220730', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py', 'codePathLocal': 'test.py', 'codePath': 'test.py', 'git': {'remote': 'https://github.com/shayaanabsar/code-switched-pos-tagging.git', 'commit': '9092ac07c1e0f7170dff3c25a0e8e4fcad10a3ea'}, 'email': 'shayaan.absar@gmail.com', 'root': '/Users/Shayaan/Desktop/code/code-switched-pos-tagging', 'host': 'MacBook-Pro.local', 'username': 'Shayaan', 'executable': '/Users/Shayaan/.pyenv/versions/3.10.6/bin/python', 'cpu_count': 8, 'cpu_count_logical': 8, 'cpu_freq': {'current': 3504, 'min': 600, 'max': 3504}, 'cpu_freq_per_core': [{'current': 3504, 'min': 600, 'max': 3504}], 'disk': {'/': {'total': 228.27386474609375, 'used': 13.48337173461914}}, 'gpuapple': {'type': 'arm', 'vendor': 'Apple'}, 'memory': {'total': 8.0}}
+2024-08-06 21:33:20,884 INFO    HandlerThread:6549 [system_monitor.py:probe():224] Finished collecting system info
+2024-08-06 21:33:20,884 INFO    HandlerThread:6549 [system_monitor.py:probe():227] Publishing system info
+2024-08-06 21:33:20,884 INFO    HandlerThread:6549 [system_monitor.py:probe():229] Finished publishing system info
+2024-08-06 21:33:20,887 DEBUG   SenderThread:6549 [sender.py:send():379] send: files
+2024-08-06 21:33:20,887 INFO    SenderThread:6549 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-08-06 21:33:20,970 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: python_packages
+2024-08-06 21:33:20,970 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: python_packages
+2024-08-06 21:33:20,971 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-06 21:33:20,971 DEBUG   SenderThread:6549 [sender.py:send():379] send: telemetry
+2024-08-06 21:33:20,971 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-06 21:33:20,971 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: stop_status
+2024-08-06 21:33:21,445 INFO    wandb-upload_0:6549 [upload_job.py:push():131] Uploaded file /var/folders/c9/ld6wd4rd4416tr7z2q29t7180000gn/T/tmptcq1smuwwandb/un0d3qq7-wandb-metadata.json
+2024-08-06 21:33:21,697 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/wandb-metadata.json
+2024-08-06 21:33:21,697 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/requirements.txt
+2024-08-06 21:33:22,701 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:24,711 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:26,128 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:33:26,723 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:30,740 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:31,350 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:33:34,757 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:35,976 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-06 21:33:35,977 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-06 21:33:35,978 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: stop_status
+2024-08-06 21:33:36,765 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:37,213 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:33:38,780 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:42,712 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:33:42,803 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:44,830 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:48,536 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:33:48,857 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:50,978 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-06 21:33:50,980 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-06 21:33:50,980 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: stop_status
+2024-08-06 21:33:52,878 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:54,225 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:33:54,886 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/config.yaml
+2024-08-06 21:33:56,895 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:33:59,693 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:34:00,918 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:34:04,936 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:34:05,035 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:34:05,982 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-06 21:34:05,986 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: stop_status
+2024-08-06 21:34:05,986 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: stop_status
+2024-08-06 21:34:08,944 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:34:10,424 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:34:12,978 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:34:15,583 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:34:16,988 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:34:18,437 DEBUG   SenderThread:6549 [sender.py:send():379] send: exit
+2024-08-06 21:34:18,438 INFO    SenderThread:6549 [sender.py:send_exit():586] handling exit code: 255
+2024-08-06 21:34:18,438 INFO    SenderThread:6549 [sender.py:send_exit():588] handling runtime: 57
+2024-08-06 21:34:18,440 INFO    SenderThread:6549 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-08-06 21:34:18,441 INFO    SenderThread:6549 [sender.py:send_exit():594] send defer
+2024-08-06 21:34:18,441 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:18,441 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 0
+2024-08-06 21:34:18,441 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:18,441 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-08-06 21:34:18,442 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 1
+2024-08-06 21:34:18,442 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:18,442 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 1
+2024-08-06 21:34:18,442 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:18,442 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-08-06 21:34:18,442 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 2
+2024-08-06 21:34:18,442 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:18,442 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 2
+2024-08-06 21:34:18,442 INFO    HandlerThread:6549 [system_monitor.py:finish():203] Stopping system monitor
+2024-08-06 21:34:18,443 DEBUG   SystemMonitor:6549 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-08-06 21:34:18,443 DEBUG   SystemMonitor:6549 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-08-06 21:34:18,443 DEBUG   SystemMonitor:6549 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-08-06 21:34:18,444 INFO    HandlerThread:6549 [interfaces.py:finish():202] Joined cpu monitor
+2024-08-06 21:34:18,444 INFO    HandlerThread:6549 [interfaces.py:finish():202] Joined disk monitor
+2024-08-06 21:34:18,444 INFO    HandlerThread:6549 [interfaces.py:finish():202] Joined gpuapple monitor
+2024-08-06 21:34:18,444 INFO    HandlerThread:6549 [interfaces.py:finish():202] Joined memory monitor
+2024-08-06 21:34:18,445 INFO    HandlerThread:6549 [interfaces.py:finish():202] Joined network monitor
+2024-08-06 21:34:18,445 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:18,445 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-08-06 21:34:18,445 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 3
+2024-08-06 21:34:18,446 DEBUG   SenderThread:6549 [sender.py:send():379] send: telemetry
+2024-08-06 21:34:18,446 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:18,446 DEBUG   SenderThread:6549 [sender.py:send():379] send: stats
+2024-08-06 21:34:18,446 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 3
+2024-08-06 21:34:18,446 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:18,446 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-08-06 21:34:18,446 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 4
+2024-08-06 21:34:18,446 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:18,446 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 4
+2024-08-06 21:34:18,447 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:18,447 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-08-06 21:34:18,447 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 5
+2024-08-06 21:34:18,447 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:18,447 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 5
+2024-08-06 21:34:18,447 DEBUG   SenderThread:6549 [sender.py:send():379] send: summary
+2024-08-06 21:34:18,447 INFO    SenderThread:6549 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-08-06 21:34:18,447 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:18,447 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-08-06 21:34:18,448 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 6
+2024-08-06 21:34:18,448 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:18,448 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 6
+2024-08-06 21:34:18,448 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:18,448 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-08-06 21:34:18,453 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: status_report
+2024-08-06 21:34:18,616 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 7
+2024-08-06 21:34:18,617 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:18,617 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 7
+2024-08-06 21:34:18,617 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:18,617 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-08-06 21:34:18,999 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/config.yaml
+2024-08-06 21:34:18,999 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/wandb-summary.json
+2024-08-06 21:34:19,442 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-06 21:34:20,467 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 8
+2024-08-06 21:34:20,467 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: poll_exit
+2024-08-06 21:34:20,467 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:20,467 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 8
+2024-08-06 21:34:20,468 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:20,468 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-08-06 21:34:20,468 INFO    SenderThread:6549 [job_builder.py:build():318] Attempting to build job artifact
+2024-08-06 21:34:20,469 INFO    SenderThread:6549 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-08-06 21:34:20,504 INFO    SenderThread:6549 [job_builder.py:build():431] adding wandb-job metadata file
+2024-08-06 21:34:20,509 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 9
+2024-08-06 21:34:20,510 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:20,510 DEBUG   SenderThread:6549 [sender.py:send():379] send: artifact
+2024-08-06 21:34:20,510 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 9
+2024-08-06 21:34:21,005 INFO    Thread-12 :6549 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:34:21,253 INFO    SenderThread:6549 [sender.py:send_artifact():1468] sent artifact job-https___github.com_shayaanabsar_code-switched-pos-tagging.git_test.py - {'id': 'QXJ0aWZhY3Q6MTExMTAzMjQ4OA==', 'state': 'COMMITTED', 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjM4MzY3NzQ5MA==', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6MTExMTAzMjQ4OA==', 'versionIndex': 0}}}
+2024-08-06 21:34:21,254 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:21,254 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-08-06 21:34:21,254 INFO    SenderThread:6549 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-08-06 21:34:21,451 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-06 21:34:22,011 INFO    SenderThread:6549 [dir_watcher.py:finish():388] scan: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files
+2024-08-06 21:34:22,012 INFO    SenderThread:6549 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/requirements.txt requirements.txt
+2024-08-06 21:34:22,012 INFO    SenderThread:6549 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log output.log
+2024-08-06 21:34:22,013 INFO    SenderThread:6549 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/config.yaml config.yaml
+2024-08-06 21:34:22,020 INFO    SenderThread:6549 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/wandb-summary.json wandb-summary.json
+2024-08-06 21:34:22,021 INFO    SenderThread:6549 [dir_watcher.py:finish():402] scan save: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/wandb-metadata.json wandb-metadata.json
+2024-08-06 21:34:22,021 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 10
+2024-08-06 21:34:22,023 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: poll_exit
+2024-08-06 21:34:22,026 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:22,027 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 10
+2024-08-06 21:34:22,028 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:22,029 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-08-06 21:34:22,029 INFO    SenderThread:6549 [file_pusher.py:finish():172] shutting down file pusher
+2024-08-06 21:34:22,438 INFO    wandb-upload_1:6549 [upload_job.py:push():131] Uploaded file /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/output.log
+2024-08-06 21:34:22,453 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-06 21:34:22,453 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: poll_exit
+2024-08-06 21:34:22,483 INFO    wandb-upload_0:6549 [upload_job.py:push():131] Uploaded file /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/requirements.txt
+2024-08-06 21:34:22,519 INFO    wandb-upload_2:6549 [upload_job.py:push():131] Uploaded file /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/config.yaml
+2024-08-06 21:34:22,541 INFO    wandb-upload_3:6549 [upload_job.py:push():131] Uploaded file /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/files/wandb-summary.json
+2024-08-06 21:34:22,747 INFO    Thread-11 (_thread_body):6549 [sender.py:transition_state():614] send defer: 11
+2024-08-06 21:34:22,748 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:22,748 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 11
+2024-08-06 21:34:22,748 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:22,748 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-08-06 21:34:22,748 INFO    SenderThread:6549 [file_pusher.py:join():178] waiting for file pusher
+2024-08-06 21:34:22,749 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 12
+2024-08-06 21:34:22,749 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:22,749 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 12
+2024-08-06 21:34:22,750 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:22,750 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-08-06 21:34:22,750 INFO    SenderThread:6549 [file_stream.py:finish():614] file stream finish called
+2024-08-06 21:34:23,234 INFO    SenderThread:6549 [file_stream.py:finish():618] file stream finish is done
+2024-08-06 21:34:23,234 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 13
+2024-08-06 21:34:23,234 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:23,234 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 13
+2024-08-06 21:34:23,234 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:23,235 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-08-06 21:34:23,235 INFO    SenderThread:6549 [sender.py:transition_state():614] send defer: 14
+2024-08-06 21:34:23,235 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: defer
+2024-08-06 21:34:23,235 INFO    HandlerThread:6549 [handler.py:handle_request_defer():172] handle defer: 14
+2024-08-06 21:34:23,235 DEBUG   SenderThread:6549 [sender.py:send():379] send: final
+2024-08-06 21:34:23,235 DEBUG   SenderThread:6549 [sender.py:send():379] send: footer
+2024-08-06 21:34:23,235 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: defer
+2024-08-06 21:34:23,235 INFO    SenderThread:6549 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-08-06 21:34:23,236 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-06 21:34:23,236 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: poll_exit
+2024-08-06 21:34:23,236 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: poll_exit
+2024-08-06 21:34:23,237 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: server_info
+2024-08-06 21:34:23,237 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: poll_exit
+2024-08-06 21:34:23,237 DEBUG   SenderThread:6549 [sender.py:send_request():406] send_request: server_info
+2024-08-06 21:34:23,239 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: get_summary
+2024-08-06 21:34:23,239 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: sampled_history
+2024-08-06 21:34:23,240 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: internal_messages
+2024-08-06 21:34:23,381 INFO    MainThread:6549 [wandb_run.py:_footer_history_summary_info():3936] rendering history
+2024-08-06 21:34:23,381 INFO    MainThread:6549 [wandb_run.py:_footer_history_summary_info():3968] rendering summary
+2024-08-06 21:34:23,381 INFO    MainThread:6549 [wandb_run.py:_footer_sync_info():3895] logging synced files
+2024-08-06 21:34:23,382 DEBUG   HandlerThread:6549 [handler.py:handle_request():146] handle_request: shutdown
+2024-08-06 21:34:23,382 INFO    HandlerThread:6549 [handler.py:finish():866] shutting down handler
+2024-08-06 21:34:24,238 INFO    WriterThread:6549 [datastore.py:close():296] close: /Users/Shayaan/Desktop/code/code-switched-pos-tagging/wandb/run-20240806_213320-pc06d5v0/run-pc06d5v0.wandb
+2024-08-06 21:34:24,383 INFO    SenderThread:6549 [sender.py:finish():1546] shutting down sender
+2024-08-06 21:34:24,383 INFO    SenderThread:6549 [file_pusher.py:finish():172] shutting down file pusher
+2024-08-06 21:34:24,383 INFO    SenderThread:6549 [file_pusher.py:join():178] waiting for file pusher

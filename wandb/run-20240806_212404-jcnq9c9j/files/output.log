@@ -1,0 +1,97 @@
+
+0 tensor(3.0411, grad_fn=<NegBackward0>)
+1 tensor(3.0636, grad_fn=<NegBackward0>)
+2 tensor(2.4646, grad_fn=<NegBackward0>)
+3 tensor(2.7462, grad_fn=<NegBackward0>)
+4 tensor(2.1677, grad_fn=<NegBackward0>)
+5 tensor(2.3177, grad_fn=<NegBackward0>)
+6 tensor(2.2169, grad_fn=<NegBackward0>)
+
+7 tensor(2.4939, grad_fn=<NegBackward0>)
+8 tensor(2.6804, grad_fn=<NegBackward0>)
+9 tensor(2.8620, grad_fn=<NegBackward0>)
+10 tensor(2.8579, grad_fn=<NegBackward0>)
+11 tensor(2.5485, grad_fn=<NegBackward0>)
+12 tensor(2.4238, grad_fn=<NegBackward0>)
+13 tensor(2.1361, grad_fn=<NegBackward0>)
+14 tensor(2.0451, grad_fn=<NegBackward0>)
+15 tensor(1.9852, grad_fn=<NegBackward0>)
+16 tensor(1.8785, grad_fn=<NegBackward0>)
+17 tensor(1.8398, grad_fn=<NegBackward0>)
+18 tensor(1.8088, grad_fn=<NegBackward0>)
+19 tensor(1.7765, grad_fn=<NegBackward0>)
+20 tensor(1.7327, grad_fn=<NegBackward0>)
+21 tensor(1.6917, grad_fn=<NegBackward0>)
+22 tensor(1.6618, grad_fn=<NegBackward0>)
+23 tensor(1.6240, grad_fn=<NegBackward0>)
+24 tensor(1.5900, grad_fn=<NegBackward0>)
+25 tensor(1.5721, grad_fn=<NegBackward0>)
+26 tensor(1.5468, grad_fn=<NegBackward0>)
+27 tensor(1.5318, grad_fn=<NegBackward0>)
+28 tensor(1.5209, grad_fn=<NegBackward0>)
+29 tensor(1.5058, grad_fn=<NegBackward0>)
+30 tensor(1.4917, grad_fn=<NegBackward0>)
+31 tensor(1.4813, grad_fn=<NegBackward0>)
+32 tensor(1.4723, grad_fn=<NegBackward0>)
+33 tensor(1.4628, grad_fn=<NegBackward0>)
+34 tensor(1.4554, grad_fn=<NegBackward0>)
+35 tensor(1.4507, grad_fn=<NegBackward0>)
+36 tensor(1.4465, grad_fn=<NegBackward0>)
+37 tensor(1.4415, grad_fn=<NegBackward0>)
+38 tensor(1.4359, grad_fn=<NegBackward0>)
+39 tensor(1.4304, grad_fn=<NegBackward0>)
+40 tensor(1.4257, grad_fn=<NegBackward0>)
+41 tensor(1.4219, grad_fn=<NegBackward0>)
+42 tensor(1.4184, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 11, in <module>
+    model_probabilities = model(test_in).float()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 167, in forward
+    return self.module(*inputs, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 104, in forward
+    x = self.xlm_roberta(input).last_hidden_state
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 837, in forward
+    encoder_outputs = self.encoder(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 525, in forward
+    layer_outputs = layer_module(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 414, in forward
+    self_attention_outputs = self.attention(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 341, in forward
+    self_outputs = self.self(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 220, in forward
+    key_layer = self.transpose_for_scores(self.key(hidden_states))
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

@@ -1,0 +1,64 @@
+
+tensor(2.0210, grad_fn=<NegBackward0>)
+tensor(1.0293, grad_fn=<NegBackward0>)
+tensor(0.7009, grad_fn=<NegBackward0>)
+tensor(0.5598, grad_fn=<NegBackward0>)
+tensor(0.4942, grad_fn=<NegBackward0>)
+tensor(0.4555, grad_fn=<NegBackward0>)
+tensor(0.4302, grad_fn=<NegBackward0>)
+tensor(0.4125, grad_fn=<NegBackward0>)
+tensor(0.3993, grad_fn=<NegBackward0>)
+tensor(0.3892, grad_fn=<NegBackward0>)
+tensor(0.3813, grad_fn=<NegBackward0>)
+tensor(0.3748, grad_fn=<NegBackward0>)
+tensor(0.3695, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 11, in <module>
+    model_probabilities = model(test_in).float()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 167, in forward
+    return self.module(*inputs, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 104, in forward
+    x = self.xlm_roberta(input).last_hidden_state
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 837, in forward
+    encoder_outputs = self.encoder(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 525, in forward
+    layer_outputs = layer_module(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 456, in forward
+    layer_output = apply_chunking_to_forward(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/pytorch_utils.py", line 237, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 469, in feed_forward_chunk
+    layer_output = self.output(intermediate_output, attention_output)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 380, in forward
+    hidden_states = self.dense(hidden_states)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt

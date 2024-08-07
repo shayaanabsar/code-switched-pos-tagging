@@ -1,0 +1,56 @@
+0 tensor(3.2445, grad_fn=<NegBackward0>)
+tensor([14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14])
+1 tensor(2.7017, grad_fn=<NegBackward0>)
+tensor([14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14])
+2 tensor(1.8933, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+3 tensor(1.9057, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+4 tensor(1.5949, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+5 tensor(1.4548, grad_fn=<NegBackward0>)
+tensor([3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3])
+6 tensor(1.3976, grad_fn=<NegBackward0>)
+tensor([14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14])
+7 tensor(1.4072, grad_fn=<NegBackward0>)
+tensor([14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14])
+8 tensor(1.4292, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+9 tensor(1.3975, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+10 tensor(1.3784, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+11 tensor(1.3743, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+12 tensor(1.3748, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+13 tensor(1.3811, grad_fn=<NegBackward0>)
+tensor([3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3])
+14 tensor(1.3884, grad_fn=<NegBackward0>)
+tensor([3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3])
+15 tensor(1.3862, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+16 tensor(1.3744, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+17 tensor(1.3625, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+18 tensor(1.3583, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+19 tensor(1.3617, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+20 tensor(1.3677, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 16, in <module>
+    optimizer.step()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adam.py", line 168, in step
+    adam(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adam.py", line 318, in adam
+    func(params,
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adam.py", line 394, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad.conj(), value=1 - beta2)
+KeyboardInterrupt

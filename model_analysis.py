@@ -45,16 +45,15 @@ def test(inputs, outputs):
 
 	for i in range(5):
 		preds = torch.argmax(model(inputs[batch_size*n:batch_size*(n+1)]), dim=-1)
-		acts  = torch.argmax(outputs[batch_size*n:batch_size*(n+1)], dim=-1)
+		acts  = outputs[batch_size*n:batch_size*(n+1)]
 
 		for sample_number in range(batch_size):
-			for token_number in range(tokens):
-				if acts[sample_number][token_number] != pp.tagset[SPECIAL_TAG]:
-					if preds[sample_number][token_number] == acts[sample_number][token_number]:
-						right += 1
-						counts[codes_to_langs[output_tags[n*batch_size + sample_number].item()]][0] += 1
-					counts[codes_to_langs[output_tags[n*batch_size + sample_number].item()]][1] += 1
-					total += 1
+			for token_number in range(len(acts[sample_number])):
+				if preds[sample_number][token_number] == acts[sample_number][token_number]:
+					right += 1
+					counts[codes_to_langs[output_tags[n*batch_size + sample_number].item()]][0] += 1
+				counts[codes_to_langs[output_tags[n*batch_size + sample_number].item()]][1] += 1
+				total += 1
 		n += 1
 
 		print(f'{(right/total)*100:.4f}')

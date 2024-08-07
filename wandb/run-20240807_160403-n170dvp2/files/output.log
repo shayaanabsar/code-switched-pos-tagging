@@ -1,0 +1,20 @@
+
+['#282', ':', 'Around', '20', 'years', 'ago', ',', 'I', 'was', 'perennially', 'broke', 'and', 'needed', 'extra', 'cash', 'for', 'more', 'sutta', 'and', 'daaru', '.', 'So', 'in', 'a', 'state', 'of', 'drunken', 'stupor', ',', 'I', 'placed', 'a', 'silly', 'bet', 'with', 'the', 'equally', 'drunk', 'morons', 'in', 'the', 'room', 'with', 'me', '.', 'The', 'bet', 'required', 'that', 'I', 'had', 'to', 'stand', 'stark', 'naked', 'in', 'front', 'of', 'H9', 'main', 'mess', 'hall', 'for', 'minimum', '1', 'minute', ',', 'at', 'peak', 'lunchtime', '.', 'Within', 'a', 'week', ',', 'the', 'entire', 'hostel', 'was', 'aware', 'of', 'this', 'bet', 'and', 'each', 'person', 'contributed', 'Rs', '10', 'to', 'the', 'pot', '.', 'By', 'D-Day', 'the', 'prize', 'money', 'collected', 'was', 'in', 'excess', 'of', 'Rs', '1000', '(', "that's", 'easily', 'worth', 'Rs', '7', '~', '8k', 'today', ')', 'which', 'was', 'collected', 'by', 'junta', 'for', 'the', 'grand', 'event', '.', 'At', 'the', 'appointed', 'hour', 'when', 'the', 'mess', 'was', 'full', ',', 'I', 'lost', 'my', 'nerve', 'and', 'refused', 'to', 'go', 'down', 'nanga', '.', 'But', 'it', 'was', 'a', 'matter', 'of', 'honor', 'for', 'the', 'wing', ',', 'so', '4', 'strongarm', 'wingmates', 'grabbed', 'me', 'and', 'marched', 'me', 'down', 'naked', 'while', 'I', 'covered', 'my', 'privates', '...', 'when', 'the', 'stopwatch', 'started', ',', 'they', 'held', 'my', 'hands', 'up', 'for', 'a', 'full', '1', 'minute', 'while', 'all', 'mess-goers', 'of', 'H9', 'got', 'a', 'glimpse', 'of', 'my', 'sceptre', ',', 'family', 'jewels', 'and', 'unkempt', 'fields', '.', 'That', 'Rs', '1000', "didn't", 'even', 'last', '2', 'days', 'because', 'my', 'chootiya', 'wingmates', 'drank', 'everything', '.']
+0 tensor(2.9917, grad_fn=<NegBackward0>)
+1 tensor(1.9442, grad_fn=<NegBackward0>)
+2 tensor(1.5406, grad_fn=<NegBackward0>)
+3 tensor(1.2219, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 20, in <module>
+    optimizer.step()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 188, in step
+    adamw(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 340, in adamw
+    func(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 419, in _single_tensor_adamw
+    exp_avg.lerp_(grad, 1 - beta1)
+KeyboardInterrupt

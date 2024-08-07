@@ -27,12 +27,12 @@ Wala	hi	G_PRT
 Love	en	G_N
 (	univ	G_X
 From	en	PSP
-"	univ	G_X
+\"	univ	G_X
 Student	en	G_N
 of	en	PSP
 the	en	DT
 Year	en	G_N
-"	univ	G_X
+\"	univ	G_X
 )	univ	G_X
 The	en	DT
 DJ	acro	G_N
@@ -72,12 +72,12 @@ Wala	hi	G_PRT
 Love	en	G_N
 (	univ	G_X
 From	en	PSP
-"	univ	G_X
+\"	univ	G_X
 Student	en	G_N
 of	en	PSP
 the	en	DT
 Year	en	G_N
-"	univ	G_X
+\"	univ	G_X
 )	univ	G_X
 The	en	DT
 DJ	acro	G_N
@@ -469,7 +469,7 @@ Zyaada	hi	G_SYM
 ...	univ	G_X
 http://t.co/mNVsAUACmR	univ	U
 
-"	univ	G_X
+\"	univ	G_X
 jab	hi	G_PRP
 koi	hi	G_PRP
 ladki	hi	G_N
@@ -496,7 +496,7 @@ only	en	G_R
 means	en	G_V
 no	en	G_PRT
 )	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 #soimportant	univ	#
 http://t.co/CkAMzmhH1g	univ	U
 
@@ -1328,7 +1328,7 @@ HIND	hi	G_N
 #IndvsSA	univ	#
 #IndWins	univ	#
 
-"	univ	G_X
+\"	univ	G_X
 Humpe	hi	G_PRP
 ye	hi	G_PRP
 kisne	hi	G_PRP
@@ -1342,7 +1342,7 @@ humari	hi	G_PRP
 hme	hi	G_PRP
 maar	hi	G_V
 daala	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 -	univ	G_X
 SA	acro	G_N
 team	en	G_N
@@ -1851,7 +1851,7 @@ whispered	en	G_V
 Faf	ne	G_N
 Du	ne	G_N
 Plesis	ne	G_N
-"	univ	G_X
+\"	univ	G_X
 Beta	hi	G_N
 out	en	G_R
 ho	hi	G_V
@@ -1863,7 +1863,7 @@ se	hi	PSP
 out	en	G_R
 kara	hi	G_V
 dunga	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 LOL	univ	G_PRT
 #IndVsSA	univ	#
 
@@ -2138,7 +2138,7 @@ chahiye	hi	G_V
 shoib	ne	G_N
 akhter	ne	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @mohamm_s	univ	@
 :	univ	G_X
 LOL	univ	G_PRT
@@ -2157,7 +2157,7 @@ tha	hi	G_V
 Usme	hi	G_PRP
 ha	univ	G_PRT
 ha	univ	G_PRT
-"	univ	G_X
+\"	univ	G_X
 DDLJ	acro	G_N
 Forever	en	G_R
 In	en	PSP
@@ -2297,10 +2297,10 @@ hai	hi	G_V
 ya	hi	CC
 misbah	ne	G_N
 ki	hi	PSP
-"	univ	G_X
+\"	univ	G_X
 tutti	hi	G_J
 pajji	hi	G_J
-"	univ	G_X
+\"	univ	G_X
 english	en	G_N
 sy	hi	PSP
 ???	univ	G_X
@@ -2364,7 +2364,7 @@ kary	hi	G_V
 us	hi	G_PRP
 py	hi	PSP
 
-"	univ	G_X
+\"	univ	G_X
 Misbah	ne	G_N
 90	univ	$
 balls	en	G_N
@@ -2379,7 +2379,7 @@ gandhi	hi	G_J
 angrezi	hi	G_N
 bolta	hi	G_V
 hai	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 -	univ	G_X
 shoib	ne	G_N
 Akhtar	ne	G_N
@@ -3068,7 +3068,7 @@ fullest	en	G_N
 
 #339	univ	#
 :	univ	G_X
-[\\m/]	univ	E
+[\\\\m/]	univ	E
 Just	en	G_R
 came	en	G_V
 back	en	G_N
@@ -3715,10 +3715,10 @@ a	en	DT
 very	en	G_R
 weird	en	G_V
 so-called	en	G_J
-\	univ	G_N
-"	univ	G_X
-papa-beti\	mixed	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+papa-beti\\	mixed	G_N
+\"	univ	G_X
 relation	en	G_N
 .	univ	G_X
 They	en	G_PRP
@@ -3733,22 +3733,22 @@ childish	en	G_J
 things	en	G_N
 like	en	G_R
 write	en	G_V
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 Papa	en	G_N
 I	en	G_PRP
 luv	en	G_V
 u	en	G_PRP
 <3	univ	$
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 and	en	CC
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 Luv	en	G_V
 u	en	G_PRP
-bachchi\	en	G_N
-"	univ	G_X
+bachchi\\	en	G_N
+\"	univ	G_X
 on	en	PSP
 each	en	G_PRP
 others	en	G_J
@@ -3786,11 +3786,11 @@ papa	hi	G_N
 &	en	CC
 beti	hi	G_N
 are	hi	PSP
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 doing	en	G_V
-it\	en	G_PRP
-"	univ	G_X
+it\\	en	G_PRP
+\"	univ	G_X
 
 can	en	G_V
 u	en	G_PRP
@@ -4223,7 +4223,7 @@ know	en	G_V
 eh	univ	G_PRT
 ;)	univ	E
 
-_/\\_	univ	E
+_/\\\\_	univ	E
 
 #328	univ	#
 :	univ	G_X
@@ -4698,10 +4698,10 @@ to	en	G_PRT
 me	en	G_PRP
 ...	univ	G_X
 this	en	G_PRP
-\	univ	G_N
-"	univ	G_X
-stud\	hi	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+stud\\	hi	G_N
+\"	univ	G_X
 was	en	G_V
 hooked	en	G_V
 and	en	CC
@@ -4881,10 +4881,10 @@ in	en	PSP
 second	en	G_SYM
 year	en	G_N
 I	en	G_PRP
-\	univ	G_N
-"	univ	G_X
-acquired\	en	G_V
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+acquired\\	en	G_V
+\"	univ	G_X
 about	en	PSP
 1.5	univ	$
 l	en	G_X
@@ -5181,12 +5181,12 @@ of	en	PSP
 money	en	G_N
 .	univ	G_X
 
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 other	en	G_J
 hot	en	G_J
-chicks\	en	G_N
-"	univ	G_X
+chicks\\	en	G_N
+\"	univ	G_X
 ...	univ	G_X
 :-P	univ	E
 
@@ -6644,8 +6644,8 @@ sleep	en	G_V
 uttering	en	G_V
 gems	en	G_N
 like	en	G_R
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 Moti	hi	G_J
 ,	univ	G_X
 aaj	hi	G_R
@@ -6658,8 +6658,8 @@ bhaya	hi	G_V
 kya	hi	G_PRP
 tujhe	hi	G_PRP
 ?	univ	G_X
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 usually	en	G_R
 followed	en	G_V
 by	en	PSP
@@ -6870,10 +6870,10 @@ you	en	G_PRP
 were	en	G_V
 seeing	en	G_V
 a	en	DT
-\	univ	G_N
-"	univ	G_X
-guy\	en	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+guy\\	en	G_N
+\"	univ	G_X
 ?	univ	G_X
 ;)	univ	E
 
@@ -8708,16 +8708,16 @@ Sai	ne	G_N
 Karthik	ne	G_N
 
 #290	univ	#
-[\\m/]	univ	E
+[\\\\m/]	univ	E
 :	univ	G_X
 I	en	G_PRP
 used	en	G_V
 to	en	G_PRT
 buy	en	G_V
-\	univ	G_N
-"	univ	G_X
-pussy\	en	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+pussy\\	en	G_N
+\"	univ	G_X
 cat	en	G_N
 toffee	en	G_N
 regularly	en	G_R
@@ -9196,10 +9196,10 @@ And	en	CC
 then	en	G_R
 the	en	DT
 universe	en	G_N
-\	univ	G_N
-"	univ	G_X
-burrrrPed\	en	G_PRT
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+burrrrPed\\	en	G_PRT
+\"	univ	G_X
 ;)	univ	E
 
 True	en	G_J
@@ -9296,12 +9296,12 @@ Xavier's	ne	G_N
 ki	hi	PSP
 bandi	hi	G_N
 ko	hi	PSP
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 Theory	en	G_N
 of	en	PSP
-Probability\	en	G_N
-"	univ	G_X
+Probability\\	en	G_N
+\"	univ	G_X
 kya	hi	G_PRP
 Ghantaa	hi	G_N
 chamkega	hi	G_V
@@ -9427,10 +9427,10 @@ I	en	G_PRP
 would	en	G_V
 never	en	G_R
 do	hi	G_V
-\	univ	G_N
-"	univ	G_X
-Core\	en	G_J
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+Core\\	en	G_J
+\"	univ	G_X
 .	univ	G_X
 (	univ	G_X
 Jobs	en	G_N
@@ -9496,8 +9496,8 @@ college	en	G_N
 education	en	G_N
 ....	univ	G_X
 .	univ	G_X
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 The	en	DT
 purpose	en	G_N
 of	en	PSP
@@ -9507,8 +9507,8 @@ education	en	G_N
 is	en	G_V
 to	en	G_PRT
 change	en	G_N
-you\	en	G_PRP
-"	univ	G_X
+you\\	en	G_PRP
+\"	univ	G_X
 .	univ	G_X
 Now-	en	G_R
 the	en	DT
@@ -9729,7 +9729,7 @@ someday	en	G_R
 )	univ	G_X
 .	univ	G_X
 
-_/\\_	univ	E
+_/\\\\_	univ	E
 
 :)	univ	E
 So	en	PSP
@@ -10254,24 +10254,24 @@ boy	en	G_N
 tries	en	G_V
 to	en	G_PRT
 have	en	G_V
-\	univ	G_N
-"	univ	G_X
-fun\	en	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+fun\\	en	G_N
+\"	univ	G_X
 ,	univ	G_X
 he	hi	G_V
 is	en	G_V
 called	en	G_V
 a	en	DT
-\	univ	G_N
-"	univ	G_X
-player\	en	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+player\\	en	G_N
+\"	univ	G_X
 or	en	CC
-\	univ	G_N
-"	univ	G_X
-tharki\	hi	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+tharki\\	hi	G_N
+\"	univ	G_X
 but	en	CC
 if	en	PSP
 a	en	DT
@@ -10285,10 +10285,10 @@ she	en	G_PRP
 is	en	G_V
 called	en	G_V
 a	en	DT
-\	univ	G_N
-"	univ	G_X
-slut\	en	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
+slut\\	en	G_N
+\"	univ	G_X
 ?	univ	G_X
 
 If	en	PSP
@@ -10593,13 +10593,13 @@ nights	en	G_N
 bhak	hi	G_V
 saala	hi	G_PRT
 
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 Best	en	G_J
 Moment	en	G_N
 at	en	PSP
-IITB\	acro	G_N
-"	univ	G_X
+IITB\\	acro	G_N
+\"	univ	G_X
 ?	univ	G_X
 Seriously	en	G_V
 ?	univ	G_X
@@ -10937,8 +10937,8 @@ group	en	G_N
 Please	en	G_R
 don't	en	G_V
 say	hi	PSP
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 yeah	en	G_PRT
 ,	univ	G_X
 I'm	en	G_N
@@ -10950,8 +10950,8 @@ have	en	G_V
 non-tam	en	G_J
 friends	en	G_N
 .	univ	G_X
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 Exceptions	en	G_N
 exist	en	G_V
 ,	univ	G_X
@@ -11963,7 +11963,7 @@ you-know-what	en	G_X
 
 Emp	ne	G_N
 Ally	ne	G_N
-_/\\_	univ	E
+_/\\\\_	univ	E
 
 Damn	en	G_PRT
 !!!	univ	G_X
@@ -12395,11 +12395,11 @@ You	en	G_PRP
 should	en	G_V
 have	en	G_V
 borrowed	en	G_V
-\	univ	G_N
-"	univ	G_X
+\\	univ	G_N
+\"	univ	G_X
 Vernier	ne	G_N
-Callipers\	ne	G_N
-"	univ	G_X
+Callipers\\	ne	G_N
+\"	univ	G_X
 from	en	PSP
 the	en	DT
 lab	en	G_N
@@ -12463,7 +12463,7 @@ one	en	G_SYM
 admin	en	G_N
 to	en	G_PRT
 another	en	DT
-_/\\_	univ	E
+_/\\\\_	univ	E
 sometimes	en	G_R
 even	en	G_R
 we	en	G_PRP
@@ -12548,7 +12548,7 @@ Ed	ne	G_N
 
 Eddie	ne	G_N
 ...	univ	G_X
-_/\\_	univ	E
+_/\\\\_	univ	E
 :D	univ	E
 
 Hahaha	univ	G_PRT
@@ -12627,10 +12627,10 @@ not	en	G_R
 know	en	G_V
 what	en	G_PRP
 is	en	G_V
-\	univ	G_X
-"	univ	G_X
-SCORE\	en	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
+SCORE\\	en	G_X
+\"	univ	G_X
 !!!	univ	G_X
 
 I	en	G_PRP
@@ -12986,10 +12986,10 @@ H9	univ	$
 used	en	G_V
 to	en	CC
 organize	en	G_V
-\	univ	G_X
-"	univ	G_X
-socials\	en	G_N
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
+socials\\	en	G_N
+\"	univ	G_X
 with	en	CC
 Sophia	ne	G_N
 college	en	G_N
@@ -13190,16 +13190,16 @@ rahi	hi	G_V
 hai	hi	G_PRT
 .	univ	G_X
 
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 fill	en	G_V
 it	en	DT
 with	en	PSP
 all	en	DT
 sorts	en	G_N
 of	en	PSP
-girls\	en	G_N
-"	univ	G_X
+girls\\	en	G_N
+\"	univ	G_X
 .	univ	G_X
 .	univ	G_X
 WTF	acro	G_PRT
@@ -13278,11 +13278,11 @@ the	en	DT
 kids	en	G_N
 call	en	G_V
 it	en	DT
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 mi	en	G_X
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 
 Now	en	G_R
 I	en	G_PRP
@@ -13378,16 +13378,16 @@ ever	en	G_R
 happened	en	G_V
 to	en	PSP
 the	en	DT
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 this	en	G_PRP
 page	en	G_N
 is	en	G_V
 dedicated	en	G_V
 to	en	PSP
 quality	en	G_J
-confessions\	en	G_N
-"	univ	G_X
+confessions\\	en	G_N
+\"	univ	G_X
 motto	en	G_N
 ?	univ	G_X
 I	en	G_PRP
@@ -13744,7 +13744,7 @@ Welcome	en	G_V
 to	en	PSP
 the	en	DT
 club	en	G_N
-[\\m/]	univ	G_X
+[\\\\m/]	univ	G_X
 bet	en	G_V
 your	en	DT
 stories	en	G_N
@@ -13757,7 +13757,7 @@ mine	en	G_PRP
 
 #253	univ	$
 :	univ	G_X
-[\\m/]	univ	G_X
+[\\\\m/]	univ	G_X
 I	en	G_PRP
 am	en	G_V
 the	en	DT
@@ -14428,7 +14428,7 @@ for	en	CC
 miles	en	G_N
 ...	univ	G_X
 
-_/\\_	univ	E
+_/\\\\_	univ	E
 must	en	G_V
 have	en	G_V
 felt	en	G_V
@@ -14544,7 +14544,7 @@ me	en	G_PRP
 ;)	univ	E
 
 R.A.S.P.A.C.T.	en	G_V
-_/\\_	univ	E
+_/\\\\_	univ	E
 
 No	en	G_PRT
 you	en	G_PRP
@@ -14852,10 +14852,10 @@ we	en	G_PRP
 know	en	G_V
 you're	en	G_PRP
 a	en	DT
-\	univ	G_X
-"	univ	G_X
-regular\	en	G_J
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
+regular\\	en	G_J
+\"	univ	G_X
 ;)	univ	G_N
 ~	univ	G_X
 Ed	ne	G_X
@@ -15481,7 +15481,7 @@ anymore	en	G_R
 ~	univ	G_X
 Ed	ne	G_X
 
-_/\\_	univ	E
+_/\\\\_	univ	E
 
 Sounds	en	G_V
 fake	en	G_J
@@ -16425,7 +16425,7 @@ that	en	PSP
 semester	en	G_N
 .	univ	G_X
 
-_/\\_	univ	E
+_/\\\\_	univ	E
 I	en	G_PRP
 actually	en	G_R
 know	en	G_V
@@ -16474,7 +16474,7 @@ LOTR	acro	G_N
 .	univ	G_X
 
 Respect	en	G_N
-_/\\_	univ	E
+_/\\\\_	univ	E
 !	univ	G_X
 
 You're	en	G_PRP
@@ -16505,7 +16505,7 @@ ago	en	G_R
 ~	univ	G_X
 M2K	acro	G_N
 
-_/\\_	univ	E
+_/\\\\_	univ	E
 
 daya	ne	G_N
 
@@ -16710,16 +16710,16 @@ guy	en	G_N
 just	en	G_R
 said	en	G_V
 :	univ	G_X
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 Fuck	en	G_V
 benchod	hi	G_N
 ,	univ	G_X
 I	en	G_PRP
 have	en	G_V
 to	en	CC
-go\	en	G_V
-"	univ	G_X
+go\\	en	G_V
+\"	univ	G_X
 It	en	G_PRP
 sounded	en	G_V
 like	en	G_R
@@ -16893,7 +16893,7 @@ stud	en	G_J
 h	hi	G_V
 :D	univ	E
 
-_/\\_	univ	E
+_/\\\\_	univ	E
 
 :-D	univ	E
 
@@ -17190,16 +17190,16 @@ d	en	DT
 advice	en	G_N
 like	en	G_R
 ,	univ	G_X
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 there	en	G_R
 are	en	G_V
 many	en	G_J
 fish	en	G_N
 in	en	PSP
 the	en	DT
-sea\	en	G_N
-"	univ	G_X
+sea\\	en	G_N
+\"	univ	G_X
 well	en	G_R
 until	en	PSP
 I	en	G_PRP
@@ -17231,8 +17231,8 @@ came	en	G_V
 home	en	G_N
 and	en	PSP
 thought	en	G_V
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 did	en	G_V
 I	en	G_PRP
 really	en	G_R
@@ -17241,8 +17241,8 @@ my	en	DT
 pubic	en	G_J
 hair	en	G_N
 for	en	PSP
-this\	en	DT
-"	univ	G_X
+this\\	en	DT
+\"	univ	G_X
 
 #215	univ	$
 :	univ	G_X
@@ -17723,8 +17723,8 @@ brothel	en	G_X
 ...	univ	G_X
 he	en	G_PRP
 says	en	G_V
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 abe	hi	PSP
 thodi	hi	G_J
 der	hi	G_J
@@ -17751,8 +17751,8 @@ roomie	en	G_N
 maanta	hi	G_N
 hi	hi	G_PRT
 nahi	univ	G_PRT
-saala\	hi	G_N
-"	univ	G_X
+saala\\	hi	G_N
+\"	univ	G_X
 .	univ	G_X
 .	univ	G_X
 Being	en	G_V
@@ -18384,12 +18384,12 @@ MARA	hi	G_N
 ????????????	univ	G_X
 HASU	hi	G_PRT
 ?	univ	G_X
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 haha	univ	G_PRT
 ..!	univ	G_X
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 
 #201	univ	#
 :	univ	G_X
@@ -18652,12 +18652,12 @@ side	en	G_R
 effect	en	G_V
 of	en	CC
 freebees	en	G_N
-\	univ	G_X
-"	univ	G_X
+\\	univ	G_X
+\"	univ	G_X
 eating	en	G_V
 my	en	DT
-bar-one\	en	G_N
-"	univ	G_X
+bar-one\\	en	G_N
+\"	univ	G_X
 ...	univ	G_X
 :P	univ	E
 
@@ -19616,8 +19616,8 @@ we	en	G_PRP
 loveeeeeee	en	G_V
 youuuuuuðŸ˜ðŸ˜ðŸ˜ðŸ˜ðŸ˜	en	G_PRP
 
-_/\_	univ	E
-_/\_	univ	E
+_/\\_	univ	E
+_/\\_	univ	E
 @SDhawan25	univ	@
 ...	univ	G_X
 #IndvsSA	univ	#
@@ -19813,7 +19813,7 @@ balle	hi	G_PRT
 balle	hi	G_PRT
 oye	hi	G_PRT
 
-"	univ	G_X
+\"	univ	G_X
 @IndiaToday	univ	@
 :	univ	G_X
 #BudgetBT	univ	#
@@ -19829,7 +19829,7 @@ Halwa	hi	G_N
 ceremony	en	G_N
 .	univ	G_X
 http://t.co/knYuyDHBul	univ	U
-"	univ	G_X
+\"	univ	G_X
 oye	hi	G_PRT
 balle	hi	G_PRT
 !	univ	G_X
@@ -19942,9 +19942,9 @@ time	en	G_N
 ..	univ	G_X
 â™¥â™¥â™¥â™¥	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 @rachitst	univ	@
-"	univ	G_X
+\"	univ	G_X
 @iyerdeepshri	univ	@
 :	univ	G_X
 Mohit	ne	G_N
@@ -19955,7 +19955,7 @@ chumma	hi	G_N
 :	univ	G_X
 *	univ	G_X
 #CWC15	univ	#
-"	univ	G_X
+\"	univ	G_X
 Chalo	hi	G_V
 Kisi	hi	G_PRP
 north	en	G_N
@@ -19965,11 +19965,11 @@ Ki	hi	G_PRT
 kismat	hi	G_N
 to	hi	G_PRT
 chamki	hi	G_J
-"	univ	G_X
+\"	univ	G_X
 #racist	univ	#
 :P	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 @iyerdeepshri	univ	@
 :	univ	G_X
 Mohit	ne	G_N
@@ -19980,7 +19980,7 @@ chumma	hi	G_N
 :	univ	G_X
 *	univ	G_X
 #CWC15	univ	#
-"	univ	G_X
+\"	univ	G_X
 Chalo	hi	G_V
 Kisi	hi	G_PRP
 north	en	G_N
@@ -20046,7 +20046,7 @@ watching	en	G_V
 Mohit	ne	G_N
 Sharma's	ne	G_N
 performance	en	G_N
-"	univ	G_X
+\"	univ	G_X
 Dekho	hi	G_V
 Sharma	ne	G_N
 ji	hi	G_PRT
@@ -20056,7 +20056,7 @@ ko	hi	PSP
 ,	univ	G_X
 kuch	hi	G_SYM
 seekho	hi	G_N
-"	univ	G_X
+\"	univ	G_X
 #IndvsSA	univ	#
 #SAvsIND	univ	#
 #IndiaVsSouthAfrica	univ	#
@@ -20077,7 +20077,7 @@ sharma's	ne	G_N
 parents	en	G_N
 will	en	G_V
 say	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 ek	hi	G_SYM
 baar	hi	G_N
 apne	hi	G_PRP
@@ -20087,7 +20087,7 @@ dekho	hi	G_V
 aur	hi	G_R
 apne	hi	G_PRP
 apko	hi	G_PRP
-"	univ	G_X
+\"	univ	G_X
 .	univ	G_X
 
 Nikaal	hi	G_V
@@ -20320,7 +20320,7 @@ ko	hi	PSP
 salam	hi	G_N
 !	univ	G_X
 RT	acro	~
-"	univ	G_X
+\"	univ	G_X
 @xtahzy	univ	@
 :	univ	G_X
 See	en	G_V
@@ -20339,7 +20339,7 @@ is	en	G_PRP
 on	en	PSP
 fire	en	G_J
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Mohit	ne	G_N
 Sharma	ne	G_N
@@ -20380,7 +20380,7 @@ mere	hi	G_PRP
 dost	hi	G_N
 !	univ	G_X
 :P	univ	E
-"	univ	G_X
+\"	univ	G_X
 @authoramish	univ	@
 :	univ	G_X
 Looks	en	G_V
@@ -20394,7 +20394,7 @@ too	en	G_R
 !!!!!!	univ	G_X
 :-)	univ	E
 #IndvsSA	univ	#
-"	univ	G_X
+\"	univ	G_X
 
 Phatakhe	hi	G_N
 to	hi	CC
@@ -21129,7 +21129,7 @@ IS	en	G_V
 CALL	en	G_V
 ITS	en	G_N
 TAILS	en	G_N
-"	univ	G_X
+\"	univ	G_X
 INDIA	ne	G_N
 WINS	en	G_V
 TO$$''	univ	PSP
@@ -22667,13 +22667,13 @@ the	en	DT
 Holi	hi	G_N
 mood	en	G_N
 with	en	PSP
-"	hi	G_X
+\"	hi	G_X
 Aaj	hi	G_N
 na	hi	G_PRT
 chhodenge	hi	G_N
 hum	hi	G_V
 humjoli	hi	G_N
-"	univ	G_X
+\"	univ	G_X
 on	hi	PSP
 Rangoli	hi	G_N
 !	univ	G_X
@@ -22685,7 +22685,7 @@ Voice	en	G_V
 from	en	PSP
 the	en	DT
 lounge	en	G_N
-"	univ	G_X
+\"	univ	G_X
 Aur	hi	DT
 dekho	hi	G_V
 aik	hi	G_X
@@ -22694,7 +22694,7 @@ supporter	en	G_N
 jaag	hi	G_N
 gyi	hi	G_V
 hai	hi	G_V
-"	hi	G_X
+\"	hi	G_X
 ðŸ™„ðŸ™„ðŸ™„ðŸ™„	univ	G_X
 
 For	en	PSP
@@ -22757,7 +22757,7 @@ I	hi	G_PRP
 remember	en	G_V
 one	en	$
 thing	en	G_N
-"	univ	G_X
+\"	univ	G_X
 Jiska	hi	G_N
 koi	hi	G_PRP
 nahi	hi	G_N
@@ -22767,7 +22767,7 @@ Uska	hi	G_N
 khuda	hi	G_N
 hota	hi	G_V
 hai	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 .	univ	G_X
 
 Kallurkot	en	G_N
@@ -22830,7 +22830,7 @@ all	en	DT
 i	hi	PSP
 wudsay	hi	G_PRP
 is	hi	G_V
-"	hi	G_X
+\"	hi	G_X
 Kabhi	hi	G_N
 kabhi	hi	G_N
 chillar	en	G_N
@@ -22839,7 +22839,7 @@ kaam	hi	G_N
 ke	hi	G_PRP
 hote	en	G_V
 hai	hi	G_V
-"	hi	G_X
+\"	hi	G_X
 ðŸ˜‚	hi	G_X
 #IndvsPak	univ	#
 #wt20	univ	#
@@ -22935,7 +22935,7 @@ the	en	DT
 old	en	G_J
 ladys	en	G_N
 says	en	G_V
-"	univ	G_X
+\"	univ	G_X
 kya	hi	G_N
 karu	hi	G_N
 beti	hi	G_N
@@ -22945,7 +22945,7 @@ khabhi	hi	G_N
 choos	hi	G_N
 laeti	hi	G_N
 huun	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 ...	univ	G_X
 cheers	en	G_N
 
@@ -22993,7 +22993,7 @@ all	en	DT
 i	en	PSP
 wudsay	en	G_PRP
 is	en	G_V
-"	univ	G_X
+\"	univ	G_X
 Kabhi	hi	G_N
 kabhi	hi	G_N
 chillar	hi	G_N
@@ -23002,7 +23002,7 @@ kaam	hi	G_N
 ke	hi	G_PRP
 hote	hi	G_V
 hai	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 ðŸ˜‚	univ	G_X
 #IndvsPak	univ	#
 #wt20	univ	#
@@ -24193,7 +24193,7 @@ Voice	en	G_V
 from	en	PSP
 the	en	DT
 lounge	en	G_N
-"	univ	G_X
+\"	univ	G_X
 Aur	hi	DT
 dekho	hi	G_V
 aik	hi	G_X
@@ -24202,7 +24202,7 @@ supporter	en	G_N
 jaag	hi	G_N
 gyi	hi	G_V
 hai	hi	G_V
-"	hi	G_X
+\"	hi	G_X
 ðŸ™„ðŸ™„ðŸ™„ðŸ™„	univ	G_X
 
 @girxlswg	univ	@
@@ -26145,7 +26145,7 @@ ji	hi	G_N
 apne	hi	G_PRP
 ðŸ‘ðŸ‘ðŸ‘ðŸ‘ðŸ‘	univ	G_X
 #MSG2Celebration	univ	#
-"	univ	G_X
+\"	univ	G_X
 
 Qandeel	hi	G_N
 se	hi	G_PRP
@@ -26185,11 +26185,11 @@ RT	hi	G_R
 vo	hi	CC
 kaney	hi	G_J
 nahi	hi	G_N
-"	univ	G_X
+\"	univ	G_X
 one	en	$
 eye	en	G_N
 warrior	en	PSP
-"	univ	G_X
+\"	univ	G_X
 kehlatey	hi	G_N
 hai	hi	G_V
 
@@ -26211,7 +26211,7 @@ lol	en	G_J
 ..	univ	G_X
 https://t.co/jqNm4XM9wi	univ	U
 
-"	univ	G_X
+\"	univ	G_X
 Shaukeen	hi	G_N
 log	hi	G_N
 bhi	hi	G_N
@@ -26219,7 +26219,7 @@ istemal	hi	G_J
 kar	hi	G_PRP
 ke	hi	G_PRP
 dekhe	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 Last	en	G_J
 line	en	G_N
 :D	univ	E
@@ -26932,11 +26932,11 @@ abey	hi	G_N
 gawaar	hi	G_N
 ki	hi	PSP
 aulaad	hi	G_J
-"	univ	G_X
+\"	univ	G_X
 Khaana	hi	G_N
 achha	hi	G_J
 thaa	hi	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Afridi	ne	G_N
 chatting	en	G_V
@@ -27679,7 +27679,7 @@ Ep3/18	hi	G_N
 Ram	univ	G_N
 tells	en	G_N
 Dasharath	hi	G_N
-"	univ	G_X
+\"	univ	G_X
 mai	hi	G_PRP
 dharma	hi	G_N
 ka	hi	PSP
@@ -27687,7 +27687,7 @@ parityaag	hi	G_N
 nahi	hi	G_PRT
 kar	hi	G_V
 sakta	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 .	univ	G_X
 His	en	G_X
 dharma	hi	G_N
@@ -27738,11 +27738,11 @@ https://t.co/5bbfB8P5Fh	univ	U
 vo	hi	G_PRP
 kaney	hi	G_J
 nahi	hi	G_PRT
-"	univ	G_X
+\"	univ	G_X
 one	en	G_SYM
 eye	hi	G_N
 warrior	en	PSP
-"	univ	G_X
+\"	univ	G_X
 kehlatey	en	G_N
 hai	hi	G_V
 
@@ -28093,7 +28093,7 @@ ayega	hi	G_N
 ðŸ˜‚ðŸ˜‚	univ	E
 #IndvsPak	univ	#
 https://t.co/Ffxueb2a0B	univ	U
-"	univ	G_X
+\"	univ	G_X
 
 @mendhro	univ	@
 afridi	ne	G_N
@@ -28177,7 +28177,7 @@ bante	en	G_N
 https://t.co/Wm4Qutmkh2	univ	U
 
 @AnupamPkher	univ	@
-"	univ	G_X
+\"	univ	G_X
 sir	en	G_N
 as	en	PSP
 u	en	G_PRP
@@ -28190,7 +28190,7 @@ bhi	hi	G_N
 ki	hi	PSP
 hai	hi	G_V
 raajniti	hi	G_N
-"	univ	G_X
+\"	univ	G_X
 I	en	G_PRP
 don't	en	G_V
 know	en	G_V
@@ -28223,14 +28223,14 @@ song	en	G_N
 of	en	PSP
 Roja	hi	G_N
 movie	en	G_N
-"	univ	G_X
+\"	univ	G_X
 Bharat	ne	G_N
 Hamko	hi	G_N
 Jan	hi	G_N
 se	hi	PSP
 Pyara	hi	G_V
 hai	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 
 yameenaky	hi	G_J
 bodu	hi	G_N
@@ -28627,7 +28627,7 @@ Ep3/18	hi	G_N
 Ram	univ	G_N
 tells	en	G_N
 Dasharath	hi	G_N
-"	univ	G_X
+\"	univ	G_X
 mai	hi	G_PRP
 dharma	hi	G_N
 ka	hi	PSP
@@ -28635,7 +28635,7 @@ parityaag	hi	G_N
 nahi	hi	G_PRT
 kar	hi	G_V
 sakta	hi	G_V
-"	univ	G_X
+\"	univ	G_X
 .	univ	G_X
 His	en	G_X
 dharma	hi	G_N
@@ -30837,15 +30837,15 @@ https://t.co/UZpS6ldFimArun	univ	U
 Purie	en	G_N
 change	en	G_N
 name	en	G_N
-"	hi	G_X
+\"	hi	G_X
 Aaj	hi	G_N
 tak	hi	G_X
-"	hi	G_X
+\"	hi	G_X
 2	hi	$
-"	hi	G_X
+\"	hi	G_X
 PAK	univ	G_N
 TAK	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 https://t.co/PzENXVob6a	univ	U
 https://â€¦	univ	U
 
@@ -31074,12 +31074,12 @@ Vande	univ	G_N
 Mataram	hi	G_N
 &	univ	CC
 now	ne	G_R
-"	hi	G_X
+\"	hi	G_X
 Bharat	ne	G_N
 Mata	hi	G_N
 Ki	hi	G_N
 Jai	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 .	univ	G_X
 Where	en	G_R
 will	en	G_V
@@ -31816,13 +31816,13 @@ confusion	en	G_N
 even	en	G_R
 children	en	G_N
 asking	en	G_V
-"	hi	G_X
+\"	hi	G_X
 bahrat	hi	G_N
 jeet	hi	G_N
 gaya	hi	G_N
 ya	hi	G_N
 gayi	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 
 @LifelessTweep	univ	@
 sidha	hi	G_N
@@ -32219,9 +32219,9 @@ Se	hi	G_X
 Zeyada	hi	G_N
 Khobsorat	hi	G_N
 Libaas	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 HAYYA	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 Ka	hi	G_N
 Libaas	hi	G_X
 Hai	hi	G_V
@@ -32448,9 +32448,9 @@ ek	hi	G_SYM
 cheez	en	G_N
 common	en	G_N
 hai	hi	G_V
-"	hi	G_X
+\"	hi	G_X
 Understanding	en	G_V
-"	hi	G_X
+\"	hi	G_X
 :))	univ	E
 
 Translation	en	G_N
@@ -32983,7 +32983,7 @@ Sham	hi	G_N
 Baje	hi	G_N
 Shuru	ne	G_N
 Hoga	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 *	univ	G_X
 Shahwaat	ne	G_X
 (	univ	G_X
@@ -33457,12 +33457,12 @@ kal	hi	G_X
 uska	hi	G_N
 message	en	G_N
 aaya	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 Its	en	G_N
 not	en	G_R
 working	en	G_V
 Sanjay	ne	G_N
-"	hi	G_X
+\"	hi	G_X
 .	univ	G_X
 accha	hi	G_N
 hua	hi	G_V
@@ -33736,7 +33736,7 @@ this	en	DT
 photo	hi	G_N
 should	en	G_V
 be	hi	G_V
-"	hi	G_X
+\"	hi	G_X
 Hanumantappa	hi	G_N
 hum	hi	G_V
 sharminda	hi	G_N
@@ -33746,7 +33746,7 @@ bhosdiwala	hi	G_N
 abhi	hi	G_N
 zinda	hi	G_N
 hai	hi	G_V
-"	hi	G_X
+\"	hi	G_X
 #PlayBold	univ	#
 https://t.co/gROgOQCGrw	univ	U
 
@@ -34666,7 +34666,7 @@ Pakistani	ne	G_N
 trolls	en	G_V
 be	hi	G_V
 like	en	PSP
-"	hi	G_X
+\"	hi	G_X
 Bhai	hi	G_N
 ab	hi	G_X
 pant	en	G_N
@@ -34674,7 +34674,7 @@ bhi	hi	G_N
 khol	hi	G_N
 du	hi	G_SYM
 kya	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 ðŸ˜ðŸ˜	hi	G_X
 #IndvsPak	univ	#
 https://t.co/T7iFYy4V8a	univ	U
@@ -35120,13 +35120,13 @@ Hain	hi	G_V
 Ye	hi	G_PRP
 Nahe	hi	G_V
 Boola	en	G_N
-"	hi	G_X
+\"	hi	G_X
 Lunch	en	G_N
 Break	en	G_X
 Ke	hi	G_X
 Baad	hi	G_N
 Aana	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 
 RT	hi	G_R
 @cricBC	univ	@
@@ -35827,7 +35827,7 @@ n	hi	CC
 hi	hi	G_N
 hoga	hi	G_V
 
-"	hi	G_X
+\"	hi	G_X
 Teacher	en	G_N
 :	univ	G_X
 Meri	hi	G_N
@@ -35885,7 +35885,7 @@ Ab	hi	G_N
 bolon	hi	G_N
 Pakiyon	hi	G_N
 ,	hi	G_X
-"	hi	G_X
+\"	hi	G_X
 Bangladesh	hi	G_N
 ko	hi	PSP
 hara	hi	G_J
@@ -35895,7 +35895,7 @@ CONFIDENCE	en	G_N
 MEIN	hi	G_N
 HAI	hi	G_X
 TEAM	en	G_N
-"	hi	G_X
+\"	hi	G_X
 Take	en	G_V
 that	en	G_PRP
 .	univ	G_X
@@ -37251,7 +37251,7 @@ When	en	G_R
 Shoaib	hi	G_N
 Akhtar	ne	G_N
 says	en	G_V
-"	hi	G_X
+\"	hi	G_X
 mere	hi	G_V
 20years	en	G_N
 ke	hi	G_PRP
@@ -37266,7 +37266,7 @@ bada	hi	G_N
 player	en	G_J
 nahi	hi	G_N
 dekha	hi	G_V
-"	hi	G_X
+\"	hi	G_X
 ðŸ‘ðŸ‘	hi	G_X
 #IndvsPak	univ	#
 
@@ -38103,7 +38103,7 @@ bahut	hi	G_R
 pareshan	en	G_N
 hai	hi	G_V
 No	hi	G_PRT
-"	hi	G_X
+\"	hi	G_X
 9406636779	hi	$
 Thanks	en	G_N
 #RaviShankarPrasad	univ	#
@@ -39056,7 +39056,7 @@ Airtel	hi	G_N
 4G	hi	PSP
 girl	en	G_N
 :	univ	G_X
-"	hi	G_X
+\"	hi	G_X
 Abhi	hi	G_N
 mai	hi	G_N
 holiday	en	G_N
@@ -39358,7 +39358,7 @@ bahut	hi	G_N
 Intezar	en	G_N
 ke	hi	G_PRP
 baad	hi	G_N
-"	hi	G_X
+\"	hi	G_X
 Aaâ€¦	hi	G_V
 
 @pragyas1192	univ	@
@@ -39757,7 +39757,7 @@ fans	en	G_N
 rahi	hi	G_N
 hai	hi	G_V
 ..	univ	G_X
-"	hi	G_X
+\"	hi	G_X
 Bhai	hi	G_N
 jockey	en	G_N
 ke	hi	G_PRP
@@ -39765,7 +39765,7 @@ kachhe	hi	G_N
 pahena	hi	G_N
 karna	hi	G_N
 toh	hi	G_PRP
-"	hi	G_X
+\"	hi	G_X
 #IndvsPak	univ	#
 #WT20	univ	#
 

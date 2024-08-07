@@ -1,0 +1,142 @@
+0 tensor(3.2084, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+1 tensor(2.6868, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+2 tensor(1.4679, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+3 tensor(2.2333, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+4 tensor(1.8433, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+5 tensor(1.5545, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+6 tensor(1.3674, grad_fn=<NegBackward0>)
+tensor([3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3])
+7 tensor(2.0206, grad_fn=<NegBackward0>)
+tensor([14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14, 14])
+8 tensor(2.4663, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+9 tensor(1.3820, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+10 tensor(1.4057, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+11 tensor(1.3965, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+12 tensor(1.3744, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+13 tensor(1.3664, grad_fn=<NegBackward0>)
+tensor([3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3])
+14 tensor(1.3738, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+15 tensor(1.3733, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+16 tensor(1.3662, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+17 tensor(1.3599, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+18 tensor(1.3592, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+19 tensor(1.3642, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+20 tensor(1.3682, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+21 tensor(1.3653, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+22 tensor(1.3584, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+23 tensor(1.3546, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+24 tensor(1.3561, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+25 tensor(1.3599, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+26 tensor(1.3615, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+27 tensor(1.3594, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+28 tensor(1.3558, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+29 tensor(1.3538, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+30 tensor(1.3545, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+31 tensor(1.3565, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+32 tensor(1.3573, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+33 tensor(1.3561, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+34 tensor(1.3542, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+35 tensor(1.3533, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+36 tensor(1.3537, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+37 tensor(1.3545, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+38 tensor(1.3548, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+39 tensor(1.3542, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+40 tensor(1.3533, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+41 tensor(1.3529, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+42 tensor(1.3530, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+43 tensor(1.3534, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+44 tensor(1.3535, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+45 tensor(1.3532, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+46 tensor(1.3528, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+47 tensor(1.3525, grad_fn=<NegBackward0>)
+tensor([15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15, 15])
+48 tensor(1.3526, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 19, in <module>
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/parallel/data_parallel.py", line 167, in forward
+    return self.module(*inputs, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 103, in forward
+    x = self.xlm_roberta(input).last_hidden_state
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 837, in forward
+    encoder_outputs = self.encoder(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 525, in forward
+    layer_outputs = layer_module(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 414, in forward
+    self_attention_outputs = self.attention(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 341, in forward
+    self_outputs = self.self(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/xlm_roberta/modeling_xlm_roberta.py", line 279, in forward
+    context_layer = context_layer.permute(0, 2, 1, 3).contiguous()
+KeyboardInterrupt

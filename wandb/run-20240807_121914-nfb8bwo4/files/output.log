@@ -1,0 +1,20 @@
+[['cicling', 'er', 'ki', 'halo']]
+[[15, 3, 3, 0]]
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 18, in <module>
+    model_probabilities = model(test_in)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 104, in forward
+    tokenized  = tokenizer(input, padding=True, truncation=True, return_tensors='pt')
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2872, in __call__
+    encodings = self._call_one(text=text, text_pair=text_pair, **all_kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 2958, in _call_one
+    return self.batch_encode_plus(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3149, in batch_encode_plus
+    return self._batch_encode_plus(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/tokenization_utils.py", line 801, in _batch_encode_plus
+    ids, pair_ids = ids_or_pair_ids
+ValueError: too many values to unpack (expected 2)

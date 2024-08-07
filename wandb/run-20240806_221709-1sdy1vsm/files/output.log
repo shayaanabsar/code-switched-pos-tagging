@@ -1,0 +1,40 @@
+
+0 tensor(3.3761, grad_fn=<NegBackward0>)
+1 tensor(2.8898, grad_fn=<NegBackward0>)
+2 tensor(2.7607, grad_fn=<NegBackward0>)
+3 tensor(1.6508, grad_fn=<NegBackward0>)
+4 tensor(1.9056, grad_fn=<NegBackward0>)
+5 tensor(2.6162, grad_fn=<NegBackward0>)
+6 tensor(2.2512, grad_fn=<NegBackward0>)
+7 tensor(1.5445, grad_fn=<NegBackward0>)
+8 tensor(1.5625, grad_fn=<NegBackward0>)
+9 tensor(1.4231, grad_fn=<NegBackward0>)
+10 tensor(1.6273, grad_fn=<NegBackward0>)
+11 tensor(1.6042, grad_fn=<NegBackward0>)
+12 tensor(1.4935, grad_fn=<NegBackward0>)
+13 tensor(1.4068, grad_fn=<NegBackward0>)
+14 tensor(1.4223, grad_fn=<NegBackward0>)
+15 tensor(1.4148, grad_fn=<NegBackward0>)
+16 tensor(1.4242, grad_fn=<NegBackward0>)
+17 tensor(1.5264, grad_fn=<NegBackward0>)
+18 tensor(1.4250, grad_fn=<NegBackward0>)
+19 tensor(1.4259, grad_fn=<NegBackward0>)
+20 tensor(1.4890, grad_fn=<NegBackward0>)
+21 tensor(1.4457, grad_fn=<NegBackward0>)
+22 tensor(1.3529, grad_fn=<NegBackward0>)
+23 tensor(1.4091, grad_fn=<NegBackward0>)
+24 tensor(1.3731, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 19, in <module>
+    optimizer.step()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 188, in step
+    adamw(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 340, in adamw
+    func(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 471, in _single_tensor_adamw
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt

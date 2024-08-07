@@ -1,0 +1,42 @@
+
+0 tensor(3.0975, grad_fn=<NegBackward0>)
+1 tensor(2.0973, grad_fn=<NegBackward0>)
+2 tensor(1.5118, grad_fn=<NegBackward0>)
+3 tensor(1.2742, grad_fn=<NegBackward0>)
+4 tensor(0.9757, grad_fn=<NegBackward0>)
+5 tensor(0.7758, grad_fn=<NegBackward0>)
+6 tensor(0.6378, grad_fn=<NegBackward0>)
+7 tensor(0.4198, grad_fn=<NegBackward0>)
+8 tensor(0.3645, grad_fn=<NegBackward0>)
+9 tensor(0.2150, grad_fn=<NegBackward0>)
+10 tensor(0.1715, grad_fn=<NegBackward0>)
+11 tensor(0.1076, grad_fn=<NegBackward0>)
+12 tensor(0.0995, grad_fn=<NegBackward0>)
+13 tensor(0.0647, grad_fn=<NegBackward0>)
+14 tensor(0.0436, grad_fn=<NegBackward0>)
+15 tensor(0.0326, grad_fn=<NegBackward0>)
+16 tensor(0.0295, grad_fn=<NegBackward0>)
+17 tensor(0.0290, grad_fn=<NegBackward0>)
+18 tensor(0.0212, grad_fn=<NegBackward0>)
+19 tensor(0.0149, grad_fn=<NegBackward0>)
+20 tensor(0.0162, grad_fn=<NegBackward0>)
+21 tensor(0.0135, grad_fn=<NegBackward0>)
+22 tensor(0.0116, grad_fn=<NegBackward0>)
+23 tensor(0.0096, grad_fn=<NegBackward0>)
+24 tensor(0.0088, grad_fn=<NegBackward0>)
+25 tensor(0.0088, grad_fn=<NegBackward0>)
+26 tensor(0.0067, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 19, in <module>
+    loss.backward()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 188, in step
+    adamw(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 340, in adamw
+    func(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 419, in _single_tensor_adamw
+    exp_avg.lerp_(grad, 1 - beta1)
+KeyboardInterrupt

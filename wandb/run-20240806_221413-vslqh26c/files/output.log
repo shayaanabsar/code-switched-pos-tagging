@@ -1,0 +1,45 @@
+
+0 tensor(2.9728, grad_fn=<NegBackward0>)
+1 tensor(2.7789, grad_fn=<NegBackward0>)
+2 tensor(2.1375, grad_fn=<NegBackward0>)
+3 tensor(1.9522, grad_fn=<NegBackward0>)
+4 tensor(2.0098, grad_fn=<NegBackward0>)
+5 tensor(1.8477, grad_fn=<NegBackward0>)
+6 tensor(1.7986, grad_fn=<NegBackward0>)
+7 tensor(2.0438, grad_fn=<NegBackward0>)
+8 tensor(1.7583, grad_fn=<NegBackward0>)
+9 tensor(1.4476, grad_fn=<NegBackward0>)
+10 tensor(1.4518, grad_fn=<NegBackward0>)
+11 tensor(1.3898, grad_fn=<NegBackward0>)
+12 tensor(1.4551, grad_fn=<NegBackward0>)
+13 tensor(1.4394, grad_fn=<NegBackward0>)
+14 tensor(1.3767, grad_fn=<NegBackward0>)
+15 tensor(1.4466, grad_fn=<NegBackward0>)
+16 tensor(1.4203, grad_fn=<NegBackward0>)
+17 tensor(1.3974, grad_fn=<NegBackward0>)
+18 tensor(1.4196, grad_fn=<NegBackward0>)
+19 tensor(1.3881, grad_fn=<NegBackward0>)
+20 tensor(1.4028, grad_fn=<NegBackward0>)
+21 tensor(1.3789, grad_fn=<NegBackward0>)
+22 tensor(1.3908, grad_fn=<NegBackward0>)
+23 tensor(1.2935, grad_fn=<NegBackward0>)
+24 tensor(1.3928, grad_fn=<NegBackward0>)
+25 tensor(1.3613, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 18, in <module>
+    loss.backward()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 160, in step
+    self._cuda_graph_capture_health_check()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 338, in _cuda_graph_capture_health_check
+    if not is_compiling() and torch.backends.cuda.is_built() and torch.cuda.is_available():
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/_utils.py", line 857, in is_compiling
+    return torch.compiler.is_compiling()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/compiler/__init__.py", line 173, in is_compiling
+    if torch.jit.is_scripting():
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/_jit_internal.py", line 1120, in is_scripting
+    def is_scripting() -> bool:
+KeyboardInterrupt

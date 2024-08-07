@@ -1,0 +1,57 @@
+
+0 tensor(3.4175, grad_fn=<NegBackward0>)
+1 tensor(3.2199, grad_fn=<NegBackward0>)
+2 tensor(2.9660, grad_fn=<NegBackward0>)
+3 tensor(2.2278, grad_fn=<NegBackward0>)
+4 tensor(2.5343, grad_fn=<NegBackward0>)
+5 tensor(2.2107, grad_fn=<NegBackward0>)
+6 tensor(1.5254, grad_fn=<NegBackward0>)
+7 tensor(1.4872, grad_fn=<NegBackward0>)
+8 tensor(1.4058, grad_fn=<NegBackward0>)
+9 tensor(1.3950, grad_fn=<NegBackward0>)
+10 tensor(1.3930, grad_fn=<NegBackward0>)
+11 tensor(1.3776, grad_fn=<NegBackward0>)
+12 tensor(1.3741, grad_fn=<NegBackward0>)
+13 tensor(1.3762, grad_fn=<NegBackward0>)
+14 tensor(1.3749, grad_fn=<NegBackward0>)
+15 tensor(1.3705, grad_fn=<NegBackward0>)
+16 tensor(1.3640, grad_fn=<NegBackward0>)
+17 tensor(1.3623, grad_fn=<NegBackward0>)
+18 tensor(1.3667, grad_fn=<NegBackward0>)
+19 tensor(1.3673, grad_fn=<NegBackward0>)
+20 tensor(1.3609, grad_fn=<NegBackward0>)
+21 tensor(1.3561, grad_fn=<NegBackward0>)
+22 tensor(1.3582, grad_fn=<NegBackward0>)
+23 tensor(1.3619, grad_fn=<NegBackward0>)
+24 tensor(1.3613, grad_fn=<NegBackward0>)
+25 tensor(1.3571, grad_fn=<NegBackward0>)
+26 tensor(1.3544, grad_fn=<NegBackward0>)
+27 tensor(1.3559, grad_fn=<NegBackward0>)
+28 tensor(1.3585, grad_fn=<NegBackward0>)
+29 tensor(1.3579, grad_fn=<NegBackward0>)
+30 tensor(1.3550, grad_fn=<NegBackward0>)
+31 tensor(1.3537, grad_fn=<NegBackward0>)
+32 tensor(1.3550, grad_fn=<NegBackward0>)
+33 tensor(1.3564, grad_fn=<NegBackward0>)
+34 tensor(1.3559, grad_fn=<NegBackward0>)
+35 tensor(1.3542, grad_fn=<NegBackward0>)
+36 tensor(1.3534, grad_fn=<NegBackward0>)
+37 tensor(1.3542, grad_fn=<NegBackward0>)
+38 tensor(1.3551, grad_fn=<NegBackward0>)
+39 tensor(1.3545, grad_fn=<NegBackward0>)
+40 tensor(1.3535, grad_fn=<NegBackward0>)
+41 tensor(1.3534, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 17, in <module>
+    optimizer.step()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 188, in step
+    adamw(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 340, in adamw
+    func(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 471, in _single_tensor_adamw
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt

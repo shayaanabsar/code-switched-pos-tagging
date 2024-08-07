@@ -1,0 +1,66 @@
+
+We strongly recommend passing in an `attention_mask` since your input_ids may be padded. See https://huggingface.co/docs/transformers/troubleshooting#incorrect-output-when-padding-tokens-arent-masked.
+0 tensor(3.1449, grad_fn=<NegBackward0>)
+1 tensor(2.1333, grad_fn=<NegBackward0>)
+2 tensor(2.1280, grad_fn=<NegBackward0>)
+3 tensor(2.4445, grad_fn=<NegBackward0>)
+4 tensor(2.1735, grad_fn=<NegBackward0>)
+5 tensor(2.0384, grad_fn=<NegBackward0>)
+6 tensor(1.9202, grad_fn=<NegBackward0>)
+7 tensor(1.9184, grad_fn=<NegBackward0>)
+8 tensor(1.9542, grad_fn=<NegBackward0>)
+9 tensor(1.9342, grad_fn=<NegBackward0>)
+10 tensor(1.9398, grad_fn=<NegBackward0>)
+11 tensor(1.9294, grad_fn=<NegBackward0>)
+12 tensor(1.9088, grad_fn=<NegBackward0>)
+13 tensor(1.9202, grad_fn=<NegBackward0>)
+14 tensor(1.9245, grad_fn=<NegBackward0>)
+15 tensor(1.9440, grad_fn=<NegBackward0>)
+16 tensor(1.9250, grad_fn=<NegBackward0>)
+17 tensor(1.9186, grad_fn=<NegBackward0>)
+18 tensor(1.9028, grad_fn=<NegBackward0>)
+19 tensor(1.9370, grad_fn=<NegBackward0>)
+20 tensor(1.9181, grad_fn=<NegBackward0>)
+21 tensor(1.9460, grad_fn=<NegBackward0>)
+22 tensor(1.9189, grad_fn=<NegBackward0>)
+23 tensor(1.9263, grad_fn=<NegBackward0>)
+24 tensor(1.9358, grad_fn=<NegBackward0>)
+25 tensor(1.9232, grad_fn=<NegBackward0>)
+26 tensor(1.9141, grad_fn=<NegBackward0>)
+27 tensor(1.9152, grad_fn=<NegBackward0>)
+28 tensor(1.9276, grad_fn=<NegBackward0>)
+29 tensor(1.9037, grad_fn=<NegBackward0>)
+30 tensor(1.9105, grad_fn=<NegBackward0>)
+31 tensor(1.9090, grad_fn=<NegBackward0>)
+32 tensor(1.9305, grad_fn=<NegBackward0>)
+33 tensor(1.9092, grad_fn=<NegBackward0>)
+34 tensor(1.9243, grad_fn=<NegBackward0>)
+35 tensor(1.9309, grad_fn=<NegBackward0>)
+36 tensor(1.9135, grad_fn=<NegBackward0>)
+37 tensor(1.8895, grad_fn=<NegBackward0>)
+38 tensor(1.8756, grad_fn=<NegBackward0>)
+39 tensor(1.9068, grad_fn=<NegBackward0>)
+40 tensor(1.8867, grad_fn=<NegBackward0>)
+41 tensor(1.9471, grad_fn=<NegBackward0>)
+42 tensor(1.9269, grad_fn=<NegBackward0>)
+43 tensor(1.9816, grad_fn=<NegBackward0>)
+44 tensor(1.9580, grad_fn=<NegBackward0>)
+45 tensor(1.9331, grad_fn=<NegBackward0>)
+46 tensor(1.9426, grad_fn=<NegBackward0>)
+47 tensor(1.9297, grad_fn=<NegBackward0>)
+48 tensor(1.9065, grad_fn=<NegBackward0>)
+49 tensor(1.9508, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 19, in <module>
+    optimizer.step()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 188, in step
+    adamw(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 340, in adamw
+    func(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 471, in _single_tensor_adamw
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt

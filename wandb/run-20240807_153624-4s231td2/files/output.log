@@ -1,0 +1,25 @@
+0 tensor(2.8568, grad_fn=<NegBackward0>)
+1 tensor(2.0070, grad_fn=<NegBackward0>)
+2 tensor(3.6069, grad_fn=<NegBackward0>)
+3 tensor(5.0693, grad_fn=<NegBackward0>)
+4 tensor(2.0294, grad_fn=<NegBackward0>)
+5 tensor(1.7274, grad_fn=<NegBackward0>)
+6 tensor(2.1774, grad_fn=<NegBackward0>)
+7 tensor(1.7301, grad_fn=<NegBackward0>)
+8 tensor(1.5863, grad_fn=<NegBackward0>)
+9 tensor(1.6557, grad_fn=<NegBackward0>)
+10 tensor(1.9085, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 19, in <module>
+    optimizer.step()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 391, in wrapper
+    out = func(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/optimizer.py", line 76, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 188, in step
+    adamw(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 340, in adamw
+    func(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/optim/adamw.py", line 471, in _single_tensor_adamw
+    denom = (exp_avg_sq.sqrt() / bias_correction2_sqrt).add_(eps)
+KeyboardInterrupt

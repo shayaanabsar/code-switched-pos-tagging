@@ -1,4 +1,3 @@
-from transformers import AutoTokenizer
 from collections import defaultdict
 from dataclasses import dataclass
 from os import listdir, path
@@ -9,8 +8,6 @@ import random
 
 random.seed(35)
 
-tokenizer = AutoTokenizer.from_pretrained("FacebookAI/xlm-roberta-base")
-START_TOKEN, END_TOKEN = tokenizer("").input_ids
 MAX_LENGTH  = 512
 SPECIAL_TAG = 'S'
 
@@ -20,8 +17,9 @@ def tanh(x, lam=1, mu=0.5):
 
 @dataclass
 class PreProcessor:
-	curr_seq   = [START_TOKEN]
-	curr_tags  = [SPECIAL_TAG]
+	sentence   = []
+	curr_seq   = []
+	curr_tags  = []
 	lang_tags  = []
 	sequences  = []
 	cs_index   = []
@@ -64,21 +62,19 @@ class PreProcessor:
 
 	def reset_values(self):
 		if self.num_tokens <= MAX_LENGTH:
-			self.curr_seq.append(END_TOKEN)
-			self.curr_tags.append(SPECIAL_TAG)
 			self.num_tokens += 1
 			self.num_sequences += 1
-			self.sequences.append([self.curr_seq, self.curr_tags])
+			self.sequences.append([self.sentence, self.curr_tags])
 			self.max_length = max(self.max_length, self.num_tokens)
 
-		self.curr_seq  = [START_TOKEN]
-		self.curr_tags = [SPECIAL_TAG]
+		self.curr_seq  = []
+		self.curr_tags = []
 		self.alteration_points = 0
 		self.tokens_in_each_language = defaultdict(lambda: 0) 
 		self.seq_length = 2
 		self.num_tokens = 2
 		self.previous =  None
-
+		self.sentence = []
 
 	def calculate_metrics(self):
 		if self.num_tokens <= MAX_LENGTH:
@@ -97,20 +93,21 @@ class PreProcessor:
 					try:
 						token, lang, tag = row
 						self.update_values(lang)
-						tokenized_token = tokenizer(token).input_ids[1:-1] # get rid of S and E tokens
-						self.curr_seq.extend(tokenized_token)
-						self.tag_counts[tag] += 1
-						tags = [tag] + ['S'] * (len(tokenized_token) - 1)
-						self.curr_tags.extend(tags) # add the same tag for each 
-						self.num_tokens += len(tokenized_token)
+						#tokenized_token = tokenizer(token).input_ids[1:-1] # get rid of S and E tokens
+						#self.curr_seq.extend(tokenized_token)
+						#self.tag_counts[tag] += 1
+						#tags = [tag] + ['S'] * (len(tokenized_token) - 1)
+						self.curr_tags.append(tag)
+						#self.num_tokens += len(tokenized_token)
 						self.tagset.add(tag)
-			
+						self.sentence.append(token)
 					except ValueError:
+						#self.sentence = tokenizer.encode_plus(self.sentence, return_tensors="pt", is_split_into_words=True)
 						self.calculate_metrics()
 			self.splitters[file] = (start, self.num_sequences)
 			self.lang_count += 1
 
-	def create_tensors(self):
+	def create_lists(self):
 		self.tagset = {'G_V': 0, 'G_SYM': 1, 'CC': 2, 'G_PRP': 3, 'DT': 4, 'G_PRT': 5, '@': 6, 'E': 7, '$': 8, '~': 9, '#': 10, 'PSP': 11, 'G_X': 12, 'G_R': 13, 'G_J': 14, 'G_N': 15, 'U': 16, 'S': 17, 'null': 18}
 		#self.tagset = {'PAD': 0, 'ADJ': 1, 'ADP': 2, 'ADV': 3, 'CONJ': 4, 'DET': 5, 'NOUN': 6, 'NUM': 7, 'PART': 8, 'PART_NEG': 9, 'PRON': 10, 'PRON_WH': 11, 'PROPN': 12, 'VERB': 13, 'X': 14}
 		
@@ -118,24 +115,26 @@ class PreProcessor:
 		order = [i for i in range(self.num_sequences)]
 		random.shuffle(order)
 
-		inputs        = torch.zeros((self.num_sequences, self.max_length), dtype=int)
-		outputs       = torch.zeros((self.num_sequences, self.max_length, num_tags), dtype=int)
+		inputs        = []
+		outputs       = []
 		shuffled_tags = torch.zeros((self.num_sequences,), dtype=int)
+
 		# dodgy shuffle
+
 		for i, val in enumerate(order):
 			seq = self.sequences[val]
 
-			input_sequence = seq[0]
-			tag_sequence   = seq[1]
-			shuffled_tags[i]   = self.lang_tags[val]
+			input_sequence   = seq[0]
+			tag_sequence     = seq[1]
+			shuffled_tags[i] = self.lang_tags[val]
 
-			for j, v in enumerate(input_sequence):
-				curr_tag = tag_sequence[j]
+			inputs.append(input_sequence)
 
-				inputs[i, j] = v
-				outputs[i, j, self.tagset[curr_tag]] = 1
-			
+			encoded_tags = []
 
-			outputs[i, j:self.max_length, self.tagset['S']] = 1 # Pad all the remaining tags with the S tag.
+			for _, v in enumerate(tag_sequence):
+				encoded_tags.append(self.tagset[v])
 
-		return inputs, outputs.float(), shuffled_tags
+			outputs.append(encoded_tags)
+
+		return inputs, outputs, shuffled_tags

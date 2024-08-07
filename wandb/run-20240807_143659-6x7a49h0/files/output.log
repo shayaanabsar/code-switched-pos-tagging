@@ -1,0 +1,9 @@
+[['cicling', 'er', 'ki', 'halo'], ['amar', 'aar', "chaitali'r", 'common', 'ek', 'friend', 'er', 'saathe', 'dekha', '.']]
+[[15, 3, 3, 0], [12, 12, 15, 14, 1, 15, 3, 15, 0, 12]]
+torch.Size([2, 10, 19])
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 19, in <module>
+    loss = masked_loss(model_probabilities, test_out)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/trainer.py", line 11, in masked_loss
+    alpha = torch.argmax(target, dim=-1) # Find the correct pos tag
+TypeError: argmax(): argument 'input' (position 1) must be Tensor, not list

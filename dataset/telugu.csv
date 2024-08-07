@@ -47,7 +47,7 @@ by	en	PSP
 n	univ	CC
 #varuntej	univ	#
 _/	unit	E
-\_"	univ	E
+\\_\"	univ	E
 
 Srimanthudu	te	G_N
 benefit	univ	G_V
@@ -73,7 +73,7 @@ le	te	G_N
 :p	univ	E
 :p	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Anoop	ne	G_N
 ki	te	G_N
 rating	en	G_N
@@ -130,7 +130,7 @@ SRI	ne	G_N
 RAMA	ne	G_N
 SUDHAMSU	te	G_N
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 1st	univ	G_J
 answer	en	G_N
@@ -143,7 +143,7 @@ Winner	univ	G_N
 :	univ	G_X
 Rahul	ne	G_N
 Kiran	ne	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Cinema	en	G_N
 matram	te	G_N
@@ -233,7 +233,7 @@ pls	univ	G_V
 dont	univ	G_V
 watch	univ	G_V
 
-"	univ	G_X
+\"	univ	G_X
 alantappudu	te	G_N
 inspired	en	G_V
 by	univ	PSP
@@ -283,7 +283,7 @@ and	en	CC
 carry	en	G_V
 on	univ	G_PRT
 
-"	univ	G_X
+\"	univ	G_X
 Yaa	univ	DT
 bro	en	G_N
 5	univ	$
@@ -353,7 +353,7 @@ antaru	te	G_N
 ..	univ	G_X
 pattinchukovaddu	te	G_N
 :v	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 SuggestedEdit	en	G_X
 -	univ	G_X
@@ -445,7 +445,7 @@ Rating	en	G_J
 /5Ram	te	$
 Charanrocksss	ne	$
 
-"	univ	G_X
+\"	univ	G_X
 South	en	G_N
 valam	te	G_N
 
@@ -466,7 +466,7 @@ dont	univ	G_V
 be	univ	G_V
 antiiiiiiiiii	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Bhayya	te	G_N
 i	univ	G_PRP
 am	univ	G_V
@@ -489,7 +489,7 @@ comedy	en	G_N
 pandaga	te	G_N
 chesko	te	G_V
 
-"	univ	G_X
+\"	univ	G_X
 sometimes	en	G_R
 manam	te	G_J
 movies	en	G_N
@@ -520,14 +520,14 @@ fan	en	G_N
 gallaki	te	G_N
 .....	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Mega	en	G_N
 Page	univ	G_N
 ani	te	G_N
 pettuko	univ	G_N
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 *	univ	G_X
 Balakrishna	te	G_N
 and	en	CC
@@ -571,7 +571,7 @@ trailer	univ	G_N
 admin	te	G_N
 ????	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Sent	te	G_V
 in	univ	PSP
 by	univ	PSP
@@ -592,7 +592,7 @@ Break	en	G_N
 ...	univ	G_X
 :D	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Oh	univ	G_PRT
 canâ€™t	en	G_V
 wait	en	G_V
@@ -678,7 +678,7 @@ flop	univ	G_N
 tiger	univ	G_N
 hit	en	G_V
 
-"	univ	G_X
+\"	univ	G_X
 Anti	te	G_N
 Fans	en	G_N
 --	univ	G_X
@@ -695,7 +695,7 @@ stamina	te	G_N
 never	en	G_R
 decreases	univ	G_V
 ...	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Nuvemaina	univ	G_N
 popular	univ	G_J
@@ -785,9 +785,9 @@ fan	en	G_N
 Story	en	G_N
 kaadu	te	G_N
 ðŸ˜	univ	E
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 o.O	univ	E
 cinema	en	G_N
 champesadu	te	G_N
@@ -797,7 +797,7 @@ Favourite	ne	G_J
 Malayalam	te	G_N
 movie	en	G_N
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Arya2	univ	G_N
 ,	univ	G_X
@@ -813,7 +813,7 @@ Select	en	G_V
 any	en	DT
 3	univ	$
 
-"	univ	G_X
+\"	univ	G_X
 Nenu	te	G_N
 Telugu	univ	G_N
 Cinema	en	G_N
@@ -871,7 +871,7 @@ due	univ	G_J
 to	univ	PSP
 financial	te	G_J
 reason	univ	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Snigdha	univ	G_N
 S	univ	G_N
@@ -882,7 +882,7 @@ antamma	te	G_N
 lite	en	G_N
 thiskundam	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Present	univ	G_N
 generation	en	G_N
 lo	univ	PSP
@@ -919,7 +919,7 @@ from	en	PSP
 Soggadi	te	G_N
 fans	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Hi	univ	G_PRT
 .	univ	G_X
 admin(es	univ	G_N
@@ -985,7 +985,7 @@ half	univ	G_N
 chetta	te	G_N
 movie	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Malli	te	G_N
 movie	en	G_N
 hit	en	G_V
@@ -1109,7 +1109,7 @@ petti	univ	G_N
 thiskunnam	te	G_N
 show	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Arey	univ	G_PRT
 jaffa	univ	G_N
 admin	te	G_N
@@ -1206,9 +1206,9 @@ year	en	G_N
 chesthav	te	G_X
 ga	univ	G_X
 :v	univ	E
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 AB+	en	G_N
 ante	te	G_N
 Universal	en	G_N
@@ -1229,7 +1229,7 @@ u	univ	G_PRP
 wont	en	G_V
 have	en	G_V
 explanation	en	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Arey	te	G_PRP
 news	en	G_N
@@ -1239,7 +1239,7 @@ positive	en	G_J
 take	en	G_V
 vachindi	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Movie	en	G_N
 reviews	en	G_N
 post	en	G_N
@@ -1318,7 +1318,7 @@ Nag	en	G_N
 and	en	CC
 Venky	en	G_N
 ????	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 XXX	en	G_N
 Ante	te	G_N
@@ -1335,7 +1335,7 @@ uttam	te	G_N
 villain	en	G_N
 ??	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Mee	univ	G_PRP
 interpretations	en	G_N
 baguntayi	te	G_N
@@ -1379,14 +1379,14 @@ Tarak	univ	G_N
 Is	en	G_V
 Back	en	G_N
 ...	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 RAJU	univ	G_N
 GARU	univ	G_N
 MANA	te	G_N
 CINEMA	en	G_N
 HIT	en	G_V
 ANDI	te	G_N
-"	univ	G_X
+\"	univ	G_X
 .....	univ	G_X
 
 But	en	CC
@@ -1487,11 +1487,11 @@ Awesome	en	G_J
 movie	en	G_N
 fabulous	en	G_J
 
-"	univ	G_X
+\"	univ	G_X
 Good	en	G_J
 Going	en	G_V
 Bhayya	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 but	en	CC
 vikram	ne	G_N
@@ -1501,7 +1501,7 @@ no	en	DT
 words	en	G_N
 #respect	univ	#
 
-"	univ	G_X
+\"	univ	G_X
 Kottha	te	G_N
 concept	en	G_N
 :P	univ	E
@@ -1561,7 +1561,7 @@ aythe	en	G_N
 pakka	te	G_N
 B.B.	univ	G_N
 avutadi	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Burra	univ	G_N
 leni	univ	G_N
@@ -1614,7 +1614,7 @@ bahubali	univ	G_N
 ????	univ	G_X
 :p	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Happy	en	G_J
 birthday	en	G_N
 bhayya	te	G_N
@@ -1623,7 +1623,7 @@ great	en	G_J
 camera	en	G_N
 work	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Hey	en	G_PRT
 Admin	en	G_N
 MB	univ	G_N
@@ -1719,7 +1719,7 @@ pettuntaado	te	G_N
 wait	en	G_V
 nd	univ	CC
 see	en	G_V
-"	univ	G_X
+\"	univ	G_X
 
 Bhayya	te	G_N
 rating	en	G_N
@@ -1802,7 +1802,7 @@ called	en	G_V
 Yappi3	te	G_N
 B'day	en	G_N
 #Maverick	univ	G_N
-\/	univ	G_X
+\\/	univ	G_X
 
 The	en	DT
 answer	en	G_N
@@ -1810,9 +1810,9 @@ is-	univ	G_N
 '	univ	G_X
 Small	en	G_N
 Again	en	G_R
-'"	univ	G_X
+'\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 It's	en	G_N
 better	en	G_J
 to	en	PSP
@@ -1861,7 +1861,7 @@ ratingss	en	G_N
 Nice	en	G_J
 thought	en	G_V
 
-"	univ	G_X
+\"	univ	G_X
 Chennai	ne	G_N
 lo	univ	G_N
 unde	univ	G_N
@@ -2099,7 +2099,7 @@ cheppthara	te	G_X
 ??	univ	G_X
 :p	univ	E
 !!	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 yeerripuku	te	G_X
 review	en	G_N
@@ -2183,7 +2183,7 @@ Cheste	te	G_N
 baguntundi	te	G_N
 .	univ	G_X
 .?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Only	en	G_R
 balayya	te	G_V
@@ -2272,7 +2272,7 @@ was	en	G_V
 horrible	en	G_J
 .	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 What's	en	G_N
 the	en	DT
 matter	en	G_N
@@ -2341,7 +2341,7 @@ and	en	CC
 Good	univ	G_J
 Climax	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 -_-	univ	E
 Yadava	te	G_N
 Rotta	te	G_N
@@ -2374,7 +2374,7 @@ chestam	te	G_V
 ..	univ	G_X
 Jagratta	te	G_R
 ..	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 mari	te	PSP
 Mission	en	G_N
@@ -2494,7 +2494,7 @@ thecchina	te	G_V
 Krishna	univ	G_N
 ?	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Frankly	EN	G_R
 speaking	en	G_V
 akhil	univ	G_N
@@ -2550,7 +2550,7 @@ action	en	G_N
 
 thanks	en	G_V
 bhayya	te	G_N
-_/\_	univ	E
+_/\\_	univ	E
 thnq	en	G_V
 ver	ne	G_X
 much	en	G_J
@@ -2580,7 +2580,7 @@ continued	en	G_V
 tomorrow	en	G_N
 :v	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Hello	en	G_PRT
 e	ne	G_N
 movie	en	G_N
@@ -2593,7 +2593,7 @@ undhiga	te	G_X
 extrodinary	en	G_J
 aneskuntaru	te	G_V
 .........!!	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Helicopter	en	G_N
 Shot	en	G_N
@@ -2610,7 +2610,7 @@ matrana	te	G_N
 collection	en	G_N
 lu	te	PSP
 thaggipovu	te	G_SYM
-"	univ	G_X
+\"	univ	G_X
 
 Akkineni	univ	G_N
 Family	en	G_N
@@ -2651,7 +2651,7 @@ yenti	te	G_PRP
 o.O	univ	E
 ?	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Maro	te	null
 Wicket	en	G_N
 Dorabuchhukunna	te	G_V
@@ -2663,9 +2663,9 @@ ur	ne	DT
 choice	en	G_N
 ?????	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 I	en	G_PRP
-"	univ	G_X
+\"	univ	G_X
 agree	en	G_V
 with	en	PSP
 admin's	en	G_N
@@ -2723,7 +2723,7 @@ have	en	G_V
 min	ne	G_N
 common	en	G_J
 sense	en	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Negatives	en	G_N
 --	univ	G_X
@@ -2774,7 +2774,7 @@ tholiprema	univ	G_N
 nd	ne	CC
 gabbarsingh	univ	G_N
 
-"	univ	G_X
+\"	univ	G_X
 YYYY	univ	G_R
 Fans	en	G_N
 ..	univ	G_X
@@ -2893,7 +2893,7 @@ miku	te	G_PRP
 kullu	te	G_J
 :P	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Ee	te	PSP
 roju	te	G_N
 quotation	en	G_N
@@ -2996,7 +2996,7 @@ Chetta	te	G_J
 songs	en	G_N
 chi	te	G_X
 :p	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 Mega	en	G_J
 family	en	G_N
@@ -3029,13 +3029,13 @@ kirak	te	G_J
 chesaru	te	G_V
 ;)	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Ram	univ	G_N
 charan	univ	G_N
 fans	en	G_N
 :	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 kottaga	en	G_J
 page	en	G_N
 start	en	G_V
@@ -3060,7 +3060,7 @@ and	en	CC
 Abhay	univ	G_N
 Ram	univ	G_N
 :D	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 Bunny	univ	G_N
 yi	ne	G_N
@@ -3073,7 +3073,7 @@ improve	en	G_V
 ayaadu	te	G_PRP
 ..	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Rayudu	univ	G_N
 100	univ	$
 He	en	G_PRP
@@ -3096,7 +3096,7 @@ of	en	PSP
 cricket	en	G_N
 .	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Ee	te	G_PRP
 kobbari	eb	G_N
 noone	en	G_N
@@ -3151,7 +3151,7 @@ fb	ne	G_N
 page	en	G_N
 admin	en	G_N
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 ..	univ	G_X
 Eh	te	G_PRT
@@ -3181,8 +3181,8 @@ dialogue	en	G_N
 TARAK	univ	G_N
 cheppagaane	te	G_V
 GOOSEBUMPS	eb	G_N
-\m/	univ	E
-"	univ	G_X
+\\m/	univ	E
+\"	univ	G_X
 
 oho	acro	G_PRT
 naa	te	G_PRP
@@ -3241,7 +3241,7 @@ watch	en	G_V
 SOS	ne	G_N
 !!	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Vande	univ	G_N
 mataram	univ	G_N
 
@@ -3270,7 +3270,7 @@ GHATTAMANENI	univ	G_N
 GOWTHAM	univ	G_N
 KRISHNA	univ	G_N
 !	univ	G_X
-\m/	univ	E
+\\m/	univ	E
 
 Negative	en	G_J
 points	en	G_N
@@ -3328,9 +3328,9 @@ icharu	te	G_V
 anni	te	G_V
 sites	en	G_N
 lo	te	PSP
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Antis	te	G_N
 ki	te	PSP
 bad	en	G_J
@@ -3367,7 +3367,7 @@ collections	en	G_N
 anandi	te	G_V
 nammestamley	en	G_V
 kanieyandi	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 well	en	G_PRT
 geniune	en	G_J
@@ -3389,7 +3389,7 @@ ayina	te	G_V
 vachesdi	te	G_V
 ...	univ	~
 
-"	univ	G_X
+\"	univ	G_X
 anna	te	G_N
 ntr	univ	G_N
 kodithe	te	G_V
@@ -3493,7 +3493,7 @@ anantham	te	G_J
 !	univ	G_X
 #Thaman	univ	#
 ðŸ˜Ž	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 imprs	ne	G_V
 me	en	G_PRP
@@ -3533,7 +3533,7 @@ they	en	G_PRP
 r	ne	G_V
 hiz	ne	DT
 chamchas	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Chiru	univ	G_N
 150th	univ	G_J
@@ -3572,7 +3572,7 @@ started	en	G_V
 ->	univ	G_X
 Madhubala's	te	G_X
 acting	en	G_V
-","	univ	G_X
+\",\"	univ	G_X
 
 Nannakuprematho	te	null
 ..	univ	G_X
@@ -3621,12 +3621,12 @@ OK	en	G_J
 :	univ	G_X
 like	en	G_V
 :	univ	G_X
-"	univ	null
+\"	univ	null
 
 po	te	G_X
 ra	te	G_X
 admin	en	G_N
-","	univ	G_X
+\",\"	univ	G_X
 it	en	G_PRP
 is	en	G_V
 worst	en	G_N
@@ -3653,7 +3653,7 @@ bhaya	te	G_X
 Y	univ	E
 )	univ	E
 
-"	univ	null
+\"	univ	null
 At	en	PSP
 Shanthi	te	G_X
 Theater	en	G_N
@@ -3665,7 +3665,7 @@ admin	en	G_N
 a	en	DT
 gripping	en	G_J
 thriller	en	G_N
-"	univ	null
+\"	univ	null
 
 Mahesh	te	G_N
 babu	te	G_X
@@ -3677,7 +3677,7 @@ my	en	DT
 wife	en	G_N
 Namrata	te	G_N
 !	univ	G_X
-"	univ	null
+\"	univ	null
 
 Sollu	te	G_X
 Comedy	en	G_N
@@ -3687,7 +3687,7 @@ multistarer	en	G_N
 kadha	te	G_X
 so	en	G_R
 :v	univ	E
-"	univ	null
+\"	univ	null
 
 Cheekatirajyam	te	G_X
 !	univ	G_X
@@ -3742,7 +3742,7 @@ kabbadi	te	G_X
 players	en	G_N
 ...	univ	G_X
 ultimate	en	G_J
-"	univ	null
+\"	univ	null
 
 Kandhreega	te	G_X
 2	univ	null
@@ -3797,10 +3797,10 @@ create	en	G_V
 chestadu	te	G_N
 
 Ad	en	G_N
-","	univ	G_X
+\",\"	univ	G_X
 gabbar	en	G_N
 singh	en	G_N
-","	univ	G_X
+\",\"	univ	G_X
 tammudu	te	G_X
 
 PS	univ	G_N
@@ -3812,7 +3812,7 @@ ni	te	G_PRT
 laagane	te	G_PRT
 ..	univ	G_X
 :D	univ	E
-"	univ	null
+\"	univ	null
 
 wonderful	en	G_J
 :D	univ	E
@@ -3837,7 +3837,7 @@ for	en	PSP
 d	en	G_N
 post	en	G_V
 admin	en	G_N
-"	univ	null
+\"	univ	null
 
 watched	en	G_V
 demonte	en	G_N
@@ -3880,7 +3880,7 @@ om	en	G_PRT
 shanti	te	G_PRT
 om	en	G_PRT
 
-"	univ	null
+\"	univ	null
 Rakshasudu	te	G_N
 ..	univ	G_X
 different	en	G_J
@@ -4016,7 +4016,7 @@ Cost	en	G_N
 is	en	G_V
 600	univ	null
 .	univ	G_X
-"	univ	null
+\"	univ	null
 
 pora	te	G_N
 kukka	te	G_N
@@ -4042,7 +4042,7 @@ chepi	te	G_X
 :P	univ	E
 super	en	G_R
 
-"	univ	null
+\"	univ	null
 Em	te	G_X
 songs	en	G_N
 ra	te	G_X
@@ -4059,7 +4059,7 @@ lover	en	G_N
 boy	en	G_N
 surya	univ	G_N
 back	en	G_R
-","	univ	G_X
+\",\"	univ	G_X
 not	en	G_R
 don	en	G_N
 surya	univ	G_N
@@ -4154,7 +4154,7 @@ t0	univ	PSP
 vasthe	te	G_X
 goppa	te	G_X
 
-"	univ	null
+\"	univ	null
 Upgraded	te	G_V
 Version	en	G_N
 Of	en	PSP
@@ -4179,7 +4179,7 @@ theatre	en	G_N
 lo	te	G_X
 chudacha	te	G_X
 
-"	univ	null
+\"	univ	null
 check	en	G_V
 I	en	G_PRP
 am	en	G_V
@@ -4244,7 +4244,7 @@ nuvve	te	G_X
 admin	en	G_N
 :P	univ	E
 
-"	univ	null
+\"	univ	null
 Here's	en	G_N
 the	en	DT
 tracklist	en	G_N
@@ -4324,12 +4324,12 @@ undha	te	G_X
 o.O	univ	E
 
 Ada	te	G_X
-","	univ	G_X
+\",\"	univ	G_X
 gs	univ	G_N
-","	univ	G_X
+\",\"	univ	G_X
 jalsa	te	G_X
 
-"	univ	null
+\"	univ	null
 Avunu	te	G_N
 song	en	G_N
 antha	te	G_X
@@ -4398,7 +4398,7 @@ overactn	en	G_N
 ilane	univ	G_X
 untadi	te	G_X
 
-"	univ	null
+\"	univ	null
 Ipude	te	G_X
 movie	en	G_N
 chusanu	te	G_X
@@ -4438,7 +4438,7 @@ too	en	G_R
 hilarious	en	G_J
 ..	univ	G_X
 But	en	CC
-","	univ	G_X
+\",\"	univ	G_X
 chala	te	G_PRT
 cinemala	en	G_N
 scenes	en	G_N
@@ -4452,7 +4452,7 @@ dialogue	en	G_N
 cheppetappudu	te	null
 peaks	en	G_N
 ....	univ	G_X
-"	univ	null
+\"	univ	null
 
 Excellent	en	G_J
 taking	en	G_V
@@ -4515,7 +4515,7 @@ sir	en	G_PRP
 
 kinnera	univ	G_N
 theatre	en	G_N
-","	univ	G_X
+\",\"	univ	G_X
 srikakulam	te	G_N
 ..	univ	G_X
 B-)	univ	E
@@ -4583,9 +4583,9 @@ Vidya	univ	G_N
 theater	en	G_N
 tambaram	te	G_X
 ..	univ	G_X
-"	univ	null
+\"	univ	null
 
-"	univ	null
+\"	univ	null
 Energtic	en	G_J
 star	en	G_N
 abhay	univ	G_N
@@ -4594,16 +4594,16 @@ ram	univ	G_N
 :D	univ	E
 
 Tholiprema	te	G_N
-","	univ	G_X
+\",\"	univ	G_X
 kushi	te	G_X
-","	univ	G_X
+\",\"	univ	G_X
 jalsa	te	G_X
 
 super	en	G_J
 work	en	G_V
 admin	en	G_N
 
-"	univ	null
+\"	univ	null
 Abba	te	G_X
 positive	en	G_J
 post	en	G_V
@@ -4720,7 +4720,7 @@ Telugu	en	G_N
 Cinema	en	G_N
 .!	univ	G_X
 
-"	univ	null
+\"	univ	null
 Pedha	univ	G_X
 cinema	en	G_N
 ni	univ	G_X
@@ -4863,7 +4863,7 @@ new	en	G_J
 concept	en	G_N
 kaada	te	G_PRP
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Pk	ne	G_N
 at	en	PSP
@@ -4957,7 +4957,7 @@ aytunde	te	G_V
 #Varun	ne	G_N
 acting	en	G_V
 sampesadu	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Excellent	en	G_J
 movie	en	G_N
@@ -5003,7 +5003,7 @@ Meku	te	G_PRP
 remake	en	G_V
 cinemalu	te	G_N
 teyali	te	G_V
-"	univ	G_X
+\"	univ	G_X
 
 routine	en	G_N
 ki	te	PSP
@@ -5372,7 +5372,7 @@ Ippudu	te	G_PRP
 ee	te	G_X
 movie	en	G_N
 chudakunda	te	G_V
-"	univ	G_X
+\"	univ	G_X
 tollywood	en	G_N
 ante	te	G_N
 eppudu	te	G_PRP
@@ -5380,14 +5380,14 @@ routine	en	G_N
 moviese	en	G_N
 ra	te	G_X
 annaranuko	te	G_V
-"	univ	G_X
+\"	univ	G_X
 kinda	te	G_R
 nunchi	te	G_J
 dimputha	te	G_V
 gunapam	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Helo	en	G_PRT
 page	en	G_N
 likers	en	G_N
@@ -5632,7 +5632,7 @@ do	en	G_V
 !	univ	G_X
 Hail	en	G_V
 superstar	en	G_N
-\m/	univ	E
+\\m/	univ	E
 
 point	en	G_N
 no	en	DT
@@ -5795,7 +5795,7 @@ is	en	G_V
 best	en	G_J
 !	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 To	en	PSP
 those	en	G_PRP
 who	en	G_PRP
@@ -5906,7 +5906,7 @@ base	en	G_N
 alaantidhi	te	G_N
 ,	univ	G_X
 Megastar	ne	G_N
-_/\_	univ	G_X
+_/\\_	univ	G_X
 ..	univ	G_X
 dhaniki	te	G_N
 thodu	te	PSP
@@ -6067,7 +6067,7 @@ deeniki	te	G_N
 kuda	te	G_N
 thakkuve	te	G_N
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Troll	en	G_N
 Tollywood	en	G_N
@@ -6163,7 +6163,7 @@ karnataka	ne	G_N
 areas	en	G_N
 ,...	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 I	en	G_PRP
 agree	en	G_V
 with	en	PSP
@@ -6772,7 +6772,7 @@ andhari	te	G_N
 heroes	en	G_N
 fans	en	G_N
 :P	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 Akhil	univ	G_N
 ki	univ	G_N
@@ -6872,7 +6872,7 @@ suddduv	te	G_V
 gani	te	G_V
 unduu	te	G_N
 ..	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 one	en	$
 the	en	DT
@@ -7013,7 +7013,7 @@ movie	en	G_N
 ni	te	PSP
 :p	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 this	en	G_PRP
 is	en	G_V
 the	en	DT
@@ -7130,8 +7130,8 @@ P	univ	G_N
 C	univ	G_X
 .	univ	G_X
 Sreeram	ne	G_N
-_/\_	univ	G_X
-_/\_	univ	G_X
+_/\\_	univ	G_X
+_/\\_	univ	G_X
 ....	univ	G_X
 Sole	en	G_N
 winners	en	G_N
@@ -7457,10 +7457,10 @@ VIJAY	ne	G_N
 hai	te	G_PRT
 Thevdiyamavanr	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Pandavullo	ne	G_N
 okadu	te	G_N
-"	univ	G_X
+\"	univ	G_X
 chudandi	te	G_V
 .	univ	G_X
 andaru	te	G_N
@@ -7472,9 +7472,9 @@ dubbed	en	G_V
 from	en	PSP
 tamil	ne	G_N
 movie	en	G_N
-"	univ	G_X
+\"	univ	G_X
 kappal	te	G_N
-"	univ	G_X
+\"	univ	G_X
 :)	univ	E
 @troll	univ	@
 tollywood	en	G_N
@@ -7621,7 +7621,7 @@ mana	te	G_X
 tollywoood	en	G_N
 lo	te	PSP
 fans	en	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Jatha	te	G_N
 kalise	te	G_N
@@ -7754,7 +7754,7 @@ busters	en	G_V
 Naralloki	te	G_N
 ekkeseyi	te	G_N
 ......	univ	G_X
-\m/	univ	E
+\\m/	univ	E
 DSP	acro	G_N
 rockstar	en	G_N
 !!	univ	G_X
@@ -8423,9 +8423,9 @@ mone	te	G_X
 Sikindar	ne	G_N
 kadu	te	G_N
 Sick	en	G_N
-"	univ	G_X
+\"	univ	G_X
 Andar	te	G_N
-"	univ	G_X
+\"	univ	G_X
 ....	univ	G_X
 (	univ	G_X
 inside	en	PSP
@@ -8452,7 +8452,7 @@ evaru	te	G_N
 cheyaleru	te	G_N
 kadandi	te	G_N
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Ori	te	G_X
 na	te	G_X
@@ -8463,10 +8463,10 @@ page	en	G_N
 kadhu	te	G_N
 annana	te	G_N
 .	univ	G_X
-""	univ	G_X
+\"\"	univ	G_X
 Trollywood	te	G_N
 Tollywood	en	G_N
-"	univ	G_X
+\"	univ	G_X
 idi	te	G_X
 kula	te	G_N
 gajji	te	G_N
@@ -8525,7 +8525,7 @@ scenario	en	G_N
 in	en	PSP
 14reels	en	$
 office	en	G_N
-"	univ	G_X
+\"	univ	G_X
 anna	te	G_N
 cinema	en	G_N
 apeyandanna	te	PSP
@@ -8533,10 +8533,10 @@ road	en	G_N
 la	te	G_X
 mida	te	G_X
 tiragalekapotunnam	te	G_X
-"	univ	G_X
+\"	univ	G_X
 :P	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Idoka	te	G_N
 cinema	en	G_N
 ....	univ	G_X
@@ -8806,7 +8806,7 @@ admin	en	G_N
 nuvvu	te	G_N
 ....	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Waiting	en	G_V
 for	en	PSP
 that	en	DT
@@ -8821,7 +8821,7 @@ fans	en	G_N
 titlu	te	G_N
 barinchaleka	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 That	en	DT
 awesome	en	G_J
 moment	en	G_N
@@ -8856,7 +8856,7 @@ over	en	PSP
 chestunav	te	G_N
 .	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Other	en	G_J
 heros	en	G_N
 gurunchi	te	G_N
@@ -8897,7 +8897,7 @@ chesinatlu	te	G_N
 aanandham	te	G_N
 okati	te	G_N
 :P	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 meru	te	G_N
 mana	te	G_N
@@ -8931,7 +8931,7 @@ this	en	DT
 page	en	G_N
 :D	univ	E
 ;)	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 Tholiprema	ne	G_X
 ...	univ	G_X
@@ -9110,7 +9110,7 @@ change	univ	G_V
 one	univ	$
 day	en	G_N
 ..	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 yavaro	te	G_PRT
 kontha	te	G_PRT
@@ -9176,7 +9176,7 @@ pakka	te	G_X
 headache	en	G_N
 ...	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 ma	univ	DT
 heroes	en	G_N
 ki	univ	G_N
@@ -9189,26 +9189,26 @@ chudu	te	G_N
 ni	univ	G_N
 innocence	en	G_N
 ki	univ	G_X
-_/\_	univ	G_X
+_/\\_	univ	G_X
 
 My	univ	DT
 GF	univ	G_N
 asked	univ	G_V
 me	univ	G_PRP
-"	univ	G_X
+\"	univ	G_X
 whats	univ	G_N
 ur	univ	DT
 favourite	ne	G_J
 position	en	G_N
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 I	univ	G_PRP
 said	univ	G_V
-"	univ	G_X
+\"	univ	G_X
 cheif	te	G_N
 financial	te	G_J
 officer	univ	G_N
-"	univ	G_X
+\"	univ	G_X
 and	en	CC
 we	univ	G_PRP
 laughed	univ	G_V
@@ -9258,7 +9258,7 @@ of	univ	PSP
 everyone	en	G_N
 !	univ	G_X
 :)	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 Hey	univ	G_PRT
 movie	en	G_N
@@ -9352,7 +9352,7 @@ mari	te	G_X
 vinipinchala	te	G_X
 :v	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Mana	te	G_N
 favourite	ne	G_J
 hero	en	G_N
@@ -9435,7 +9435,7 @@ finest	univ	G_J
 films	en	G_N
 <3	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 Suryaa	te	G_N
 tesee	univ	G_N
 moviess	en	G_N
@@ -9520,7 +9520,7 @@ supporting	en	G_V
 red	univ	G_J
 hero	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Oka	te	G_PRT
 vela	te	G_N
 NKP	univ	G_N
@@ -9555,7 +9555,7 @@ block	univ	G_V
 buster	en	G_N
 anna	te	G_N
 vallaki	te	G_N
-___/\___	univ	G_N
+___/\\___	univ	G_N
 one	univ	$
 time	en	G_N
 watch	univ	G_V
@@ -9886,14 +9886,14 @@ ledu	te	G_N
 Radhika	te	G_N
 Apte	univ	G_N
 said	univ	G_V
-"	univ	G_X
+\"	univ	G_X
 tollywood	univ	G_N
 is	univ	G_V
 a	univ	DT
 male	te	G_N
 dominated	te	G_V
 industry	univ	G_N
-"	univ	G_X
+\"	univ	G_X
 i	univ	G_PRP
 don't	en	G_V
 do	univ	G_V
@@ -9929,7 +9929,7 @@ bauntai	univ	G_N
 ..	univ	G_X
 #IGuess	univ	#
 ...	univ	~
-/m\	univ	G_PRP
+/m\\	univ	G_PRP
 Zindabad	univ	G_N
 DSP	univ	G_N
 
@@ -9945,7 +9945,7 @@ em	univ	G_PRP
 ledhu	te	G_X
 ......	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Rayudu	te	G_N
 ni	univ	G_N
 tokesaru	te	G_N
@@ -10439,7 +10439,7 @@ Bala	te	G_N
 Krishna	univ	G_N
 gari	te	G_N
 References	en	G_N
-"	univ	G_X
+\"	univ	G_X
 Theatres	en	G_N
 shake	univ	G_V
 avatam	te	G_N
@@ -10447,7 +10447,7 @@ Pakka	te	G_N
 SamarasimhaReddy	te	G_N
 shot	univ	G_N
 ki	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Ajay	univ	G_N
 Vishnu	univ	G_N
@@ -10679,7 +10679,7 @@ it	univ	G_PRP
 is	univ	G_V
 awesum	univ	G_J
 #hatsoff	univ	#
-"	univ	G_X
+\"	univ	G_X
 
 nenu	te	G_X
 mng	univ	G_X
@@ -10753,7 +10753,7 @@ want	univ	G_V
 to	univ	PSP
 ask	univ	G_V
 .....	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Mean	univ	G_V
 while	univ	PSP
@@ -10765,7 +10765,7 @@ office	univ	G_N
 mundu	te	G_X
 veli	univ	G_X
 .......	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 Anna	te	G_N
 cinema	en	G_N
 date	univ	G_N
@@ -10776,7 +10776,7 @@ sirr	en	G_N
 Thala	te	G_N
 ethukuni	te	G_N
 tiragalekapothunamm	te	G_N
-"	univ	G_X
+\"	univ	G_X
 :p	univ	E
 
 Asalu	te	G_N
@@ -10883,7 +10883,7 @@ horrible	en	G_J
 asalu	te	G_N
 ..	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @pratyusha	univ	@
 Velacherry	te	G_N
 lo	te	G_N
@@ -10899,14 +10899,14 @@ digangane	univ	G_N
 left	univ	G_V
 lo	univ	PSP
 kabalishwara(Shiva	univ	G_N
-""	univ	G_X
+\"\"	univ	G_X
 )	univ	G_X
 temple	en	G_N
 untudi	te	G_N
 .	univ	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @Aswin_xyz	univ	@
 chi	univ	G_X
 ...	univ	~
@@ -10932,7 +10932,7 @@ raadu	te	G_N
 ..	univ	G_X
 saripoindi	te	G_N
 poooo	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Neekosam	te	G_N
 -	univ	G_X
@@ -11078,7 +11078,7 @@ sir	en	G_N
 #ThankyouSardaar	univ	#
 ??	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 #Sarrainodu	te	#
 New	en	G_J
 Stills	en	G_N
@@ -11095,7 +11095,7 @@ night	univ	G_N
 Vijayawada	ne	G_N
 going	en	G_V
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Youtube	en	G_N
 records	en	G_N
@@ -11562,20 +11562,20 @@ ki	univ	G_X
 telidu	univ	G_X
 :P	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 @Gowtham4ever4u	univ	@
 adi	te	G_X
 Instagram	en	G_N
 range	en	G_N
 makeover	en	G_N
 le	univ	G_N
-""	univ	G_X
+\"\"	univ	G_X
 nek	te	G_X
 telidu	univ	G_X
 vadiley	te	G_J
 partner	univ	G_N
 @PavanPrabhas_	univ	@
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 Naaku	te	G_N
 teleedu	en	G_N
@@ -11598,7 +11598,7 @@ dhookude	univ	G_X
 gurthosthadhi	te	G_X
 :-))	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 @iamnagarjuna	univ	@
 wow	univ	G_PRT
 mindblowing	en	G_J
@@ -11619,9 +11619,9 @@ Hatric	univ	G_N
 Blockbusters	en	G_N
 anthe	te	G_N
 .......	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @kasimsignin	univ	@
 @Raghava4mahesh	univ	@
 chaala	te	G_N
@@ -11641,7 +11641,7 @@ reply	en	G_V
 kosam	univ	G_N
 wait	en	G_V
 cheyaledu	te	G_PRP
-"	univ	G_X
+\"	univ	G_X
 
 Vizag	univ	G_N
 youth	en	G_N
@@ -11891,7 +11891,7 @@ super	en	G_R
 machi	univ	G_X
 :)	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 comedy	en	G_N
 dorikipoyaru	te	G_N
 ,	univ	G_X
@@ -11900,7 +11900,7 @@ sleeping	en	G_V
 time	en	G_N
 eppudu	te	G_X
 #300RupeesBlackticket	univ	#
-"	univ	G_X
+\"	univ	G_X
 
 @pawanismfc	univ	@
 @pawankalyan	univ	@
@@ -11914,7 +11914,7 @@ Chestaru	te	G_N
 BRO	en	G_N
 ...	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @BhavadeepReddyS	univ	@
 1	univ	$
 was	univ	G_V
@@ -11925,7 +11925,7 @@ janalaki	te	G_N
 telidu	univ	G_N
 ..	univ	G_X
 expectations	en	G_N
-""	univ	G_X
+\"\"	univ	G_X
 bad	univ	G_J
 reviews	univ	G_N
 killed	en	G_V
@@ -11936,7 +11936,7 @@ has	univ	G_V
 decent	te	G_J
 reviews	univ	G_N
 @Familyfreak11	univ	@
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @andreaatickner	univ	@
 happy	en	G_J
@@ -12206,10 +12206,10 @@ ac	univ	G_N
 buses	univ	G_N
 untayi	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Meher	univ	G_N
 srinivas	te	G_N
-""	univ	G_X
+\"\"	univ	G_X
 back	univ	G_J
 side	univ	G_N
 tholiprema	te	PSP
@@ -12222,14 +12222,14 @@ telidu	univ	G_N
 https://	univ	U
 twitter.com/iDreamMedia/st	univ	U
 atus/707828194376753152	univ	#
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 #24TheMovie	univ	#
 Telugu	univ	G_N
 teaser	en	G_N
 eppudu	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Nenu	te	G_N
 nammi	univ	G_N
 follow	univ	G_V
@@ -12254,7 +12254,7 @@ Engg	univ	G_N
 College	univ	G_N
 .	univ	G_X
 pic.twitter.com/8YfDwDU7PP	univ	U
-"	univ	G_X
+\"	univ	G_X
 
 Kewww	univ	G_N
 asalu	te	G_N
@@ -12296,13 +12296,13 @@ https://	univ	U
 twitter.com/kraaaanthi143/	univ	U
 status/706185731257937920	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 met	univ	G_V
 her	univ	G_PRP
 after	en	PSP
 few	univ	G_J
 years	en	G_N
-""	univ	G_X
+\"\"	univ	G_X
 talked	en	G_V
 for	en	PSP
 an	univ	DT
@@ -12321,7 +12321,7 @@ gani	te	G_X
 oo	univ	G_PRT
 rakamaina	univ	G_PRT
 santrupti	te	G_N
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @priyamucharla	univ	@
 thiskovalo	en	G_PRT
@@ -12342,7 +12342,7 @@ break	en	G_V
 bahubali	univ	G_N
 records	univ	G_N
 #SSR	univ	#
-\m/	univ	E
+\\m/	univ	E
 Mahabharatham	te	G_N
 >	univ	G_X
 Garuda	univ	G_N
@@ -12407,12 +12407,12 @@ Jara	univ	G_N
 choodundri	univ	G_X
 !!	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @ArmaanMalik22	univ	@
 Buddhu	univ	G_N
 Sa	univ	G_N
 Mann	univ	G_N
-""	univ	G_X
+\"\"	univ	G_X
 ...	univ	G_X
 eppudu	te	G_J
 release	en	G_N
@@ -12423,7 +12423,7 @@ this	en	G_PRP
 ..??	univ	G_X
 no	univ	G_PRT
 naa	univ	G_PRT
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @Maheshaddict	univ	@
 KA	univ	G_N
@@ -12462,7 +12462,7 @@ managing	en	G_V
 pretty	univ	G_R
 well	univ	G_R
 
-"	univ	G_X
+\"	univ	G_X
 @shashunk	univ	@
 cant	te	G_V
 wait	en	G_V
@@ -12476,9 +12476,9 @@ Sensation	en	G_N
 enti	te	G_N
 asalu	te	G_N
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @HanuNtr	univ	@
 Japan	ne	G_N
 lo	te	G_N
@@ -12489,7 +12489,7 @@ media	en	G_N
 kodi	te	G_N
 ayi	te	G_N
 kusina	te	G_N
-""	univ	G_X
+\"\"	univ	G_X
 anties	te	G_V
 ki	te	G_N
 telidu	te	G_N
@@ -12502,7 +12502,7 @@ can't	en	G_V
 digest	en	G_V
 the	en	DT
 Fact	en	G_N
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @Mega5tarfan	univ	@
 @KiTtu_PSPK	univ	@
@@ -12586,7 +12586,7 @@ stupid	en	G_V
 concept	en	G_N
 ???	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 ,	univ	G_X
 ...	univ	~
 http://	univ	U
@@ -12599,7 +12599,7 @@ eppudu	te	G_X
 miss	en	G_V
 avvaru	te	G_X
 ...	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 asalu	te	G_X
 aa	univ	G_X
@@ -12640,7 +12640,7 @@ ate	en	G_V
 :D	univ	E
 labyow	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 abbaaa	te	G_X
 .....	univ	G_X
 this	en	G_PRP
@@ -12666,7 +12666,7 @@ lagaa	te	G_X
 https://	univ	U
 twitter.com/Fact/status/70	univ	U
 6194116082802688	univ	$
-"	univ	G_X
+\"	univ	G_X
 
 @RGVPURI	univ	@
 asalu	te	G_X
@@ -12744,7 +12744,7 @@ https://	univ	U
 twitter.com/naveenrsingh9/	univ	U
 status/706474288275070977	univ	null
 
-"	univ	G_X
+\"	univ	G_X
 Migata	te	G_X
 Places	en	G_N
 Lo	te	G_X
@@ -12759,7 +12759,7 @@ Lo	te	G_X
 Days	en	G_N
 In	en	PSP
 2DirectCeNTRes	en	G_X
-""	univ	G_X
+\"\"	univ	G_X
 Back2Back	en	G_X
 50Days	univ	G_N
 for	en	PSP
@@ -12767,7 +12767,7 @@ NTR	univ	G_N
 along	en	PSP
 with	en	PSP
 #Temper	univ	#
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 Showtime	en	G_N
 :	univ	G_X
@@ -12796,7 +12796,7 @@ inthe	te	G_X
 .	univ	G_X
 pic.twitter.com/C34XDdX713	univ	U
 
-"	univ	G_X
+\"	univ	G_X
 #Sarainodu	univ	#
 Song	en	G_N
 leak	en	G_N
@@ -12804,12 +12804,12 @@ google	en	G_N
 ki	te	G_X
 kuda	te	G_X
 telidu	te	G_X
-""	univ	G_X
+\"\"	univ	G_X
 looks	en	G_V
 like	en	PSP
 its	en	G_N
 hoax	en	G_R
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 #SardaarGabbarSingh	univ	#
 amminna	te	G_X
@@ -12931,7 +12931,7 @@ anduke	te	G_X
 ala	te	G_X
 i	en	G_PRP
 
-"	univ	G_X
+\"	univ	G_X
 E	en	G_X
 5	univ	$
 ,	univ	G_X
@@ -12947,7 +12947,7 @@ Asalu	te	G_X
 ...	univ	G_X
 Any	en	DT
 idea	en	G_N
-"	univ	G_X
+\"	univ	G_X
 
 YouTube	univ	G_N
 youtube	univ	G_N
@@ -12969,7 +12969,7 @@ tw	univ	G_X
 via	en	PSP
 @youtube	univ	@
 
-"	univ	G_X
+\"	univ	G_X
 @alwayscharan4u	univ	@
 hahaha	univ	G_PRT
 ..	univ	G_X
@@ -12981,7 +12981,7 @@ concept	en	G_N
 is	en	G_V
 crazy	en	G_J
 asalu	te	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Good	en	G_J
 Evening	en	G_N
@@ -12995,7 +12995,7 @@ Edit	en	G_N
 Asalu	te	G_X
 pic.twitter.com/pG9y9IkS4z	univ	U
 
-"	univ	G_X
+\"	univ	G_X
 @talidu	univ	@
 Hola	en	G_PRT
 Talina	te	G_X
@@ -13017,11 +13017,11 @@ poquito	univ	G_X
 .	univ	G_X
 Soy	univ	G_J
 Mexicano-Americano	univ	G_N
-""	univ	G_X
+\"\"	univ	G_X
 mi	te	G_X
 edad	te	G_X
 es	te	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @chichupedathaa	univ	@
 eppudu	te	G_X
@@ -13045,17 +13045,17 @@ mudathala	te	G_X
 panzz	univ	G_X
 bwahahahaha	univ	null
 
-"	univ	G_X
+\"	univ	G_X
 Sir	en	G_N
 @PawanKalyan	univ	@
 ji	te	G_X
-""	univ	G_X
+\"\"	univ	G_X
 #SardarGabbarSingh	univ	#
 eppudu	te	G_X
 release	en	G_N
 aavtundi	te	G_X
 ?	univ	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 Nara	ne	G_N
 Rohit	ne	G_N
@@ -13127,7 +13127,7 @@ vastav	te	G_X
 Vizag	univ	G_N
 @Ravii9999	univ	@
 
-"	univ	G_X
+\"	univ	G_X
 NTR	ne	G_N
 voice	en	G_N
 vinadani	te	G_X
@@ -13143,7 +13143,7 @@ aayana	te	G_X
 voice	en	G_N
 kosam	te	G_X
 temper	en	G_N
-""	univ	G_X
+\"\"	univ	G_X
 nkp	univ	G_X
 trailers	en	G_N
 enni	te	G_X
@@ -13151,7 +13151,7 @@ sarlu	te	G_X
 chusano	te	G_X
 nake	te	G_X
 telidu	te	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 I	en	G_PRP
 was	en	G_V
@@ -13285,7 +13285,7 @@ repeat	en	G_V
 with	en	PSP
 sgs	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @Athadu443	univ	@
 odis	univ	G_X
 nd	en	PSP
@@ -13308,15 +13308,15 @@ aadu	te	G_X
 test	en	G_N
 player	en	G_N
 anattu	te	G_X
-""	univ	G_X
+\"\"	univ	G_X
 Mari	te	G_X
 dhoni	ne	G_N
 test	en	G_N
 avg	en	G_N
 ?	univ	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Mahesh	ne	G_N
 medha	te	G_X
 Yedavadam	te	G_X
@@ -13339,9 +13339,9 @@ ga	te	G_X
 yevadu	te	G_X
 taggatledhu	te	G_X
 asalu	te	G_X
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @vennelakishore	univ	@
 kaka	te	G_X
 #ElukaMajaka	univ	G_N
@@ -13363,7 +13363,7 @@ song	en	G_N
 mudu	te	G_X
 bagunnai	te	G_X
 ....	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Many	en	G_J
 more	en	G_J
@@ -13390,7 +13390,7 @@ fr	en	PSP
 Future	en	G_J
 projects	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 mana	te	G_X
 #Brahmotsavam	univ	#
 cinema	en	G_N
@@ -13415,7 +13415,7 @@ ni	te	G_X
 asalu	te	G_X
 leka	te	G_X
 cheyakandi	te	G_X
-"	univ	G_X
+\"	univ	G_X
 
 @YursNani	univ	@
 Must	en	G_V
@@ -13569,7 +13569,7 @@ adugutharu	te	G_X
 pillaa	te	G_X
 fans	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Maree	te	G_X
 devotional	en	G_J
 ga	te	G_N
@@ -13592,9 +13592,9 @@ aana	te	G_X
 3	univ	$
 .	univ	G_X
 bharathavedamuna	te	G_X
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @RGVPURI	univ	@
 asalu	te	G_X
 main	en	G_J
@@ -13617,7 +13617,7 @@ chusthamu	te	G_X
 ani	te	G_X
 expecting	en	G_V
 @RAM_BangaRAM	univ	@
-"	univ	G_X
+\"	univ	G_X
 
 @Cherry_ravi	univ	@
 @DizisSANDY	univ	@
@@ -13713,7 +13713,7 @@ epati	te	G_X
 nuncho	te	G_X
 jaruguthundhi	te	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @RC_PicZone	univ	@
 then	en	G_R
 what	en	G_PRP
@@ -13742,7 +13742,7 @@ ownfans	en	G_N
 leru	te	G_X
 ani	te	G_X
 :((	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 @surrealzakir	univ	@
 @priyamucharla	univ	@
@@ -13767,7 +13767,7 @@ married	en	G_V
 ani	te	G_X
 ..	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @RC_Devotees	univ	@
 sir	en	G_N
 ,	univ	G_X
@@ -13789,7 +13789,7 @@ own	en	G_J
 ga	te	G_X
 fans	en	G_N
 unnaru	te	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Ad's	univ	G_N
 endorsement	en	G_J
@@ -13814,12 +13814,12 @@ pk	ne	G_N
 very	en	G_R
 fluent	en	G_J
 
-"	univ	G_X
+\"	univ	G_X
 Listening	en	G_V
 Eppudu	te	G_X
 Okala	te	G_X
 UndadHu	te	G_X
-""	univ	G_X
+\"\"	univ	G_X
 sOng	en	G_N
 4m	univ	PSP
 #Oopiri	univ	#
@@ -13842,7 +13842,7 @@ Singing	en	G_V
 On	en	PSP
 Loop	en	null
 :	univ	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 Still	en	G_R
 surprising	en	G_J
@@ -13910,7 +13910,7 @@ Love	en	G_V
 u	en	G_PRP
 pic.twitter.com/oL0WO25W8T	univ	U
 
-"	univ	G_X
+\"	univ	G_X
 @RJChaitu	univ	@
 wowww	univ	G_PRT
 feeling	en	G_V
@@ -13933,7 +13933,7 @@ Superr	en	G_R
 asalu	te	G_X
 babuuu	te	G_X
 chitiiii	ne	G_N
-"	univ	G_X
+\"	univ	G_X
 
 @RJChaitu	univ	@
 superrr	en	G_J
@@ -13972,7 +13972,7 @@ https://	univ	U
 twitter.com/DVRAFanSaiRam/	univ	U
 status/703977612050173952	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @ramani0808	univ	@
 @tharungstars	univ	@
 Nen	te	G_X
@@ -13982,7 +13982,7 @@ audience	en	G_N
 ni	te	G_X
 kadhu	te	G_X
 balayya	ne	G_N
-""	univ	G_X
+\"\"	univ	G_X
 Caste	en	G_N
 and	en	CC
 party	en	G_N
@@ -13990,7 +13990,7 @@ fans	en	G_N
 Etu	te	G_X
 dookutharo	te	G_X
 telidu	te	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 My	univ	DT
 manager	en	G_N
@@ -14016,7 +14016,7 @@ he	en	G_PRP
 see	en	G_V
 me	en	G_PRP
 
-"	univ	G_X
+\"	univ	G_X
 @vignan2	univ	@
 Indian	ne	G_N
 sir	en	G_N
@@ -14043,9 +14043,9 @@ cinema	en	G_N
 le	te	G_X
 chustharu	te	G_X
 @deepakposa	univ	@
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Most	en	G_J
 egoist	en	G_J
 hero	en	G_N
@@ -14065,13 +14065,13 @@ lekpothe	te	G_X
 till	en	PSP
 now	en	G_R
 voiceover	en	G_N
-""	univ	G_X
+\"\"	univ	G_X
 multistarrer	en	G_N
 industry	en	G_N
 chusedo	te	G_X
 ledo	te	G_X
 telidu	te	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @RangersDen	univ	@
 basic	en	G_J
@@ -14115,7 +14115,7 @@ Just	en	G_R
 discomfort	en	G_N
 valla	te	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Now	en	G_R
 you	en	G_PRP
 See	en	G_V
@@ -14141,9 +14141,9 @@ part	en	G_N
 ...	univ	G_X
 Thuttt	univ	G_PRT
 ....	univ	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 yeah	en	G_PRT
 ,	univ	G_X
 acting	en	G_V
@@ -14166,7 +14166,7 @@ rajini	ne	G_N
 https://	univ	U
 twitter.com/MaheshAbimani/	univ	U
 status/705735631947718656	en	G_N
-"	univ	G_X
+\"	univ	G_X
 
 @MSKumar143	univ	@
 largely	en	G_R
@@ -14301,7 +14301,7 @@ avvali	te	G_X
 mana	te	G_X
 kattubatlu	te	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @supersampangi	univ	@
 @deepu4mb	univ	@
 1	univ	$
@@ -14320,7 +14320,7 @@ talk	en	G_V
 raakapothe	te	G_R
 asalu	te	G_J
 choodaru	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 @ursyathi	univ	@
 @FlyTruJet	univ	@
@@ -14627,7 +14627,7 @@ dammu	te	null
 asalu	te	null
 ledu	te	null
 
-"	univ	G_X
+\"	univ	G_X
 KTR	univ	G_N
 bomma	univ	G_N
 pettukunnadu	te	null
@@ -14646,7 +14646,7 @@ Andhra	en	G_N
 or	univ	CC
 T	univ	G_X
 ??	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 @ysjagan	univ	@
 Jagan	te	null
@@ -14744,14 +14744,14 @@ is	univ	G_V
 pakka	te	null
 illiterate	en	G_J
 
-"	univ	G_X
+\"	univ	G_X
 @babieesravanee	univ	@
 Ohh	univ	G_PRT
 ok	univ	G_PRT
 ok	univ	G_PRT
 naku	te	G_PRT
 telidu	univ	G_N
-""	univ	G_X
+\"\"	univ	G_X
 recent	en	G_J
 ga	univ	G_N
 follow	univ	G_V
@@ -14764,7 +14764,7 @@ handle	en	G_N
 for	en	PSP
 updates	en	G_V
 @UshaVavveti	univ	@
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @pawan_prasanth	univ	@
 @dhanarajpspk	univ	@
@@ -14805,7 +14805,7 @@ the	en	DT
 day	en	G_N
 #SardaarAudioLaunch	univ	#
 
-"	univ	G_X
+\"	univ	G_X
 24	univ	$
 teaser	en	G_N
 is	univ	G_V
@@ -14822,7 +14822,7 @@ chaala	te	G_X
 exciting	en	G_J
 ga	univ	G_N
 undhi	te	null
-"	univ	G_X
+\"	univ	G_X
 
 @roopak999	univ	@
 indulo	univ	G_PRT
@@ -14857,7 +14857,7 @@ what	en	G_PRP
 happened	en	G_V
 ?	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Watching	en	G_V
 Nuvve	te	G_PRP
 Kaavaali	te	G_V
@@ -14879,7 +14879,7 @@ mahesh	univ	G_N
 babu	univ	G_N
 ledikkada	te	G_V
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Naaku	te	G_PRP
 telsi	te	G_V
@@ -14900,7 +14900,7 @@ of	en	PSP
 the	en	DT
 hero	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @alwayscharan4u	univ	@
 *	univ	G_X
 le	ne	G_X
@@ -14913,7 +14913,7 @@ Kejrival	univ	G_N
 ki	ne	G_N
 following	en	G_V
 ledu	te	G_V
-""	univ	G_X
+\"\"	univ	G_X
 mohn	univ	G_N
 lal	univ	G_N
 mamotty	univ	G_N
@@ -14923,7 +14923,7 @@ allu	univ	G_N
 arjun	univ	G_N
 telidu	te	G_V
 telusaaa	univ	G_V
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @ram_aduri	univ	@
 Anna	te	G_N
@@ -14970,7 +14970,7 @@ pk	univ	G_N
 about	en	PSP
 sardar	univ	G_N
 
-"	univ	G_X
+\"	univ	G_X
 I	en	G_PRP
 added	en	G_V
 a	en	DT
@@ -14993,7 +14993,7 @@ Prakash	univ	G_N
 Kumar	univ	G_N
 ,	univ	G_X
 Ananthi	univ	G_N
-"	univ	G_X
+\"	univ	G_X
 
 @venupro	univ	@
 bhayya	te	G_N
@@ -15081,7 +15081,7 @@ crazy	en	G_J
 crazy	en	G_J
 feeling	en	G_V
 
-"	univ	G_X
+\"	univ	G_X
 @IamIVK	univ	@
 Naresh	univ	G_N
 combo	te	G_N
@@ -15105,7 +15105,7 @@ untayi	te	G_X
 Asalu	te	PSP
 super	en	G_J
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 ee	te	G_PRP
 movie	en	G_N
@@ -15313,7 +15313,7 @@ Not	en	G_R
 smart	en	G_J
 .	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @Raj_4Prince	univ	@
 @Gowtham_Tejj	univ	@
 yo	en	G_PRT
@@ -15336,7 +15336,7 @@ match	en	G_N
 winning	en	G_V
 innings	en	G_N
 adinanduka	te	G_V
-"	univ	G_X
+\"	univ	G_X
 
 #JrNtr	univ	#
 fans	en	G_N
@@ -15460,7 +15460,7 @@ tweets	en	G_N
 .	univ	G_X
 #ThankyouSardaar	univ	#
 
-"	univ	G_X
+\"	univ	G_X
 @Maheshaddict	univ	@
 lite	en	G_J
 asalu	te	G_N
@@ -15488,7 +15488,7 @@ Tam	univ	G_N
 n	univ	CC
 Mal	en	G_N
 @tsid9	univ	@
-"	univ	G_X
+\"	univ	G_X
 
 @YShalini_Indian	univ	@
 this	en	G_PRP
@@ -15630,7 +15630,7 @@ https://	univ	U
 twitter.com/shriktweets/st	univ	U
 atus/706797904044765184	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @ahiteja666	univ	@
 charan	univ	G_N
 sir	en	G_N
@@ -15644,7 +15644,7 @@ activities	en	G_N
 lone	te	PSP
 unte	te	G_V
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Open	en	G_J
 Heart	en	G_N
@@ -15905,7 +15905,7 @@ fadeout	te	G_N
 ani	te	G_N
 :P	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 @Gowtham_SSC	univ	@
 @books_thief	univ	@
 naku	te	G_PRP
@@ -15918,10 +15918,10 @@ nice	en	G_J
 to	en	PSP
 meet	en	G_V
 you	en	G_PRP
-""	univ	G_X
+\"\"	univ	G_X
 same	en	G_J
 jilla	te	G_N
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @Direct_Shooter	univ	@
 Bajranji	univ	G_N
@@ -15990,7 +15990,7 @@ u	ne	G_PRP
 happies	ne	G_N
 .	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @maheshfan21	univ	@
 sir	en	G_N
 ,	univ	G_X
@@ -16015,7 +16015,7 @@ ani	te	DT
 class	en	G_N
 lo	te	PSP
 telisindi	te	G_V
-"	univ	G_X
+\"	univ	G_X
 
 Asalu	te	G_N
 ela	te	G_PRP
@@ -16057,7 +16057,7 @@ nuvvu	te	G_PRP
 oppukokapovadam	te	G_V
 '	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 summer	en	G_N
 movies	en	G_N
 inside	en	PSP
@@ -16082,7 +16082,7 @@ BHRAMOTSAVAM-	univ	G_N
 telidu	univ	G_V
 ,	univ	G_X
 FAN-bb	en	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Mee	te	G_PRP
 jaathi	te	G_N
@@ -16181,7 +16181,7 @@ in	en	PSP
 forum	en	G_N
 sir	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @RC_Devotees	univ	@
 just	en	G_R
 think	en	G_V
@@ -16211,7 +16211,7 @@ RC	univ	G_N
 will	en	G_V
 rise	en	G_V
 sure	en	G_J
-"	univ	G_X
+\"	univ	G_X
 
 @HeroManoj1	univ	@
 Anna	te	G_N
@@ -16287,7 +16287,7 @@ anipsndi	ne	G_N
 ..	univ	G_X
 sir	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 #Tuntari	univ	#
 First	en	G_J
 half	en	G_N
@@ -16311,7 +16311,7 @@ disappointed	en	G_V
 with	en	PSP
 story	en	G_N
 selection	en	G_N
-"	univ	G_X
+\"	univ	G_X
 
 @pavanstweet	univ	@
 nee	te	G_PRP
@@ -16354,7 +16354,7 @@ theesukoni	te	G_V
 wallpaper	en	G_N
 pettukunta	te	G_V
 
-"	univ	G_X
+\"	univ	G_X
 Iam	en	G_N
 going	en	G_V
 to	en	PSP
@@ -16384,7 +16384,7 @@ anevallu	te	G_N
 untara	te	PSP
 #PSPKInterview	univ	#
 _/	univ	E
-\_"	univ	E
+\\_\"	univ	E
 
 3g	univ	G_N
 love	en	G_N
@@ -16431,7 +16431,7 @@ cheyadam	te	G_X
 enti	te	G_X
 veraitiga	te	G_X
 
-"	univ	G_X
+\"	univ	G_X
 PulKa	univ	G_N
 Fans	en	G_N
 For	en	PSP
@@ -16456,9 +16456,9 @@ Meeru	te	G_PRP
 https://	univ	U
 twitter.com/appusammangi/s	univ	U
 tatus/708163905210593282	univ	$
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Acting	en	G_V
 lo	te	PSP
 soonyam	univ	G_N
@@ -16473,7 +16473,7 @@ cinemalu	en	G_X
 chesado	te	G_V
 telidu	te	G_V
 kani	te	G_V
-""	univ	G_X
+\"\"	univ	G_X
 vaadu	te	G_PRP
 fan	en	G_N
 .	univ	G_X
@@ -16485,9 +16485,9 @@ enti	te	PSP
 mana	te	G_PRP
 parithiti	ne	G_N
 ?	univ	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @imVkohl1	univ	@
 adi	te	G_PRP
 kadehes	ne	G_N
@@ -16512,7 +16512,7 @@ kv	univ	G_N
 even	en	G_R
 nithin-SA	univ	G_X
 @Aswin_here	univ	@
-"	univ	G_X
+\"	univ	G_X
 
 @chowdaryforu	univ	@
 may	en	G_V
@@ -16567,7 +16567,7 @@ babu	univ	G_N
 kuda	te	PSP
 anetode	te	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @nmanoj324	univ	@
 nuvvu	te	G_PRP
 tweet	en	G_V
@@ -16588,9 +16588,9 @@ chestunnav	te	G_N
 ra	te	G_N
 asalu	te	G_N
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @Mee_Sunil	univ	@
 sir	en	G_N
 mearu	te	G_PRP
@@ -16614,7 +16614,7 @@ Athadu	univ	G_N
 ,	univ	G_X
 Stalin	univ	G_N
 etc	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Manchu	univ	G_N
 Family	en	G_N
@@ -16661,7 +16661,7 @@ anedi	te	PSP
 maa	te	DT
 point	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Mata	te	G_N
 samavwsalaku	ne	G_N
 AP	univ	G_N
@@ -16673,7 +16673,7 @@ God	en	G_N
 Anil	univ	G_N
 Bible	univ	G_N
 amma	te	G_N
-""	univ	G_X
+\"\"	univ	G_X
 Xmas	en	G_N
 vallu	te	G_PRP
 meeting	en	G_V
@@ -16688,9 +16688,9 @@ galla	te	G_PRP
 meeting	en	G_N
 kuda	te	G_X
 anthey	te	G_PRP
-"""	univ	G_X
+\"\"\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @AdiviSesh	univ	@
 I	en	G_PRP
 noe	ne	G_V
@@ -16718,7 +16718,7 @@ screen	en	G_N
 presence	en	G_N
 ,	univ	G_X
 amazng	ne	G_J
-"	univ	G_X
+\"	univ	G_X
 
 Que	ne	G_N
 agradable	ne	G_N
@@ -16769,7 +16769,7 @@ aina	te	G_X
 isthadani	te	G_V
 expecting	en	G_V
 
-"	univ	G_X
+\"	univ	G_X
 @sandhumerry	univ	@
 @ShekarNews	univ	@
 Post	en	G_N
@@ -16783,9 +16783,9 @@ is	en	G_V
 thaal	ne	G_N
 Ajith	univ	G_N
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @shockk9999	univ	@
 worst	en	G_J
 choice	en	G_N
@@ -16805,7 +16805,7 @@ vuntey	te	G_V
 ..	univ	G_X
 top	univ	G_J
 lecchippyedi	te	G_V
-"	univ	G_X
+\"	univ	G_X
 
 @anilsunkara1	univ	@
 audio	en	G_N
@@ -16824,7 +16824,7 @@ planning	en	G_V
 antandi	te	G_N
 @Aswin_here	univ	@
 
-"	univ	G_X
+\"	univ	G_X
 @Priyuu_	univ	@
 Ha	univ	G_PRT
 ha	univ	G_PRT
@@ -16851,7 +16851,7 @@ next	en	G_J
 6	univ	$
 pack	en	G_N
 ea	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Enduku	te	G_PRP
 trend	en	G_N
@@ -16941,7 +16941,7 @@ shraddha	univ	G_N
 best	en	G_J
 choice	en	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @jaipalreddy_27	univ	@
 @sumandhfm	univ	@
 naku	te	G_PRP
@@ -16964,7 +16964,7 @@ ntr	univ	G_N
 fans	en	G_N
 ye	te	G_PRP
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 @PoornaPradeep1	univ	@
 dialogue	en	G_N
@@ -17031,7 +17031,7 @@ RABADA	univ	G_N
 catch	en	G_V
 Asalu	te	G_N
 .......	univ	G_X
-_/\_	univ	G_X
+_/\\_	univ	G_X
 
 #Srimanthudu	univ	#
 cinema	en	G_N
@@ -17106,7 +17106,7 @@ Attitude	en	G_N
 edaithe	te	G_PRP
 undooo	te	G_V
 Ustaaddd	ne	G_N
-___/\___	univ	G_N
+___/\\___	univ	G_N
 pic.twitter.com/KDzrAodAx2	univ	U
 
 Okappudu	te	G_N
@@ -17158,7 +17158,7 @@ disappoint	en	G_V
 cheyyadu	univ	G_N
 @MSKumar143	univ	@
 
-"	univ	G_X
+\"	univ	G_X
 Asalu	te	G_N
 aa	univ	G_N
 Pk	univ	G_N
@@ -17171,9 +17171,9 @@ National	en	G_N
 interview	univ	G_N
 ovbadaniki	te	G_N
 #PSPKInterview	univ	#
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @neeku_enduku	univ	@
 sir	en	G_N
 ,	univ	G_X
@@ -17190,7 +17190,7 @@ false	en	G_J
 news	en	G_N
 vesthu	te	G_V
 untaaru	te	G_V
-"	univ	G_X
+\"	univ	G_X
 
 @mad_bwoyy	univ	@
 @sensiitive_boy	univ	@
@@ -17275,7 +17275,7 @@ charan	univ	G_N
 4	univ	$
 songs	en	G_N
 teesevadu	te	G_V
-_/\_	univ	G_X
+_/\\_	univ	G_X
 
 Kushi	univ	G_N
 2	univ	$
@@ -17287,7 +17287,7 @@ emanna	te	G_PRP
 matching	en	G_V
 vunda	te	G_N
 asalu	te	G_N
-_/\_	univ	G_X
+_/\\_	univ	G_X
 https://	univ	U
 twitter.com/ramjowrites/st	univ	U
 atus/709004738717569024	univ	#
@@ -17338,7 +17338,7 @@ cinema	en	G_N
 asalu	te	G_X
 kadu	te	G_X
 
-"	univ	null
+\"	univ	null
 @srisahu10	univ	@
 eppudu	te	G_X
 enni	te	G_X
@@ -17346,7 +17346,7 @@ saarlu	te	G_X
 vinna	te	G_X
 same	en	G_J
 feel	en	G_V
-"""	univ	null
+\"\"\"	univ	null
 
 #rc10	univ	#
 shooting	en	G_V
@@ -17388,7 +17388,7 @@ oksari	te	G_X
 correct	en	G_J
 cheyyu	te	G_X
 
-"	univ	null
+\"	univ	null
 Ikada	te	G_N
 oopiri	te	G_N
 adatledu	te	G_X
@@ -17401,9 +17401,9 @@ nag	univ	G_N
 super	en	G_R
 asalu	te	G_J
 #Oopiri	univ	#
-"""	univ	null
+\"\"\"	univ	null
 
-"	univ	null
+\"	univ	null
 JAGAN	univ	G_N
 gari	te	G_N
 vastu	en	G_N
@@ -17422,7 +17422,7 @@ ee	te	G_X
 twitter	en	G_N
 lo	te	G_X
 pic.twitter.com/k5wA4kz1aG	univ	U
-"""	univ	null
+\"\"\"	univ	null
 
 @sasankaPK_sayz	univ	@
 hmm	univ	G_PRT
@@ -17525,7 +17525,7 @@ mundu	te	G_X
 nunche	te	G_X
 ;)	univ	E
 
-"	univ	null
+\"	univ	null
 @iam_prakky	univ	@
 57k	univ	null
 na	te	PSP
@@ -17536,8 +17536,8 @@ roju	te	G_N
 match	en	G_N
 pettukoni	te	G_X
 kuda	te	G_X
-".,"	univ	G_X
-"	univ	null
+\".,\"	univ	G_X
+\"	univ	null
 
 @prashantbme	univ	@
 @pratyusha	univ	@
@@ -17573,10 +17573,10 @@ tweets	en	G_N
 ki	te	G_X
 .	univ	G_X
 
-"	univ	null
+\"	univ	null
 Eifel	en	G_N
 Tower	en	G_N
-","	univ	G_X
+\",\"	univ	G_X
 Pawan	univ	G_N
 Kalyan	univ	G_N
 Power	en	G_N
@@ -17585,7 +17585,7 @@ alane	te	G_X
 untayi	te	G_X
 !	univ	G_X
 #SGSAudioOnMarch18th	univ	#
-"	univ	null
+\"	univ	null
 
 @ahiteja666	univ	@
 eppudu	te	G_X
@@ -17646,7 +17646,7 @@ IEYyg&feature	univ	G_N
 youtu.be	univ	U
 #RajadhiRaja	univ	#
 
-"	univ	null
+\"	univ	null
 @Itsme_Thej	univ	@
 telidu	univ	G_X
 YouTube	en	G_N
@@ -17658,7 +17658,7 @@ veerabadra	te	G_N
 rao	univ	G_N
 comedy	en	G_N
 ani	te	G_X
-"""	univ	null
+\"\"\"	univ	null
 
 Emi	univ	G_X
 baaledhu	te	G_X
@@ -17696,7 +17696,7 @@ adutado	te	G_N
 yavariki	te	G_X
 telidu	te	G_X
 
-"	univ	null
+\"	univ	null
 @talidu	univ	@
 Cada	te	G_N
 nuevo	univ	G_N
@@ -17721,7 +17721,7 @@ que	univ	G_X
 esta	en	G_X
 por	univ	G_X
 venir	univ	G_X
-"""	univ	null
+\"\"\"	univ	null
 
 @priyamucharla	univ	@
 vammo	te	G_PRT
@@ -17764,15 +17764,15 @@ em	te	G_PRP
 jarugutondo	te	G_X
 erukatledu	te	G_X
 
-"	univ	null
+\"	univ	null
 via	en	PSP
 endhi	te	G_X
 ra	te	G_X
 asalu	te	G_X
-","	univ	G_X
+\",\"	univ	G_X
 comedy	en	G_N
 ga	te	G_X
-"	univ	null
+\"	univ	null
 
 @pavandarling26	univ	@
 khaleja	univ	G_N
@@ -17796,7 +17796,7 @@ nunchunna	te	G_X
 place	en	G_N
 Edaina	te	G_X
 station	en	G_N
-aipoddiroo/m\	te	G_X
+aipoddiroo/m\\	te	G_X
 pic.twitter.com/4RaXLABDQl	univ	U
 
 Vaarni	te	G_N
@@ -18183,7 +18183,7 @@ Super	en	G_N
 enjoyment	en	G_N
 asalu	te	G_X
 
-"	univ	null
+\"	univ	null
 @kirankonnects01	univ	@
 Baasu	te	G_N
 neeku	te	G_X
@@ -18198,7 +18198,7 @@ on	en	PSP
 screen	en	G_N
 @Urstrulyrk_	univ	@
 @crazydiode	univ	@
-"""	univ	null
+\"\"\"	univ	null
 
 Hahahha	univ	G_PRT
 @ethnofest9	univ	@
@@ -18304,7 +18304,7 @@ lenattu	te	G_X
 undiga	te	G_X
 #PSPKInterview	univ	#
 
-"	univ	null
+\"	univ	null
 Police	en	G_N
 story	en	G_N
 chusi	te	G_X
@@ -18328,7 +18328,7 @@ video	en	G_N
 ...	univ	G_X
 http://	univ	U
 fb.me/4wfUkQqod	univ	U
-"""	univ	null
+\"\"\"	univ	null
 
 Bala	te	G_N
 kakunda	te	G_X
@@ -18473,7 +18473,7 @@ movie	en	G_N
 chusthunattu	te	G_X
 anipinchindi	te	G_X
 
-"	univ	null
+\"	univ	null
 Oopiri	te	G_N
 songs	en	G_N
 superrr	en	G_R
@@ -18489,7 +18489,7 @@ Podhama	te	G_X
 Oka	te	G_X
 Life	en	G_N
 pic.twitter.com/M3goJGli3E	univ	U
-"""	univ	null
+\"\"\"	univ	null
 
 Trolls	en	G_N
 pedthe	te	G_X
@@ -18512,16 +18512,16 @@ troll	en	G_N
 http://	univ	U
 fb.me/7JxqW3cL5	univ	U
 
-"	univ	null
+\"	univ	null
 @Ragavendraraoba	univ	@
 Sir	en	G_N
-","	univ	G_X
+\",\"	univ	G_X
 mee	univ	G_PRP
 movies	en	G_N
 ante	te	G_N
 naaku	te	G_X
 praanam	te	G_X
-","	univ	G_X
+\",\"	univ	G_X
 please	en	G_V
 mee	en	G_PRP
 movies	en	G_N
@@ -18530,7 +18530,7 @@ Shradha	univ	G_N
 Das	univ	G_N
 ni	univ	G_X
 chupinchandi	te	G_X
-","	univ	G_X
+\",\"	univ	G_X
 she	en	G_PRP
 is	en	G_V
 talented	en	G_J
@@ -18539,7 +18539,7 @@ we	en	G_PRP
 love	en	G_V
 her	en	G_PRP
 ...	univ	G_X
-"	univ	null
+\"	univ	null
 
 @shockk9999	univ	@
 only	en	G_J
@@ -18592,7 +18592,7 @@ ravadam	te	G_X
 ledhu	te	G_X
 @wasimakram7550	univ	@
 
-"	univ	null
+\"	univ	null
 Sardar	univ	G_N
 audio	en	G_N
 Venue	en	G_N
@@ -18610,13 +18610,13 @@ anta	te	G_N
 -	univ	G_X
 asalu	te	G_N
 saripodu	te	G_N
-","	univ	G_X
+\",\"	univ	G_X
 after	en	PSP
 function	en	G_N
 NOVATEL	univ	G_N
 thirigi	te	G_N
 kattukovali	te	G_N
-"	univ	null
+\"	univ	null
 
 Eppudu	te	G_V
 em	univ	G_PRP
@@ -18659,7 +18659,7 @@ unna	te	G_X
 trailer	en	G_N
 .	univ	G_X
 
-"	univ	null
+\"	univ	null
 Mahesh	univ	G_N
 fans	en	G_N
 ni	univ	PSP
@@ -18668,7 +18668,7 @@ cheyakandi	te	G_X
 asalu	te	G_X
 tweets	en	G_N
 lo	univ	PSP
-","	univ	G_X
+\",\"	univ	G_X
 lgk	univ	G_X
 brains	en	G_N
 entha	te	PSP
@@ -18676,9 +18676,9 @@ chepina	te	G_X
 vallaki	te	G_X
 em	univ	G_PRP
 ardamkadhu	te	G_X
-"	univ	null
+\"	univ	null
 
-"	univ	null
+\"	univ	null
 @Antharvani	univ	@
 Petrochemical	te	G_N
 plant	en	G_N
@@ -18699,9 +18699,9 @@ Metro	en	G_N
 anni	te	G_X
 sollu	te	G_X
 kaburle	te	G_X
-"""	univ	null
+\"\"\"	univ	null
 
-"	univ	null
+\"	univ	null
 1	univ	null
 .	univ	G_X
 Pawan	univ	G_N
@@ -18727,10 +18727,10 @@ all	en	DT
 these	en	DT
 days	en	G_N
 Yday	en	G_N
-","	univ	G_X
+\",\"	univ	G_X
 it	en	G_PRP
 changed	en	G_V
-"	univ	null
+\"	univ	null
 
 Asalu	te	G_X
 UK	univ	G_N
@@ -18780,14 +18780,14 @@ https://	univ	U
 twitter.com/rudy_124/statu	univ	U
 s/703813801158639619	univ	null
 
-"	univ	null
+\"	univ	null
 Around	en	PSP
 200	univ	null
 odd	en	G_J
 kms	univ	G_N
 drive	en	G_N
 chesi	te	G_X
-","	univ	G_X
+\",\"	univ	G_X
 6:30	univ	null
 ki	univ	G_N
 start	en	G_V
@@ -18805,7 +18805,7 @@ aya	te	G_X
 Asalu	te	G_PRT
 super	en	G_R
 kada	te	G_X
-"	univ	null
+\"	univ	null
 
 @RJChaitu	univ	@
 nenu	te	G_PRT
@@ -18922,7 +18922,7 @@ lo	univ	PSP
 ela	te	G_X
 amutaru	univ	G_X
 
-"	univ	null
+\"	univ	null
 @sachintodravid	univ	@
 Haha	univ	G_PRT
 Extra	en	G_J
@@ -18940,7 +18940,7 @@ Collections	en	G_N
 ante	te	G_X
 ento	te	G_X
 Telidu	te	G_X
-"""	univ	null
+\"\"\"	univ	null
 
 @iamUpendar	univ	@
 @nandi_harika	univ	@
@@ -18969,7 +18969,7 @@ Nanu	te	G_PRT
 odleyandi	te	G_X
 swami	univ	G_N
 ..	univ	G_X
-_/\_	univ	G_X
+_/\\_	univ	G_X
 Akada	te	G_X
 na	te	G_X
 situation	en	G_N
@@ -19194,13 +19194,13 @@ happy	en	G_J
 for	en	PSP
 u	univ	G_PRP
 
-"	univ	null
+\"	univ	null
 @charan_neha	univ	@
 nachindi	te	G_X
 but	en	CC
 ah	univ	G_PRT
 2	univ	null
-","	univ	G_X
+\",\"	univ	G_X
 3	univ	null
 movies	en	G_N
 Anthe	te	G_X
@@ -19210,7 +19210,7 @@ disturbing	en	G_J
 ga	univ	G_N
 vundi	te	G_X
 naaku	te	G_X
-"	univ	null
+\"	univ	null
 
 Ee	univ	G_X
 tweets	en	G_N
@@ -19276,7 +19276,7 @@ e	univ	G_N
 na	univ	G_X
 anipinchindi	te	G_X
 
-"	univ	null
+\"	univ	null
 1.72	univ	null
 lack	en	G_N
 crores	en	G_N
@@ -19285,7 +19285,7 @@ ganu	te	G_X
 already	en	G_R
 disburs	univ	G_V
 chesina	te	G_X
-"35,000"	univ	null
+\"35,000\"	univ	null
 crs	univ	G_N
 ki	univ	G_N
 utilisation	en	G_N
@@ -19297,7 +19297,7 @@ Asalu	te	G_X
 yem	univ	G_X
 jaruguthondi	te	G_X
 ?	univ	G_X
-"	univ	null
+\"	univ	null
 
 Ekkadunnana	te	G_X
 rey	te	G_X
@@ -19591,7 +19591,7 @@ telikunda	te	G_V
 inni	te	G_N
 kutrala	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @RGVzoomin	univ	@
 Asalu	te	G_N
 9	univ	$
@@ -19609,7 +19609,7 @@ Chiranjeevi	ne	G_N
 vallane	te	CC
 antunaru	te	G_V
 ..	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Mivi	te	G_PRP
 asalu	te	G_N
@@ -20037,7 +20037,7 @@ talents	en	G_N
 andi	te	G_N
 ?	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @saikiran_jalsa	univ	@
 @mega5tarfan	univ	@
 @sama_gautham	univ	@
@@ -20057,7 +20057,7 @@ record	te	G_N
 vundhi	te	G_V
 charan	ne	G_N
 ki	te	PSP
-"	univ	G_X
+\"	univ	G_X
 
 @Hemp_303	univ	@
 rashford	en	G_R
@@ -20436,7 +20436,7 @@ ela	te	G_PRP
 sampadistharo	te	G_V
 asalu	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @hanurpudi	univ	@
 sir	en	G_N
 Mahalakshmi	te	G_N
@@ -20452,11 +20452,11 @@ best	en	G_J
 wishes	te	G_N
 chepandi	te	G_V
 pls	te	G_V
-""	univ	G_X
+\"\"	univ	G_X
 chittakottadu	te	G_X
 ayana	univ	G_N
 matram	te	G_N
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 me	en	G_PRP
 ekkuva	te	G_R
@@ -20686,7 +20686,7 @@ Strategy	en	G_N
 endi	te	null
 asalu	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Asalu	te	G_N
 ekkada	te	G_PRP
 BE	en	G_V
@@ -20711,7 +20711,7 @@ tappu	te	G_N
 ledu	te	G_V
 ra	te	PSP
 abbai	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 Maddy	te	G_N
 ...	univ	G_X
@@ -20737,7 +20737,7 @@ baga	te	G_J
 gurthu	te	G_V
 petuko	te	G_V
 
-"	univ	G_X
+\"	univ	G_X
 @sama_gautham	univ	@
 aa	en	G_PRT
 mirchiprabhas	ne	G_N
@@ -20761,7 +20761,7 @@ fans	en	G_N
 ni	univ	PSP
 tidatha	te	G_V
 anthe	te	PSP
-"	univ	G_X
+\"	univ	G_X
 
 @karthik_Naidu92	univ	@
 sariga	te	G_R
@@ -20786,7 +20786,7 @@ thana	te	G_X
 tappu	te	G_N
 telusukundi	te	G_V
 
-"	univ	G_X
+\"	univ	G_X
 @Vidyagauri	univ	@
 Asalu	te	G_N
 ,	univ	G_X
@@ -20798,7 +20798,7 @@ gaa	te	G_X
 #Pappufirfail	univ	#
 ..	univ	G_X
 #PappuJokes	univ	#
-"	univ	G_X
+\"	univ	G_X
 
 @RC_Devotees	univ	@
 orey	te	G_PRT
@@ -20830,7 +20830,7 @@ lepadu	te	G_V
 asalu	te	G_N
 reply	en	G_V
 
-"	univ	G_X
+\"	univ	G_X
 @talidu	univ	@
 26	univ	$
 mi	te	G_N
@@ -20845,7 +20845,7 @@ Spc	univ	G_N
 en	univ	PSP
 Compton	te	G_N
 California	en	G_N
-""	univ	G_X
+\"\"	univ	G_X
 para	univ	G_X
 si	univ	G_X
 encaso	en	G_X
@@ -20857,7 +20857,7 @@ tus	univ	DT
 fans	en	G_N
 algun	univ	G_V
 dia	en	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 mega	en	G_J
 fans	en	G_N
@@ -20934,7 +20934,7 @@ Hero	en	G_N
 image	en	G_N
 debbateestunnaru	te	G_V
 
-"	univ	G_X
+\"	univ	G_X
 Yes	en	G_PRT
 ,	univ	G_X
 3D	univ	$
@@ -20956,7 +20956,7 @@ up	en	G_PRT
 https://	univ	U
 twitter.com/WebduniaTelugu	univ	U
 /status/708594184257540096	en	G_N
-"	univ	G_X
+\"	univ	G_X
 
 #Temper	univ	#
 lo	te	PSP
@@ -21027,7 +21027,7 @@ anna	te	G_N
 reply	en	G_V
 once	en	G_R
 
-"	univ	G_X
+\"	univ	G_X
 Asalu	te	G_N
 ekkada	te	G_N
 ee	te	G_N
@@ -21056,7 +21056,7 @@ Inka	te	G_X
 em	te	G_PRP
 cheptham	te	G_V
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 @MittuKMS	univ	@
 Telidu	te	G_V
@@ -21218,7 +21218,7 @@ https://	univ	U
 twitter.com/AndhraBoxOffic	univ	U
 e/status/706872859864408065	en	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @yugandhar_260	univ	@
 RC	en	G_N
 ki	te	PSP
@@ -21238,7 +21238,7 @@ asalu	te	G_N
 ownbase	en	G_N
 ledu	te	G_V
 antuna	te	G_V
-"	univ	G_X
+\"	univ	G_X
 
 @S_Sivakumar	univ	@
 my	en	DT
@@ -21345,10 +21345,10 @@ reason	en	G_N
 ento	te	G_N
 telidu	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Baaboo	te	G_N
 @crazydiode	univ	@
-""	univ	G_X
+\"\"	univ	G_X
 koddi	te	G_N
 sepati	te	G_N
 mundey	te	G_N
@@ -21366,7 +21366,7 @@ Abba	te	G_PRT
 9	univ	$
 eppudu	te	G_N
 ?	univ	G_X
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @BrawnyGirll	univ	@
 naaku	te	G_PRP
@@ -21386,7 +21386,7 @@ https://	univ	U
 twitter.com/ImKintu/status	univ	U
 /707256173297164288	univ	$
 
-"	univ	G_X
+\"	univ	G_X
 @sushanthreddy	univ	@
 vallu	te	G_X
 chudaledu	te	G_V
@@ -21401,7 +21401,7 @@ noru	te	G_N
 legatledu	te	G_V
 asalu	te	G_N
 :D	univ	E
-"	univ	G_X
+\"	univ	G_X
 
 @vennelakishore	univ	@
 ento	te	G_PRT
@@ -21523,7 +21523,7 @@ Ur	univ	DT
 Message	en	G_N
 :-(	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 @sachiinjoshi	univ	@
 @ganeshbandla	univ	@
 Asalu	te	G_N
@@ -21542,7 +21542,7 @@ motham	te	G_N
 Chiranjeevi	ne	G_N
 vallane	te	G_N
 antunaru	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 #sardargabbarsingh	univ	#
 album	en	G_N
@@ -21591,7 +21591,7 @@ naa	te	G_PRT
 ..	univ	G_X
 @TwistedMind_1	univ	@
 
-"	univ	G_X
+\"	univ	G_X
 @Maheshaddict	univ	@
 jhonny	ne	G_N
 eppudu	te	G_N
@@ -21610,7 +21610,7 @@ expectations	en	G_N
 valla	te	G_X
 peekindi	te	G_X
 bomma	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
 @chintu002	univ	@
 90	univ	$
@@ -21805,7 +21805,7 @@ https://	univ	U
 twitter.com/mad_bwoyy/stat	univ	U
 us/704013877105721344	univ	G_PRP
 
-"	univ	G_X
+\"	univ	G_X
 Nenu	te	G_N
 ninnu	univ	G_N
 eppudu	te	G_N
@@ -21813,7 +21813,7 @@ a	univ	DT
 uddesyam	univ	G_N
 to	univ	PSP
 chudaledu	te	G_V
-""	univ	G_X
+\"\"	univ	G_X
 nuvvu	univ	G_X
 na	univ	G_X
 best	en	G_J
@@ -21821,7 +21821,7 @@ friend	univ	G_N
 vi	univ	PSP
 raa	univ	G_X
 #GirlsSuperhitDialogues	univ	#
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 Dp	univ	G_N
 updated	univ	G_V
@@ -21890,7 +21890,7 @@ daaniki	te	G_N
 answer	en	G_N
 ?	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 Asalu	te	G_N
 Oopiri	te	G_N
 3rd	univ	G_J
@@ -21903,7 +21903,7 @@ adithe	te	G_V
 appudu	te	G_R
 chuddam	te	G_J
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Orey	univ	G_N
 neeku	te	G_N
@@ -21924,7 +21924,7 @@ https://	univ	U
 twitter.com/RC_Devotees/st	univ	U
 atus/708673781942759424	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @ysjagan	univ	@
 Tweet	en	G_V
 1/3	univ	$
@@ -21949,7 +21949,7 @@ Okavypu	te	G_N
 Land	en	G_N
 scam	univ	G_N
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Papam	univ	G_N
 btech	univ	G_N
@@ -22061,12 +22061,12 @@ naaku	te	G_N
 telidu	univ	G_N
 pic.twitter.com/uJCIXol45o	univ	U
 
-"	univ	G_X
+\"	univ	G_X
 @vennelakishore	univ	@
 :	univ	~
 asalu	te	G_N
 KSANAM	univ	G_X
-""	univ	G_X
+\"\"	univ	G_X
 Movie	en	G_N
 lo	univ	PSP
 mi	univ	DT
@@ -22084,7 +22084,7 @@ Wowww	univ	G_PRT
 such	univ	G_J
 an	univ	DT
 amazing	univ	G_J
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @ScorpiusMaximus	univ	@
 i	univ	G_PRP
@@ -22214,7 +22214,7 @@ bavundi	te	G_V
 eppudu	te	G_PRP
 dorakale	te	G_V
 
-"	univ	G_X
+\"	univ	G_X
 @SKNonline	univ	@
 Asalu	te	G_N
 9	univ	$
@@ -22233,7 +22233,7 @@ Chiranjeevi	ne	G_N
 vallane	te	G_N
 antunaru	te	G_N
 ..	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 @KiTtu_PSPK	univ	@
 na	univ	PSP
@@ -22306,9 +22306,9 @@ audio	te	G_N
 eppudu	te	G_N
 chepandi	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 thammudu	te	G_N
-""	univ	G_X
+\"\"	univ	G_X
 gudumba	te	G_N
 shankar	ne	G_N
 movie	en	G_N
@@ -22328,7 +22328,7 @@ li8	univ	G_N
 tiskondi	te	G_N
 hit	en	G_V
 kodtam	univ	G_N
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 Naaku	te	G_N
 telisi	univ	G_N
@@ -22619,7 +22619,7 @@ goda	univ	G_PRT
 unda	te	G_PRT
 ?	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 #SaahasamSwasagaSaagipo	univ	#
 ,	univ	G_X
 Aa	univ	G_N
@@ -22633,7 +22633,7 @@ nachindi	te	G_N
 @iamnagarjuna	univ	@
 #Oopiri	univ	#
 #Oopiriaudiolaunch	univ	#
-"	univ	G_X
+\"	univ	G_X
 
 Showtime	en	G_N
 :	univ	G_X
@@ -22657,9 +22657,9 @@ emotion	en	G_N
 Ravi	univ	G_N
 Suri	te	G_N
 Vakkantham	te	G_N
-__/\__	univ	G_N
+__/\\__	univ	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @ravithejatarak	univ	@
 Orey	univ	G_N
 nuvvu	univ	G_N
@@ -22683,7 +22683,7 @@ eh	univ	G_PRT
 !	univ	G_X
 Then	en	G_R
 gey	univ	G_V
-"	univ	G_X
+\"	univ	G_X
 
 @wasimakram_pspk	univ	@
 inka	te	G_X
@@ -22832,7 +22832,7 @@ nonstop	en	G_N
 asalu	te	G_X
 ...	univ	~
 
-"	univ	G_X
+\"	univ	G_X
 success	univ	G_N
 lo	univ	PSP
 vunadu	te	G_N
@@ -22850,9 +22850,9 @@ dekha	univ	G_N
 povu	univ	G_N
 idini	univ	G_N
 asalu	te	G_N
-"	univ	G_X
+\"	univ	G_X
 
-"	univ	G_X
+\"	univ	G_X
 @surddre	univ	@
 @roopak999	univ	@
 @chichupedathaa	univ	@
@@ -22867,7 +22867,7 @@ movie	en	G_N
 idhi	te	G_N
 asalu	te	G_N
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Endhi	te	G_N
 ra	univ	G_N
@@ -23074,7 +23074,7 @@ NTR	univ	G_N
 ki	univ	G_N
 :D	univ	E
 
-"	univ	G_X
+\"	univ	G_X
 @YogiTweetz	univ	@
 ah	univ	G_PRT
 category	univ	G_N
@@ -23082,7 +23082,7 @@ lo	univ	PSP
 rotta	univ	G_N
 movies	en	G_N
 unnayi	te	G_X
-""	univ	G_X
+\"\"	univ	G_X
 #AgeofAdaline	univ	#
 telidu	univ	G_N
 takkina	te	G_N
@@ -23094,7 +23094,7 @@ Sure	univ	G_J
 ga	univ	G_N
 kottestadi	te	G_N
 emo	univ	G_J
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @yaminivalli_01	univ	@
 naaku	te	G_X
@@ -23139,7 +23139,7 @@ antaru	te	G_X
 asalu	te	G_N
 ardham	te	G_V
 cheskoru	te	G_PRP
-_/\_	univ	G_X
+_/\\_	univ	G_X
 
 @NK2VLNSK	univ	@
 @surrealzakir	univ	@
@@ -23204,7 +23204,7 @@ lo	univ	PSP
 konnni	univ	G_N
 scenes	te	G_N
 ....	univ	G_X
-_/\_	univ	G_X
+_/\\_	univ	G_X
 
 Asalu	te	G_N
 Prabhas	te	G_N
@@ -23331,7 +23331,7 @@ BC	univ	PSP
 unnarani	te	G_N
 telidu	univ	G_N
 
-"	univ	G_X
+\"	univ	G_X
 Adavi	te	G_N
 Seshu	univ	G_N
 Adha	univ	G_N
@@ -23344,14 +23344,14 @@ korukuntam	te	G_N
 Destiny	en	G_N
 Inkedo	univ	PSP
 Estundi	te	G_N
-""	univ	G_X
+\"\"	univ	G_X
 Appudu	te	G_N
 Ami	univ	G_N
 Jarugutundo	univ	G_N
 Avariki	te	G_N
 Telidu	univ	G_N
 #Kshanam	univ	#
-"""	univ	G_X
+\"\"\"	univ	G_X
 
 @veerutherocker	univ	@
 fanism	te	G_PRT
@@ -23415,7 +23415,7 @@ too	univ	G_R
 beautiful	univ	G_J
 anthe	te	G_N
 
-"	univ	G_X
+\"	univ	G_X
 @gopi_2u	univ	@
 @tammuduabhimani	univ	@
 eppudu	te	G_X
@@ -23430,7 +23430,7 @@ ainda	univ	G_X
 ee	univ	G_X
 madyana	univ	G_X
 ?	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 
 Sir	en	G_PRT
 ji	univ	G_N

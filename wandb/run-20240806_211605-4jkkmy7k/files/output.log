@@ -1,0 +1,8 @@
+
+tensor(2.8022, grad_fn=<NegBackward0>)
+tensor(2.3559, grad_fn=<NegBackward0>)
+tensor(1.5477, grad_fn=<NegBackward0>)
+tensor(2.1150, grad_fn=<NegBackward0>)
+tensor(1.6753, grad_fn=<NegBackward0>)
+tensor(1.4930, grad_fn=<NegBackward0>)
+tensor(1.4008, grad_fn=<NegBackward0>)

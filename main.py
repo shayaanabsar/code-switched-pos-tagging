@@ -1,4 +1,4 @@
-from transformers import AutoTokenizer, XLMRobertaModel
+from transformers import BertModel, AutoTokenizer
 from preprocessing import *
 from trainer import *
 from torch import nn, save
@@ -8,12 +8,12 @@ import torch
 
 pp = PreProcessor()
 pp.read_data('dataset')
-input_tensor, output_tensor, lang_tags = pp.create_tensors()
+inputs, outputs, lang_tags = pp.create_lists()
 	
 b_s, b_e = pp.splitters['bengali.csv']
 h_s, h_e = pp.splitters['hindi.csv'  ]
 t_s, t_e = pp.splitters['telugu.csv' ]
-b, h, t, o  =  (b_e-b_s), (h_e-h_s), (t_e-t_s), input_tensor.shape[0]
+b, h, t, o  =  (b_e-b_s), (h_e-h_s), (t_e-t_s), len(inputs)
 
 b_csi, b_si = torch.tensor(pp.cs_index[b_s:b_e]), torch.tensor(pp.s_index[b_s:b_e])
 h_csi, h_si = torch.tensor(pp.cs_index[h_s:h_e]), torch.tensor(pp.s_index[h_s:h_e])
@@ -53,28 +53,28 @@ if avoid_language != '':
 
 	o = len(allowed_indexes)
 
-	filtered_input_tensor, filtered_output_tensor, filtered_lang_tags = input_tensor[allowed_indexes], output_tensor[allowed_indexes], lang_tags[allowed_indexes]
+	filtered_inputs, filtered_outputs, filtered_lang_tags = inputs[allowed_indexes], outputs[allowed_indexes], lang_tags[allowed_indexes]
 
-	input_train, input_test, input_val    = filtered_input_tensor[:int(0.8*o)], filtered_input_tensor[int(0.8*o):int(0.9*o)], filtered_input_tensor[int(0.9*o):]
-	output_train, output_test, output_val = filtered_output_tensor[:int(0.8*o)], filtered_output_tensor[int(0.8*o):int(0.9*o)], filtered_output_tensor[int(0.9*o):]
-	hidden_input, hidden_output = input_tensor[hidden_indexes], output_tensor[hidden_indexes]
+	input_train, input_test, input_val    = filtered_inputs[:int(0.8*o)], filtered_inputs[int(0.8*o):int(0.9*o)], filtered_inputs[int(0.9*o):]
+	output_train, output_test, output_val = filtered_outputs[:int(0.8*o)], filtered_outputs[int(0.8*o):int(0.9*o)], filtered_outputs[int(0.9*o):]
+	hidden_input, hidden_output = inputs[hidden_indexes], outputs[hidden_indexes]
 
 	output_tags = filtered_lang_tags[int(0.8*o):int(0.9*o)]
 else:
-	input_train, input_test, input_val    = input_tensor[:int(0.8*o)], input_tensor[int(0.8*o):int(0.9*o)], input_tensor[int(0.9*o):]
-	output_train, output_test, output_val = output_tensor[:int(0.8*o)], output_tensor[int(0.8*o):int(0.9*o)], output_tensor[int(0.9*o):]
+	input_train, input_test, input_val    = inputs[:int(0.8*o)], inputs[int(0.8*o):int(0.9*o)], inputs[int(0.9*o):]
+	output_train, output_test, output_val = outputs[:int(0.8*o)], outputs[int(0.8*o):int(0.9*o)], outputs[int(0.9*o):]
 
 	output_tags = lang_tags[int(0.8*o):int(0.9*o)]
 
 wandb.login()
 
-xlm_roberta             = XLMRobertaModel.from_pretrained("FacebookAI/xlm-roberta-base")
-xlm_roberta_output_size = 768
-cross_entropy_loss      = nn.CrossEntropyLoss()
-num_tags                = output_train.shape[2]
-batch_size              = 16
+xlm                     = BertModel.from_pretrained("bert-base-multilingual-cased", output_hidden_states=True)
+tokenizer               = AutoTokenizer.from_pretrained("bert-base-multilingual-cased")
+xlm_output_size         = 768
+num_tags                = len(pp.tagset)
+batch_size              = 4
 batch_accumulation      = 4
-learning_rate           = 1e-2
+learning_rate           = 0.0001
 epochs                  = 100
 dropout_rate            = 0.4
 sequence_length         = pp.max_length
@@ -96,14 +96,42 @@ wandb.init(
 class Model(nn.Module):
 	def __init__(self):
 		super().__init__()
-		self.xlm_roberta = xlm_roberta
-		self.linear  = nn.Linear(xlm_roberta_output_size, num_tags)
-		self.softmax = nn.Softmax(dim=-1)
+		self.xlm = xlm
+		self.linear  = nn.Linear(xlm_output_size, num_tags)
 
 	def forward(self, input, train=True):
-		x = self.xlm_roberta(input).last_hidden_state
-		x = self.linear(x)
-		probabilities = self.softmax(x)
+		tokenized  = tokenizer.batch_encode_plus(input, is_split_into_words=True, padding=True, truncation=True, return_tensors='pt')
+		embeddings = self.xlm(**tokenized).last_hidden_state
+		new_embeddings = []
 
-		return probabilities
+		for i in range(len(input)): # The idea for this comes from https://github.com/Illinois-Linguistic-Data-Management/spanglish-pos-tagger/blob/main/models_archive/MBERT_morph_tagger.py
+			buff = []
+
+			sent_embedding     = embeddings[i][1:]
+			new_sent_embedding = []
+			word_ids = tokenized.word_ids(batch_index=i)[1:]
+
+			for j, val in enumerate(word_ids):
+				if val is None:
+					break
+				elif j+1 < len(word_ids) and val == word_ids[j+1]:
+					buff.append(sent_embedding[j])
+				elif len(buff) > 0:
+					avg = torch.mean(torch.stack(buff), dim=0)
+					buff = []
+					new_sent_embedding.append(avg)
+				else:
+					new_sent_embedding.append(sent_embedding[j])
+
+			new_sent_embedding = torch.stack(new_sent_embedding)
+			new_embeddings.append(new_sent_embedding)
+
+		# https://discuss.pytorch.org/t/stacking-a-list-of-tensors-whose-dimensions-are-unequal/31888/3
+		max_rows = max(tensor.size(0) for tensor in new_embeddings)
+		padded_data = [torch.nn.functional.pad(tensor, (0, 0, 0, max_rows - tensor.size(0))) for tensor in new_embeddings]
+		new_embeddings = torch.stack(padded_data, dim=0)
+		
+		x = self.linear(new_embeddings)
+
+		return x
 		

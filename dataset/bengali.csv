@@ -124,7 +124,7 @@ hobe	bn	G_V
 
 sn	bn	G_R
 ,	univ	G_X
-""	univ	G_X
+\"\"	univ	G_X
 kichu	bn	G_SYM
 manushke	bn	G_N
 smoke	en	G_V
@@ -135,7 +135,7 @@ ekhane	bn	G_R
 porte	bn	G_N
 debe	bn	G_V
 na	bn	G_PRT
-""	univ	G_X
+\"\"	univ	G_X
 ta	bn	PSP
 kno	bn	G_PRP
 logic	en	G_N
@@ -703,7 +703,7 @@ e	bn	PSP
 dekhlam	bn	G_V
 .	univ	G_X
 Dhonno	bn	G_N
-_/\_	univ	E
+_/\\_	univ	E
 
 classic	en	G_J
 joke	en	G_N
@@ -802,7 +802,7 @@ college	en	G_N
 ta	bn	PSP
 ghure	bn	G_V
 jete	bn	G_V
-""	univ	G_X
+\"\"	univ	G_X
 -------	bn	G_X
 amr	bn	G_PRP
 just	en	G_R
@@ -816,12 +816,12 @@ prakton	bn	G_N
 r	bn	PSP
 bortoman	bn	G_N
 miliye	bn	PSP
-""	univ	G_X
+\"\"	univ	G_X
 JE	bn	G_PRP
 GUTIKOTOK	bn	G_N
 DEPRESSED	en	G_N
 PUBLIC	en	G_N
-""	univ	G_X
+\"\"	univ	G_X
 ache	bn	G_V
 tara	bn	G_N
 SOBAI	bn	G_X
@@ -1514,12 +1514,12 @@ seriously	en	G_R
 tmk	bn	G_X
 na	bn	G_PRT
 dkhle	bn	G_N
-""	univ	G_X
+\"\"	univ	G_X
 love	en	G_N
 at	en	PSP
 first	en	G_R
 sight	en	G_N
-""	univ	G_X
+\"\"	univ	G_X
 er	bn	PSP
 mane	bn	G_N
 ta	bn	PSP
@@ -2371,9 +2371,9 @@ moner	bn	G_X
 modhye	bn	G_N
 .....	univ	G_X
 tomar	bn	G_PRP
-""	univ	G_X
+\"\"	univ	G_X
 tista	ne	G_J
-""	univ	G_X
+\"\"	univ	G_X
 gaan	bn	G_N
 ta	bn	PSP
 jst	en	G_R
@@ -4885,7 +4885,7 @@ thakbo	bn	G_V
 golata	en	G_N
 level	en	G_N
 er	bn	PSP
-_/|\_	univ	E
+_/|\\_	univ	E
 ...	univ	G_X
 :)	univ	E
 :)	univ	E
@@ -5636,12 +5636,12 @@ jodi	bn	G_PRT
 bole	bn	G_PRT
 j	bn	G_PRP
 ,	univ	G_X
-""	univ	G_X
+\"\"	univ	G_X
 holud	bn	G_J
 molatwala	bn	G_J
 boi	bn	G_V
 din	bn	G_V
-""	univ	G_X
+\"\"	univ	G_X
 tahole	bn	G_PRT
 o	bn	PSP
 table	en	G_N
@@ -6070,13 +6070,13 @@ expression	en	G_N
 diye	bn	PSP
 bole	bn	G_PRT
 ,	univ	G_X
-""	univ	G_X
+\"\"	univ	G_X
 ASLI	hi	G_N
 DUDH	hi	G_N
 DIJIYE	hi	G_V
 AUNTY	en	G_N
 .	univ	G_X
-""	univ	G_X
+\"\"	univ	G_X
 Erpor	bn	G_N
 locality'r	en	G_V
 loke	bn	G_N
@@ -6475,12 +6475,12 @@ your	en	DT
 favourite	en	G_N
 .	univ	G_X
 :)	univ	E
-""	univ	G_X
+\"\"	univ	G_X
 Don't	en	G_V
 you	en	G_PRP
 shiver	en	G_R
 .......	univ	G_X
-""	univ	G_X
+\"\"	univ	G_X
 !	univ	G_X
 Gender	en	G_N
 :	univ	G_X
@@ -6494,9 +6494,9 @@ year	en	G_N
 .	univ	G_X
 Not	en	G_R
 a	bn	PSP
-""	univ	G_X
+\"\"	univ	G_X
 Byepar	bn	G_X
-""	univ	G_X
+\"\"	univ	G_X
 !	univ	G_X
 
 #358	univ	#
@@ -8683,14 +8683,14 @@ loop	en	G_PRT
 close	en	G_J
 holo	bn	G_V
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 Gift	en	G_N
 na	bn	G_PRT
 holeo	bn	G_R
 tips	bn	G_N
 bhebe	bn	G_V
 nao	bn	G_N
-"	univ	G_X
+\"	univ	G_X
 oi	bn	G_PRP
 sceneer	en	G_N
 
@@ -10923,7 +10923,7 @@ amader	bn	G_PRP
 sathe	bn	PSP
 adda	bn	G_N
 dao	bn	G_V
-_/\_	undef	E
+_/\\_	undef	E
 
 @ambika_dey	univ	@
 @srabonti388	univ	@
@@ -11075,7 +11075,7 @@ session	en	G_N
 arrange	en	G_V
 koro	bn	G_N
 plssssssssssssssssss	en	G_V
-_/\_	undef	E
+_/\\_	undef	E
 
 @RanjanaDey	univ	@
 last	en	G_J
@@ -11428,14 +11428,14 @@ Ami	bn	G_PRP
 superrrrrr	en	G_J
 happy	en	G_J
 .	univ	G_X
-"	univ	G_X
+\"	univ	G_X
 amr	bn	G_PRP
 mote	bn	G_R
 tr	bn	G_PRP
 moton	bn	G_R
 keu	bn	G_PRP
 nei	bn	G_PRT
-"	univ	G_X
+\"	univ	G_X
 ...	univ	G_X
 :)	univ	E
 

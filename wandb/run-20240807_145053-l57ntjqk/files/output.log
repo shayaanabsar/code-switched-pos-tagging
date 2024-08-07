@@ -1,0 +1,10 @@
+[['cicling', 'er', 'ki', 'halo'], ['amar', 'aar', "chaitali'r", 'common', 'ek', 'friend', 'er', 'saathe', 'dekha', '.']]
+[[15, 3, 3, 0], [12, 12, 15, 14, 1, 15, 3, 15, 0, 12]]
+torch.Size([2, 10, 19])
+[[0, 0, 15], [0, 1, 3], [0, 2, 3], [0, 3, 0], [1, 0, 12], [1, 1, 12], [1, 2, 15], [1, 3, 14], [1, 4, 1], [1, 5, 15], [1, 6, 3], [1, 7, 15], [1, 8, 0], [1, 9, 12]]
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 19, in <module>
+    loss = masked_loss(model_probabilities, test_out)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/trainer.py", line 16, in masked_loss
+    r = output[indices] # the predicted probs for the correct tag
+IndexError: too many indices for tensor of dimension 3

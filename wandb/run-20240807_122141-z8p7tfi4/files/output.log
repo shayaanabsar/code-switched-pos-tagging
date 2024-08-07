@@ -1,0 +1,18 @@
+[['cicling', 'er', 'ki', 'halo']]
+[[15, 3, 3, 0]]
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 18, in <module>
+    model_probabilities = model(test_in)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 104, in forward
+    tokenized  = tokenizer.encode_plus(input, is_split_into_words=True, padding=True, truncation=True, return_tensors='pt')
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/tokenization_utils_base.py", line 3051, in encode_plus
+    return self._encode_plus(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/tokenization_utils.py", line 719, in _encode_plus
+    first_ids = get_input_ids(text)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/tokenization_utils.py", line 700, in get_input_ids
+    raise ValueError(
+ValueError: Input [['cicling', 'er', 'ki', 'halo']] is not valid. Should be a string or a list/tuple of strings when `is_split_into_words=True`.

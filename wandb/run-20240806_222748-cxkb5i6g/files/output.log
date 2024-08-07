@@ -1,0 +1,125 @@
+
+We strongly recommend passing in an `attention_mask` since your input_ids may be padded. See https://huggingface.co/docs/transformers/troubleshooting#incorrect-output-when-padding-tokens-arent-masked.
+0 tensor(2.9808, grad_fn=<NegBackward0>)
+1 tensor(2.9850, grad_fn=<NegBackward0>)
+2 tensor(2.7388, grad_fn=<NegBackward0>)
+3 tensor(4.7379, grad_fn=<NegBackward0>)
+4 tensor(2.7415, grad_fn=<NegBackward0>)
+5 tensor(2.9595, grad_fn=<NegBackward0>)
+6 tensor(3.0465, grad_fn=<NegBackward0>)
+7 tensor(2.9166, grad_fn=<NegBackward0>)
+8 tensor(2.5973, grad_fn=<NegBackward0>)
+9 tensor(2.8572, grad_fn=<NegBackward0>)
+10 tensor(2.3597, grad_fn=<NegBackward0>)
+11 tensor(2.1671, grad_fn=<NegBackward0>)
+12 tensor(2.2288, grad_fn=<NegBackward0>)
+13 tensor(2.3387, grad_fn=<NegBackward0>)
+14 tensor(2.3915, grad_fn=<NegBackward0>)
+15 tensor(2.2943, grad_fn=<NegBackward0>)
+16 tensor(2.2483, grad_fn=<NegBackward0>)
+17 tensor(2.0983, grad_fn=<NegBackward0>)
+18 tensor(1.9369, grad_fn=<NegBackward0>)
+19 tensor(2.0849, grad_fn=<NegBackward0>)
+20 tensor(2.0663, grad_fn=<NegBackward0>)
+21 tensor(2.1496, grad_fn=<NegBackward0>)
+22 tensor(2.0403, grad_fn=<NegBackward0>)
+23 tensor(2.0043, grad_fn=<NegBackward0>)
+24 tensor(1.9384, grad_fn=<NegBackward0>)
+25 tensor(2.0019, grad_fn=<NegBackward0>)
+26 tensor(2.0556, grad_fn=<NegBackward0>)
+27 tensor(2.0130, grad_fn=<NegBackward0>)
+28 tensor(1.9978, grad_fn=<NegBackward0>)
+29 tensor(1.9100, grad_fn=<NegBackward0>)
+30 tensor(1.9464, grad_fn=<NegBackward0>)
+31 tensor(2.0073, grad_fn=<NegBackward0>)
+32 tensor(1.9824, grad_fn=<NegBackward0>)
+33 tensor(1.9743, grad_fn=<NegBackward0>)
+34 tensor(1.9758, grad_fn=<NegBackward0>)
+35 tensor(1.9129, grad_fn=<NegBackward0>)
+36 tensor(1.9900, grad_fn=<NegBackward0>)
+37 tensor(1.9419, grad_fn=<NegBackward0>)
+38 tensor(1.8824, grad_fn=<NegBackward0>)
+39 tensor(1.9228, grad_fn=<NegBackward0>)
+40 tensor(1.8861, grad_fn=<NegBackward0>)
+41 tensor(1.9661, grad_fn=<NegBackward0>)
+42 tensor(1.9318, grad_fn=<NegBackward0>)
+43 tensor(1.9520, grad_fn=<NegBackward0>)
+44 tensor(1.9309, grad_fn=<NegBackward0>)
+45 tensor(1.9687, grad_fn=<NegBackward0>)
+46 tensor(1.9486, grad_fn=<NegBackward0>)
+47 tensor(2.0052, grad_fn=<NegBackward0>)
+48 tensor(1.9758, grad_fn=<NegBackward0>)
+49 tensor(1.8914, grad_fn=<NegBackward0>)
+50 tensor(1.9193, grad_fn=<NegBackward0>)
+51 tensor(1.9380, grad_fn=<NegBackward0>)
+52 tensor(1.8896, grad_fn=<NegBackward0>)
+53 tensor(1.8696, grad_fn=<NegBackward0>)
+54 tensor(1.9353, grad_fn=<NegBackward0>)
+55 tensor(1.9248, grad_fn=<NegBackward0>)
+56 tensor(1.9457, grad_fn=<NegBackward0>)
+57 tensor(1.9518, grad_fn=<NegBackward0>)
+58 tensor(1.8739, grad_fn=<NegBackward0>)
+59 tensor(1.9688, grad_fn=<NegBackward0>)
+60 tensor(1.9349, grad_fn=<NegBackward0>)
+61 tensor(1.9151, grad_fn=<NegBackward0>)
+62 tensor(1.8918, grad_fn=<NegBackward0>)
+63 tensor(1.9137, grad_fn=<NegBackward0>)
+64 tensor(1.9259, grad_fn=<NegBackward0>)
+65 tensor(1.9336, grad_fn=<NegBackward0>)
+66 tensor(1.8256, grad_fn=<NegBackward0>)
+67 tensor(1.8537, grad_fn=<NegBackward0>)
+68 tensor(1.8776, grad_fn=<NegBackward0>)
+69 tensor(1.9502, grad_fn=<NegBackward0>)
+70 tensor(1.9090, grad_fn=<NegBackward0>)
+71 tensor(1.9829, grad_fn=<NegBackward0>)
+72 tensor(1.9482, grad_fn=<NegBackward0>)
+73 tensor(1.9460, grad_fn=<NegBackward0>)
+74 tensor(1.9696, grad_fn=<NegBackward0>)
+75 tensor(1.9856, grad_fn=<NegBackward0>)
+76 tensor(1.9822, grad_fn=<NegBackward0>)
+77 tensor(1.9264, grad_fn=<NegBackward0>)
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 15, in <module>
+    model_probabilities = model(test_in)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 103, in forward
+    x = self.xlm_roberta(input).last_hidden_state
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 1013, in forward
+    encoder_outputs = self.encoder(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 607, in forward
+    layer_outputs = layer_module(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 539, in forward
+    layer_output = apply_chunking_to_forward(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/pytorch_utils.py", line 237, in apply_chunking_to_forward
+    return forward_fn(*input_tensors)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 551, in feed_forward_chunk
+    intermediate_output = self.intermediate(attention_output)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/transformers/models/bert/modeling_bert.py", line 451, in forward
+    hidden_states = self.dense(hidden_states)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 116, in forward
+    return F.linear(input, self.weight, self.bias)
+KeyboardInterrupt
+78 tensor(1.9639, grad_fn=<NegBackward0>)

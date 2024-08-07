@@ -1,0 +1,13 @@
+
+tensor(2.8397, grad_fn=<NegBackward0>)
+tensor(2.7840, grad_fn=<NegBackward0>)
+tensor(2.7268, grad_fn=<NegBackward0>)
+tensor(2.6637, grad_fn=<NegBackward0>)
+tensor(2.5890, grad_fn=<NegBackward0>)
+tensor(2.4862, grad_fn=<NegBackward0>)
+tensor(2.2812, grad_fn=<NegBackward0>)
+tensor(1.6828, grad_fn=<NegBackward0>)
+tensor(1.9246, grad_fn=<NegBackward0>)
+tensor(1.9024, grad_fn=<NegBackward0>)
+tensor([12, 12, 12, 12, 12, 12, 12, 12, 12, 12])
+tensor([17, 15, 12, 17, 14, 17,  3,  3, 15, 15])

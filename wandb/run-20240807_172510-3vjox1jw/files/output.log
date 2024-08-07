@@ -1,0 +1,55 @@
+
+0 tensor(2.8301, grad_fn=<DivBackward0>) 0.0001
+1 tensor(2.2090, grad_fn=<DivBackward0>) 0.0001
+2 tensor(2.3576, grad_fn=<DivBackward0>) 0.0001
+3 tensor(2.2772, grad_fn=<DivBackward0>) 0.0001
+4 tensor(2.3829, grad_fn=<DivBackward0>) 0.0001
+5 tensor(2.1980, grad_fn=<DivBackward0>) 0.0001
+6 tensor(2.0656, grad_fn=<DivBackward0>) 0.0001
+7 tensor(2.1819, grad_fn=<DivBackward0>) 0.0001
+8 tensor(1.9936, grad_fn=<DivBackward0>) 0.0001
+9 tensor(1.9978, grad_fn=<DivBackward0>) 0.0001
+10 tensor(2.0564, grad_fn=<DivBackward0>) 0.0001
+11 tensor(1.9552, grad_fn=<DivBackward0>) 0.0001
+12 tensor(1.7412, grad_fn=<DivBackward0>) 0.0001
+13 tensor(1.7909, grad_fn=<DivBackward0>) 0.0001
+14 tensor(1.6988, grad_fn=<DivBackward0>) 0.0001
+15 tensor(1.8693, grad_fn=<DivBackward0>) 0.0001
+16 tensor(1.7344, grad_fn=<DivBackward0>) 0.0001
+17 tensor(1.7613, grad_fn=<DivBackward0>) 0.0001
+18 tensor(1.5993, grad_fn=<DivBackward0>) 0.0001
+19 tensor(1.4581, grad_fn=<DivBackward0>) 0.0001
+20 tensor(1.5981, grad_fn=<DivBackward0>) 0.0001
+21 tensor(1.6615, grad_fn=<DivBackward0>) 0.0001
+22 tensor(1.6988, grad_fn=<DivBackward0>) 0.0001
+23 tensor(1.5788, grad_fn=<DivBackward0>) 0.0001
+24 tensor(1.4750, grad_fn=<DivBackward0>) 0.0001
+25 tensor(1.5190, grad_fn=<DivBackward0>) 0.0001
+26 tensor(1.3485, grad_fn=<DivBackward0>) 0.0001
+27 tensor(1.4943, grad_fn=<DivBackward0>) 0.0001
+28 tensor(1.1697, grad_fn=<DivBackward0>) 0.0001
+29 tensor(1.1898, grad_fn=<DivBackward0>) 0.0001
+30 tensor(1.1425, grad_fn=<DivBackward0>) 0.0001
+31 tensor(1.2550, grad_fn=<DivBackward0>) 0.0001
+32 tensor(1.2133, grad_fn=<DivBackward0>) 0.0001
+33 tensor(1.2154, grad_fn=<DivBackward0>) 0.0001
+34 tensor(1.0402, grad_fn=<DivBackward0>) 0.0001
+35 tensor(1.3617, grad_fn=<DivBackward0>) 1e-05
+36 tensor(1.1267, grad_fn=<DivBackward0>) 1e-05
+37 tensor(1.2293, grad_fn=<DivBackward0>) 1e-05
+38 tensor(1.2123, grad_fn=<DivBackward0>) 1e-05
+39 tensor(1.3341, grad_fn=<DivBackward0>) 1e-05
+40 tensor(1.0677, grad_fn=<DivBackward0>) 1e-05
+41 tensor(1.1082, grad_fn=<DivBackward0>) 1e-05
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 29, in <module>
+    r = t.train(epochs, batch_size, batch_accumulation, input_train, output_train, input_val, output_val)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/trainer.py", line 77, in train
+    loss.backward()
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/_tensor.py", line 525, in backward
+    torch.autograd.backward(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/autograd/__init__.py", line 267, in backward
+    _engine_run_backward(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/autograd/graph.py", line 744, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
