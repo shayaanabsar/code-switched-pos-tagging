@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 3, in <module>
+    model = Model()
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 102, in __init__
+    self.batch_norm = nn.BatchNorm1d()
+TypeError: _BatchNorm.__init__() missing 1 required positional argument: 'num_features'

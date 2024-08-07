@@ -1,0 +1,18 @@
+Traceback (most recent call last):
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/test.py", line 15, in <module>
+    model_probabilities = model(test_in)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/Desktop/code/code-switched-pos-tagging/main.py", line 141, in forward
+    x = self.batch_norm(new_embeddings)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1532, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1541, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/modules/batchnorm.py", line 175, in forward
+    return F.batch_norm(
+  File "/Users/Shayaan/.pyenv/versions/3.10.6/lib/python3.10/site-packages/torch/nn/functional.py", line 2509, in batch_norm
+    return torch.batch_norm(
+RuntimeError: running_mean should contain 29 elements not 768
